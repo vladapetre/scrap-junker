@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="StructureMap, Version=4.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StructureMap.4.5.1\lib\net45\StructureMap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ScrapJunker.Crawler.Core\ScrapJunker.Crawler.Core.csproj">
@@ -65,6 +70,10 @@
     <ProjectReference Include="..\ScrapJunker.Infrastructure\ScrapJunker.Infrastructure.csproj">
       <Project>{b357e66b-ac03-4725-8336-7bf51f9caabd}</Project>
       <Name>ScrapJunker.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.IOC\ScrapJunker.IOC.csproj">
+      <Project>{EEA1FDEF-4C0E-415F-8800-07F3827037C5}</Project>
+      <Name>ScrapJunker.IOC</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

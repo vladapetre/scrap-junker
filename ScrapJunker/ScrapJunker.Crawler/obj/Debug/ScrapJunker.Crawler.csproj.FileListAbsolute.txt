@@ -15,3 +15,7 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\CsQuery.xml
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\log4net.xml
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Crawler.Core.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Crawler.Core.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Infrastructure.Core.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Infrastructure.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Infrastructure.pdb

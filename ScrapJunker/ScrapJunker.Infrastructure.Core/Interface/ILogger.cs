@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScrapJunker.Crawler.Core
+namespace ScrapJunker.Infrastructure.Core.Interface
 {
-    public class Class1
+    public interface ILogger
     {
+        void Log(string message);
     }
 }
