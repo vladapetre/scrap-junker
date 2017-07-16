@@ -7,3 +7,6 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\obj\Debug\ScrapJunker.CQR
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\obj\Debug\ScrapJunker.CQRS.pdb
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\ScrapJunker.Infrastructure.Core.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\NEventStore.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\NEventStore.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\NEventStore.xml

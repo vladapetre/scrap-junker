@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencyResolver.cs" />
     <Compile Include="ObjectFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,6 +55,10 @@
     <ProjectReference Include="..\ScrapJunker.CQRS.Core\ScrapJunker.CQRS.Core.csproj">
       <Project>{BD648ED8-B995-420B-9A38-DD3D127D348C}</Project>
       <Name>ScrapJunker.CQRS.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.CQRS\ScrapJunker.CQRS.csproj">
+      <Project>{37F98CA5-C0E3-484B-AA40-750195E1EDA6}</Project>
+      <Name>ScrapJunker.CQRS</Name>
     </ProjectReference>
     <ProjectReference Include="..\ScrapJunker.Crawler.Core\ScrapJunker.Crawler.Core.csproj">
       <Project>{3789dd7c-f8f0-42c7-82c5-343f7db247de}</Project>

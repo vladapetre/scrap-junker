@@ -1,19 +1,22 @@
 ﻿using ScrapJunker.CQRS.Core.Interface;
+using ScrapJunker.Crawler.Api.Domain;
 using ScrapJunker.Crawler.Core.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ScrapJunker.Crawler.Api.CQRS.Command
+namespace ScrapJunker.Crawler.Api.CQRS.Commands
 {
     public class RunCrawlerCommandHandler : ICommandHandler<RunCrawlerCommand>
     {
         private readonly ICrawler _crawler;
+        private readonly IEventRepository _eventRepository;
 
-        public RunCrawlerCommandHandler(ICrawler crawler)
+        public RunCrawlerCommandHandler(ICrawler crawler, IEventRepository eventRepository)
         {
             _crawler = crawler;
+            _eventRepository = eventRepository;
         }
 
         public void Handle(RunCrawlerCommand command)
@@ -23,6 +26,10 @@ namespace ScrapJunker.Crawler.Api.CQRS.Command
             _crawler.Configuration.MaxPagesToCrawl = command.RunCrawlerConfigurationDto.MaxPagesToCrawl ?? 100;
 
             _crawler.Run(command.RunCrawlerConfigurationDto.Url);
+
+            var aggregate = new TestAggregate(command.Guid, command.RunCrawlerConfigurationDto.Url);
+            aggregate.Version = -1;
+            _eventRepository.Save<TestAggregate>(aggregate, aggregate.Version);
         }
     }
 }

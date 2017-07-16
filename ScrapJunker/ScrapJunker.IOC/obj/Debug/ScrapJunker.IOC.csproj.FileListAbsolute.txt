@@ -25,3 +25,8 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\obj\Debug\ScrapJunker.IOC.
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\obj\Debug\ScrapJunker.IOC.pdb
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\ScrapJunker.CQRS.Core.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\ScrapJunker.CQRS.Core.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\ScrapJunker.CQRS.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\NEventStore.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\ScrapJunker.CQRS.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\NEventStore.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\NEventStore.xml

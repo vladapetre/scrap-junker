@@ -40,9 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IAggregateRoot.cs" />
     <Compile Include="Interface\ICommand.cs" />
     <Compile Include="Interface\ICommandDispatcher.cs" />
     <Compile Include="Interface\ICommandHandler.cs" />
+    <Compile Include="Interface\IEvent.cs" />
+    <Compile Include="Interface\IEventDispatcher.cs" />
+    <Compile Include="Interface\IEventHandler.cs" />
+    <Compile Include="Interface\IEventRepository.cs" />
+    <Compile Include="Interface\IEventStore.cs" />
     <Compile Include="Interface\IQuery.cs" />
     <Compile Include="Interface\IQueryDispatcher.cs" />
     <Compile Include="Interface\IQueryHandler.cs" />

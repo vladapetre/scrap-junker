@@ -57,3 +57,6 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.CQ
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.CQRS.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.CQRS.Core.pdb
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.CQRS.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\NEventStore.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\NEventStore.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\NEventStore.xml

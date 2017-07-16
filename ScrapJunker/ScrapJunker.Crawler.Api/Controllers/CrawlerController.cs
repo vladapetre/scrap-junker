@@ -1,5 +1,6 @@
 ﻿using ScrapJunker.CQRS.Core.Interface;
-using ScrapJunker.Crawler.Api.CQRS.Command;
+using ScrapJunker.Crawler.Api.CQRS.Commands;
+using ScrapJunker.Crawler.Api.Domain;
 using ScrapJunker.Crawler.Api.DTO;
 using ScrapJunker.Crawler.Core.Interface;
 using System;
@@ -10,10 +11,12 @@ namespace ScrapJunker.Crawler.Api.Controllers
     public class CrawlerController : ApiController
     {
         private readonly ICommandDispatcher _commandDispatcher;
+        private readonly IEventRepository _eventRepository;
 
-        public CrawlerController(ICommandDispatcher commandDispatcher)
+        public CrawlerController(ICommandDispatcher commandDispatcher, IEventRepository eventRepository)
         {
             _commandDispatcher = commandDispatcher;
+            _eventRepository = eventRepository;
         }
 
         [HttpPost]
@@ -24,16 +27,24 @@ namespace ScrapJunker.Crawler.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
+            var id = Guid.NewGuid();
             try
             {
-                _commandDispatcher.Dispatch(new RunCrawlerCommand(runCrawlerConfigurationDto));
+                
+                _commandDispatcher.Dispatch(new RunCrawlerCommand(id, 0 , runCrawlerConfigurationDto));
             }
             catch (Exception ex)
             {
                 return InternalServerError(ex);
             }
 
-            return Ok();
+            return Ok(id);
+        }
+
+        [HttpGet]
+        public IHttpActionResult Get(Guid id)
+        {
+            return Ok(_eventRepository.GetById<TestAggregate>(id));
         }
     }
 }

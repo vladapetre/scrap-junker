@@ -5,10 +5,12 @@ using ScrapJunker.Infrastructure.Base;
 using ScrapJunker.Infrastructure.Core.Interface;
 using StructureMap;
 using ScrapJunker.CQRS.Core.Interface;
+using ScrapJunker.CQRS.Base;
+using StructureMap.Pipeline;
 
 namespace ScrapJunker.IOC
 {
-    public class ObjectFactory : Registry, IDependencyResolver
+    public class ObjectFactory : Registry
     {
         protected static Container container;
         public ObjectFactory()
@@ -30,19 +32,22 @@ namespace ScrapJunker.IOC
             For<ICrawler>().Use<AbotPoliteCrawler>();
             For<IStorage>().Use<FileStorage>();
             For<ICrawlerConfiguration>().Use<AbotCrawlerConfiguration>();
-            For<IDependencyResolver>().Use(this);
+            For<IEventRepository>().Use<NEventRepository>();
+            For<IEventStore>().Use<NEventStore>().Singleton();
+            For<IContainer>().Use(() => new Container(this)).Singleton();
+
         }
 
-        public static Container Instance()
-        {
-            if (container == null)
-                container = new Container(new ObjectFactory());
-            return container;
-        }
+        //public static Container Instance()
+        //{
+        //    if (container == null)
+        //        container = new Container(new ObjectFactory());
+        //    return container;
+        //}
 
-        public T Resolve<T>()
-        {
-            return Instance().GetInstance<T>();
-        }
+        //public T Resolve<T>()
+        //{
+        //    return Instance().GetInstance<T>();
+        //}
     }
 }

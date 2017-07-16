@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ScrapJunker.CQRS.Core.Interface
 {
-    public interface ICommand
+    public interface IEventDispatcher
     {
-        Guid Guid { get; }
-        int Version { get;  }
+        void Dispatch<T>(T @event) where T : IEvent;
     }
 }
