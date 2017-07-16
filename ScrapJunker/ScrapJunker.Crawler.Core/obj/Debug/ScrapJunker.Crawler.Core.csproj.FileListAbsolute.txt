@@ -1,0 +1,4 @@
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Crawler.Core.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Crawler.Core.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.pdb

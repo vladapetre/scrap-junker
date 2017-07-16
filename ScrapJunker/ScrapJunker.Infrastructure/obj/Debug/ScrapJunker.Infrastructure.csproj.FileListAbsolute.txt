@@ -1,0 +1,7 @@
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.csprojResolveAssemblyReference.cache
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.Core.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
