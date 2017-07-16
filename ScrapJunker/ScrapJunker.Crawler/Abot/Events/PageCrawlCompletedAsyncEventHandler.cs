@@ -1,13 +1,8 @@
 ﻿using Abot.Crawler;
 using ScrapJunker.Infrastructure.Base;
 using ScrapJunker.Infrastructure.Core.Interface;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ScrapJunker.Crawler.Abot.Events
 {

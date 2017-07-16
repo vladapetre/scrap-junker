@@ -3,11 +3,7 @@ using ScrapJunker.Crawler.Base;
 using ScrapJunker.Crawler.Core.Interface;
 using ScrapJunker.Infrastructure.Core.Interface;
 using ScrapJunker.IOC;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ScrapJunker.Console
 {
@@ -15,7 +11,7 @@ namespace ScrapJunker.Console
     {
         static void Main(string[] args)
         {
-            var container = IOCContainer.Instance();
+            var container = ObjectFactory.Instance();
 
             var crawler = container.GetInstance<ICrawler>();
             var logger = container.GetInstance<ILogger>();
