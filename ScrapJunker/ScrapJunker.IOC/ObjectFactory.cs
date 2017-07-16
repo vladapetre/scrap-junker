@@ -22,27 +22,12 @@ namespace ScrapJunker.IOC
 
             For<ICrawler>().Use<AbotPoliteCrawler>();
             For<IStorage>().Use<FileStorage>();
+            For<ICrawlerConfiguration>().Use<AbotCrawlerConfiguration>();
         }
 
         public static Container Instance()
         {
-
-            return  new Container(_ =>
-            {
-                _.Scan(x =>
-                {
-                    x.TheCallingAssembly();
-                    x.Assembly("ScrapJunker.Infrastructure.Core");
-                    x.Assembly("ScrapJunker.Infrastructure");
-                    x.Assembly("ScrapJunker.Crawler.Core");
-                    x.Assembly("ScrapJunker.Crawler");
-                    x.WithDefaultConventions();
-                });
-
-                _.For<ICrawler>().Use<AbotPoliteCrawler>();
-                _.For<IStorage>().Use<FileStorage>();
-            }
-            );
+            return new Container(new ObjectFactory());
         }
     }
 }

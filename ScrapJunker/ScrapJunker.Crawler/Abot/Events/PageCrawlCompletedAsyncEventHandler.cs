@@ -6,7 +6,12 @@ using System.Net;
 
 namespace ScrapJunker.Crawler.Abot.Events
 {
-    public class PageCrawlCompletedAsyncEventHandler : BaseEventHandler
+    public interface IPageCrawlCompletedAsyncEventHandler : IEventHandler
+    {
+
+    }
+
+    public class PageCrawlCompletedAsyncEventHandler : BaseEventHandler , IPageCrawlCompletedAsyncEventHandler
     {
         private readonly IStorage _storage;
 

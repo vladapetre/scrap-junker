@@ -10,7 +10,7 @@ namespace ScrapJunker.Crawler.Base
             get;set;
         }
 
-        public IEnumerable<Infrastructure.Core.Interface.IEventHandler> EventHandlers
+        public IList<Infrastructure.Core.Interface.IEventHandler> EventHandlers
         {
             get; set;
         }

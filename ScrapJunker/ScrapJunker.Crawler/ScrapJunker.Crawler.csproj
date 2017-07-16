@@ -66,6 +66,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abot\AbotCrawlerConfiguration.cs" />
     <Compile Include="Abot\AbotPoliteCrawler.cs" />
     <Compile Include="Abot\Events\PageCrawlCompletedAsyncEventHandler.cs" />
     <Compile Include="Base\Crawler.cs" />

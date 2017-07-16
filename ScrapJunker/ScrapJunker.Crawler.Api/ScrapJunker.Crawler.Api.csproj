@@ -110,6 +110,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CrawlerController.cs" />
     <Compile Include="Controllers\PingController.cs" />
+    <Compile Include="DTO\CrawlerRunConfigurationDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

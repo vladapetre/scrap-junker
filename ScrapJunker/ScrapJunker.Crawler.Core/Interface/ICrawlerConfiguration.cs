@@ -10,6 +10,6 @@ namespace ScrapJunker.Crawler.Core.Interface
         int MaxPagesToCrawl { get; set; }
         string UserAgentString { get; set; }
 
-        IEnumerable<IEventHandler> EventHandlers { get; set; }
+        IList<IEventHandler> EventHandlers { get; set; }
     }
 }
