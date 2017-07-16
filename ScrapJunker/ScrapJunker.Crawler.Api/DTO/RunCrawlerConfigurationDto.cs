@@ -6,7 +6,7 @@ using System.Web;
 
 namespace ScrapJunker.Crawler.Api.DTO
 {
-    public class CrawlerRunConfigurationDto
+    public class RunCrawlerConfigurationDto
     {
         [Required]
         public string Url { get; set; }

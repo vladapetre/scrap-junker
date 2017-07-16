@@ -1,0 +1,5 @@
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\bin\Debug\ScrapJunker.CQRS.Core.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\bin\Debug\ScrapJunker.CQRS.Core.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.csprojResolveAssemblyReference.cache
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.pdb

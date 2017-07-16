@@ -53,3 +53,7 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\AngleSharp.xml
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\CsQuery.xml
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\WebApi.StructureMap.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\WebApi.StructureMap.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.CQRS.Core.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.CQRS.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.CQRS.Core.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.CQRS.pdb

@@ -1,4 +1,5 @@
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure.Core\bin\Debug\ScrapJunker.Infrastructure.Core.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure.Core\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure.Core\obj\Debug\ScrapJunker.Infrastructure.Core.csprojResolveAssemblyReference.cache
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure.Core\obj\Debug\ScrapJunker.Infrastructure.Core.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure.Core\obj\Debug\ScrapJunker.Infrastructure.Core.pdb

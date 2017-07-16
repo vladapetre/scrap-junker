@@ -110,7 +110,9 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CrawlerController.cs" />
     <Compile Include="Controllers\PingController.cs" />
-    <Compile Include="DTO\CrawlerRunConfigurationDto.cs" />
+    <Compile Include="CQRS\Command\RunCrawlerCommand.cs" />
+    <Compile Include="CQRS\Command\RunCrawlerCommandHandler.cs" />
+    <Compile Include="DTO\RunCrawlerConfigurationDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -130,6 +132,14 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ScrapJunker.CQRS.Core\ScrapJunker.CQRS.Core.csproj">
+      <Project>{bd648ed8-b995-420b-9a38-dd3d127d348c}</Project>
+      <Name>ScrapJunker.CQRS.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.CQRS\ScrapJunker.CQRS.csproj">
+      <Project>{37f98ca5-c0e3-484b-aa40-750195e1eda6}</Project>
+      <Name>ScrapJunker.CQRS</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ScrapJunker.Crawler.Core\ScrapJunker.Crawler.Core.csproj">
       <Project>{3789dd7c-f8f0-42c7-82c5-343f7db247de}</Project>
       <Name>ScrapJunker.Crawler.Core</Name>

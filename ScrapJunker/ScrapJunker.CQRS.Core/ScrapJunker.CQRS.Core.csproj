@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EEA1FDEF-4C0E-415F-8800-07F3827037C5}</ProjectGuid>
+    <ProjectGuid>{BD648ED8-B995-420B-9A38-DD3D127D348C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ScrapJunker.IOC</RootNamespace>
-    <AssemblyName>ScrapJunker.IOC</AssemblyName>
+    <RootNamespace>ScrapJunker.CQRS.Core</RootNamespace>
+    <AssemblyName>ScrapJunker.CQRS.Core</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,10 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="StructureMap, Version=4.5.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StructureMap.4.5.1\lib\net45\StructureMap.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,33 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ObjectFactory.cs" />
+    <Compile Include="Interface\ICommand.cs" />
+    <Compile Include="Interface\ICommandDispatcher.cs" />
+    <Compile Include="Interface\ICommandHandler.cs" />
+    <Compile Include="Interface\IQuery.cs" />
+    <Compile Include="Interface\IQueryDispatcher.cs" />
+    <Compile Include="Interface\IQueryHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ScrapJunker.CQRS.Core\ScrapJunker.CQRS.Core.csproj">
-      <Project>{BD648ED8-B995-420B-9A38-DD3D127D348C}</Project>
-      <Name>ScrapJunker.CQRS.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ScrapJunker.Crawler.Core\ScrapJunker.Crawler.Core.csproj">
-      <Project>{3789dd7c-f8f0-42c7-82c5-343f7db247de}</Project>
-      <Name>ScrapJunker.Crawler.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ScrapJunker.Crawler\ScrapJunker.Crawler.csproj">
-      <Project>{7b03c5c2-dc7d-497c-94c9-1db901d131bc}</Project>
-      <Name>ScrapJunker.Crawler</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ScrapJunker.Infrastructure.Core\ScrapJunker.Infrastructure.Core.csproj">
-      <Project>{1d76530e-f61d-4b36-9627-1ab32744d9aa}</Project>
-      <Name>ScrapJunker.Infrastructure.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ScrapJunker.Infrastructure\ScrapJunker.Infrastructure.csproj">
-      <Project>{b357e66b-ac03-4725-8336-7bf51f9caabd}</Project>
-      <Name>ScrapJunker.Infrastructure</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

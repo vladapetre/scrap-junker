@@ -23,3 +23,5 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\CsQuery.xml
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\obj\Debug\ScrapJunker.IOC.csprojResolveAssemblyReference.cache
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\obj\Debug\ScrapJunker.IOC.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\obj\Debug\ScrapJunker.IOC.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\ScrapJunker.CQRS.Core.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\ScrapJunker.CQRS.Core.pdb

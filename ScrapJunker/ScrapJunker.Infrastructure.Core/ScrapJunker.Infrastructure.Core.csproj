@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IDependencyResolver.cs" />
     <Compile Include="Interface\IEventHandler.cs" />
     <Compile Include="Interface\ILogger.cs" />
     <Compile Include="Interface\IStorage.cs" />

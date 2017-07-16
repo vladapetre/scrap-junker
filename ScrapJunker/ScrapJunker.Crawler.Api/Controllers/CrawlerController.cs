@@ -1,4 +1,6 @@
-﻿using ScrapJunker.Crawler.Api.DTO;
+﻿using ScrapJunker.CQRS.Core.Interface;
+using ScrapJunker.Crawler.Api.CQRS.Command;
+using ScrapJunker.Crawler.Api.DTO;
 using ScrapJunker.Crawler.Core.Interface;
 using System;
 using System.Web.Http;
@@ -7,15 +9,16 @@ namespace ScrapJunker.Crawler.Api.Controllers
 {
     public class CrawlerController : ApiController
     {
-        private readonly ICrawler _crawler;
+        private readonly ICommandDispatcher _commandDispatcher;
 
-        public CrawlerController(ICrawler crawler)
+        public CrawlerController(ICommandDispatcher commandDispatcher)
         {
-            _crawler = crawler;
+            _commandDispatcher = commandDispatcher;
         }
 
         [HttpPost]
-        public IHttpActionResult Run([FromBody] CrawlerRunConfigurationDto crawlerRunConfigurationDto)
+        [Route("run")]
+        public IHttpActionResult Run([FromBody] RunCrawlerConfigurationDto runCrawlerConfigurationDto)
         {
             if (!ModelState.IsValid)
             {
@@ -23,11 +26,7 @@ namespace ScrapJunker.Crawler.Api.Controllers
             }
             try
             {
-                _crawler.Configuration.CrawlTimeoutSeconds = crawlerRunConfigurationDto.CrawlTimeoutSeconds ?? 30;
-                _crawler.Configuration.MaxConcurrentThreads = crawlerRunConfigurationDto.MaxConcurrentThreads ?? 1;
-                _crawler.Configuration.MaxPagesToCrawl = crawlerRunConfigurationDto.MaxPagesToCrawl ?? 100;
-
-                _crawler.Run(crawlerRunConfigurationDto.Url);
+                _commandDispatcher.Dispatch(new RunCrawlerCommand(runCrawlerConfigurationDto));
             }
             catch (Exception ex)
             {
