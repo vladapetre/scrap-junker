@@ -12,3 +12,17 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Crawler.pdb
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Infrastructure.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\Abot.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\log4net.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\AngleSharp.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\Robots.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\HtmlAgilityPack.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\CsQuery.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\Abot.xml
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\log4net.xml
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\AngleSharp.xml
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\CsQuery.xml
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.IOC.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\StructureMap.dll
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.IOC.pdb
+F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\StructureMap.xml

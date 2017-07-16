@@ -66,7 +66,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Abot\AbotCrawlerConfiguration.cs" />
+    <Compile Include="Abot\AbotPoliteCrawler.cs" />
+    <Compile Include="Abot\Events\PageCrawlCompletedAsyncEventHandler.cs" />
+    <Compile Include="Base\Crawler.cs" />
+    <Compile Include="Base\CrawlerConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -77,7 +81,16 @@
       <Project>{3789dd7c-f8f0-42c7-82c5-343f7db247de}</Project>
       <Name>ScrapJunker.Crawler.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.Infrastructure.Core\ScrapJunker.Infrastructure.Core.csproj">
+      <Project>{1d76530e-f61d-4b36-9627-1ab32744d9aa}</Project>
+      <Name>ScrapJunker.Infrastructure.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.Infrastructure\ScrapJunker.Infrastructure.csproj">
+      <Project>{b357e66b-ac03-4725-8336-7bf51f9caabd}</Project>
+      <Name>ScrapJunker.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

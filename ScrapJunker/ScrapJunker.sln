@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.Infrastructure.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.Console", "ScrapJunker.Console\ScrapJunker.Console.csproj", "{F9A1F7B2-BA34-41D0-A617-F6869E6F46FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.IOC", "ScrapJunker.IOC\ScrapJunker.IOC.csproj", "{EEA1FDEF-4C0E-415F-8800-07F3827037C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.Crawler.Api", "ScrapJunker.Crawler.Api\ScrapJunker.Crawler.Api.csproj", "{12B953A2-5032-4950-A78F-D550FD233C36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{F9A1F7B2-BA34-41D0-A617-F6869E6F46FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9A1F7B2-BA34-41D0-A617-F6869E6F46FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9A1F7B2-BA34-41D0-A617-F6869E6F46FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA1FDEF-4C0E-415F-8800-07F3827037C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA1FDEF-4C0E-415F-8800-07F3827037C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA1FDEF-4C0E-415F-8800-07F3827037C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA1FDEF-4C0E-415F-8800-07F3827037C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B953A2-5032-4950-A78F-D550FD233C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B953A2-5032-4950-A78F-D550FD233C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B953A2-5032-4950-A78F-D550FD233C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B953A2-5032-4950-A78F-D550FD233C36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
