@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.CQRS", "ScrapJu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.CQRS.Core", "ScrapJunker.CQRS.Core\ScrapJunker.CQRS.Core.csproj", "{BD648ED8-B995-420B-9A38-DD3D127D348C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.Tests", "ScrapJunker.Tests\ScrapJunker.Tests.csproj", "{FD5D979E-F5F2-4E13-A695-E36B67D4A46D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{BD648ED8-B995-420B-9A38-DD3D127D348C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD648ED8-B995-420B-9A38-DD3D127D348C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD648ED8-B995-420B-9A38-DD3D127D348C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5D979E-F5F2-4E13-A695-E36B67D4A46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5D979E-F5F2-4E13-A695-E36B67D4A46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5D979E-F5F2-4E13-A695-E36B67D4A46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5D979E-F5F2-4E13-A695-E36B67D4A46D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
