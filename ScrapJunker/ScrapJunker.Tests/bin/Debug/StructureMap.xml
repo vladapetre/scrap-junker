@@ -1265,9 +1265,9 @@
             </exception>
             <exception cref="T:System.ObjectDisposedException">If the container is disposed.</exception>
         </member>
-        <member name="M:StructureMap.Container.CorrectSingletoneLifecycleForChild(StructureMap.IPipelineGraph)">
-            <summary> 
-            Correct the Singleton lifecycle for child containers 
+        <member name="M:StructureMap.Container.CorrectSingletonLifecycleForChild(StructureMap.IPipelineGraph)">
+            <summary>
+            Correct the Singleton lifecycle for child containers
             </summary>
         </member>
         <member name="M:StructureMap.Container.GetProfile(System.String)">

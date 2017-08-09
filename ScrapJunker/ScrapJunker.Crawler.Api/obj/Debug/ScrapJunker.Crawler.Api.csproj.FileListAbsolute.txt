@@ -60,18 +60,6 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.CQ
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\NEventStore.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\NEventStore.pdb
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\NEventStore.xml
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\Microsoft.CSharp.Core.targets
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\VBCSCompiler.exe.config
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\csc.exe
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\System.Collections.Immutable.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\System.Reflection.Metadata.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\vbc.exe
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\roslyn\VBCSCompiler.exe
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.Crawler.Api.dll.config
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.Crawler.Api.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.Crawler.Api.pdb
@@ -122,3 +110,5 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\CsQuery.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\obj\Debug\ScrapJunker.Crawler.Api.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\obj\Debug\ScrapJunker.Crawler.Api.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\obj\Debug\ScrapJunker.Crawler.Api.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.Crawler.dll.config
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.IOC.dll.config

@@ -40,3 +40,4 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\log4net.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Crawler.dll.config

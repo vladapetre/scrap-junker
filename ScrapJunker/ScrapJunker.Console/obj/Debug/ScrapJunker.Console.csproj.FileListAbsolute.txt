@@ -68,3 +68,5 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\NEventStore.
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\obj\Debug\ScrapJunker.Console.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\obj\Debug\ScrapJunker.Console.exe
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\obj\Debug\ScrapJunker.Console.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Crawler.dll.config
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.IOC.dll.config

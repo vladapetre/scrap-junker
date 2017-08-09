@@ -69,18 +69,6 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\CsQuery.xml
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\obj\Debug\ScrapJunker.Tests.csprojResolveAssemblyReference.cache
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\obj\Debug\ScrapJunker.Tests.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\obj\Debug\ScrapJunker.Tests.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\csc.exe
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\vbc.exe
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\roslyn\VBCSCompiler.exe
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Tests.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Tests.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\Castle.Core.dll
@@ -141,3 +129,5 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\obj\Debug\ScrapJunker.Te
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\obj\Debug\ScrapJunker.Tests.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\obj\Debug\ScrapJunker.Tests.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Tests.dll.config
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Crawler.dll.config
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.IOC.dll.config

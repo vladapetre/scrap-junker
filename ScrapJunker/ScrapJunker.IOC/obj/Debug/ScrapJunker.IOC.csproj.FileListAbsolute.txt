@@ -62,3 +62,5 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\CsQuery.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\obj\Debug\ScrapJunker.IOC.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\obj\Debug\ScrapJunker.IOC.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\obj\Debug\ScrapJunker.IOC.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\ScrapJunker.IOC.dll.config
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\ScrapJunker.Crawler.dll.config
