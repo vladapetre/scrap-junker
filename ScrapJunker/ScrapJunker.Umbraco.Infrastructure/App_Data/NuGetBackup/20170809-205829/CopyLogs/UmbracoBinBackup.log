@@ -1,0 +1,36 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, August 9, 2017 8:58:29 PM
+   Source : E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\
+     Dest : E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\App_Data\NuGetBackup\20170809-205829\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\
+	  New Dir          4	E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\
+	    New File  		    4096	ScrapJunker.Umbraco.Core.dll  0%  100%  
+	    New File  		    7680	ScrapJunker.Umbraco.Core.pdb  0%  100%  
+	    New File  		    4608	ScrapJunker.Umbraco.Infrastructure.dll  0%  100%  
+	    New File  		    7680	ScrapJunker.Umbraco.Infrastructure.pdb  0%  100%  
+	  New Dir          0	E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Release\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         3         2         1         0         0         0
+   Files :         4         4         0         0         0         0
+   Bytes :    23.5 k    23.5 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :              256000 Bytes/sec.
+   Speed :              14.648 MegaBytes/min.
+   Ended : Wednesday, August 9, 2017 8:58:29 PM
+

@@ -16,7 +16,7 @@
     <RootNamespace>ScrapJunker.Crawler.Api</RootNamespace>
     <AssemblyName>ScrapJunker.Crawler.Api</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -174,7 +174,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>46498</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:46498/</IISUrl>
+          <IISUrl>http://scrapjunker.crawler.api:8020</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

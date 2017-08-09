@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.Crawler", "ScrapJunker.Crawler\ScrapJunker.Crawler.csproj", "{7B03C5C2-DC7D-497C-94C9-1DB901D131BC}"
 EndProject
@@ -34,6 +34,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.CQRS.Core", "ScrapJunker.CQRS.Core\ScrapJunker.CQRS.Core.csproj", "{BD648ED8-B995-420B-9A38-DD3D127D348C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.Tests", "ScrapJunker.Tests\ScrapJunker.Tests.csproj", "{FD5D979E-F5F2-4E13-A695-E36B67D4A46D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.Umbraco.Web", "ScrapJunker.Umbraco.Web\ScrapJunker.Umbraco.Web.csproj", "{5272E3EF-FC3A-49F4-A935-B092BE956C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.Umbraco.Infrastructure", "ScrapJunker.Umbraco.Infrastructure\ScrapJunker.Umbraco.Infrastructure.csproj", "{D68E8479-63C9-4FB8-9357-72D9BBE2FB8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapJunker.Umbraco.Core", "ScrapJunker.Umbraco.Core\ScrapJunker.Umbraco.Core.csproj", "{3BF06458-90BA-4F22-9FEF-EECCE21D3636}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +95,18 @@ Global
 		{FD5D979E-F5F2-4E13-A695-E36B67D4A46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD5D979E-F5F2-4E13-A695-E36B67D4A46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD5D979E-F5F2-4E13-A695-E36B67D4A46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5272E3EF-FC3A-49F4-A935-B092BE956C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5272E3EF-FC3A-49F4-A935-B092BE956C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5272E3EF-FC3A-49F4-A935-B092BE956C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5272E3EF-FC3A-49F4-A935-B092BE956C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68E8479-63C9-4FB8-9357-72D9BBE2FB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68E8479-63C9-4FB8-9357-72D9BBE2FB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68E8479-63C9-4FB8-9357-72D9BBE2FB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68E8479-63C9-4FB8-9357-72D9BBE2FB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF06458-90BA-4F22-9FEF-EECCE21D3636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF06458-90BA-4F22-9FEF-EECCE21D3636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF06458-90BA-4F22-9FEF-EECCE21D3636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF06458-90BA-4F22-9FEF-EECCE21D3636}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
