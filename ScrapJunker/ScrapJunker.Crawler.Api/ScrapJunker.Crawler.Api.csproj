@@ -128,10 +128,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\grid.editors.config.js">
-      <Link>config\grid.editors.config.js</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Global.asax" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -155,79 +151,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\404handlers.config">
-      <Link>config\404handlers.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\applications.config">
-      <Link>config\applications.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\BaseRestExtensions.config">
-      <Link>config\BaseRestExtensions.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\ClientDependency.config">
-      <Link>config\ClientDependency.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\Dashboard.config">
-      <Link>config\Dashboard.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\EmbeddedMedia.config">
-      <Link>config\EmbeddedMedia.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineIndex.config">
-      <Link>config\ExamineIndex.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineSettings.config">
-      <Link>config\ExamineSettings.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\feedProxy.config">
-      <Link>config\feedProxy.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\FileSystemProviders.config">
-      <Link>config\FileSystemProviders.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\log4net.config">
-      <Link>config\log4net.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\metablogConfig.config">
-      <Link>config\metablogConfig.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\scripting.config">
-      <Link>config\scripting.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\tinyMceConfig.config">
-      <Link>config\tinyMceConfig.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\trees.config">
-      <Link>config\trees.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\umbracoSettings.config">
-      <Link>config\umbracoSettings.config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\uSyncBackOffice.Config">
-      <Link>config\uSyncBackOffice.Config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\uSyncCore.Config">
-      <Link>config\uSyncCore.Config</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -269,6 +192,9 @@
       <Name>ScrapJunker.IOC</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -302,47 +228,6 @@
     <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.3.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.3.1\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.6\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.6\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
-  </Target>
-  <Target Name="BeforeBuild">
-    <ItemGroup>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\404handlers.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\applications.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\BaseRestExtensions.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\ClientDependency.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\Dashboard.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\EmbeddedMedia.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineIndex.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineSettings.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\feedProxy.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\FileSystemProviders.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\log4net.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\metablogConfig.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\scripting.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\tinyMceConfig.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\trees.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\umbracoSettings.config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\uSyncBackOffice.Config">
-      </UtilitiesFiles>
-      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\uSyncCore.Config">
-      </UtilitiesFiles>
-    </ItemGroup>
-    <Copy SourceFiles="@(UtilitiesFiles)" DestinationFolder=".\config" SkipUnchangedFiles="true" />
   </Target>
   <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
