@@ -10,3 +10,15 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\ScrapJunker.Inf
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\NEventStore.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\NEventStore.pdb
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\NEventStore.xml
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\ScrapJunker.CQRS.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\ScrapJunker.CQRS.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\NEventStore.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\ScrapJunker.CQRS.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\ScrapJunker.Infrastructure.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\ScrapJunker.CQRS.Core.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\NEventStore.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\bin\Debug\NEventStore.xml
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\obj\Debug\ScrapJunker.CQRS.csprojResolveAssemblyReference.cache
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\obj\Debug\ScrapJunker.CQRS.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS\obj\Debug\ScrapJunker.CQRS.pdb

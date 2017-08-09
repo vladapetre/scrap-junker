@@ -3,3 +3,7 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\bin\Debug\ScrapJunke
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.pdb
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.csprojResolveAssemblyReference.cache
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\bin\Debug\ScrapJunker.CQRS.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\bin\Debug\ScrapJunker.CQRS.Core.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.pdb
