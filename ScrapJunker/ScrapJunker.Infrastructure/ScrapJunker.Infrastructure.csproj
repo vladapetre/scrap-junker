@@ -43,12 +43,17 @@
     <Compile Include="Base\BaseEventHandler.cs" />
     <Compile Include="Base\FileStorage.cs" />
     <Compile Include="Base\Logger.cs" />
+    <Compile Include="Base\UmbracoStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ScrapJunker.Infrastructure.Core\ScrapJunker.Infrastructure.Core.csproj">
       <Project>{1d76530e-f61d-4b36-9627-1ab32744d9aa}</Project>
       <Name>ScrapJunker.Infrastructure.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.Umbraco.Core\ScrapJunker.Umbraco.Core.csproj">
+      <Project>{3bf06458-90ba-4f22-9fef-eecce21d3636}</Project>
+      <Name>ScrapJunker.Umbraco.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

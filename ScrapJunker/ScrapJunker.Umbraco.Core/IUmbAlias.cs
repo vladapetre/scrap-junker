@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ScrapJunker.Umbraco.Core
 {
-    public interface IUmbracoAlias
+    public interface IUmbAlias
     {
+        string DocType_MasterPage { get; }
+        string Property_Content { get; }
     }
 }

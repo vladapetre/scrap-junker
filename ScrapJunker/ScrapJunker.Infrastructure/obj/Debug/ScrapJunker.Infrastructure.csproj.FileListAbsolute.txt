@@ -12,3 +12,5 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\Scrap
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Umbraco.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Umbraco.Core.pdb

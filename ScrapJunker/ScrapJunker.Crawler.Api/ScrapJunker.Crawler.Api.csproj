@@ -43,16 +43,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientDependency.Core, Version=1.9.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClientDependency.1.9.2\lib\net45\ClientDependency.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientDependency.Core.Mvc, Version=1.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClientDependency-Mvc5.1.8.0.0\lib\net45\ClientDependency.Core.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.6\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap, Version=4.5.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\StructureMap.4.5.2\lib\net45\StructureMap.dll</HintPath>
@@ -62,6 +76,9 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -71,6 +88,30 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -87,19 +128,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="System.Net.Http.Formatting">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http.WebHost">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\grid.editors.config.js">
+      <Link>config\grid.editors.config.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\SwaggerConfig.cs" />
@@ -109,6 +145,7 @@
     <Compile Include="CQRS\Commands\RunCrawlerCommand.cs" />
     <Compile Include="CQRS\Commands\RunCrawlerCommandHandler.cs" />
     <Compile Include="CQRS\Events\Test\TestCreatedEvent.cs" />
+    <Compile Include="CrawlerApiObjectFactory.cs" />
     <Compile Include="Domain\TestAggregate.cs" />
     <Compile Include="DTO\RunCrawlerConfigurationDto.cs" />
     <Compile Include="Global.asax.cs">
@@ -118,6 +155,79 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\404handlers.config">
+      <Link>config\404handlers.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\applications.config">
+      <Link>config\applications.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\BaseRestExtensions.config">
+      <Link>config\BaseRestExtensions.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\ClientDependency.config">
+      <Link>config\ClientDependency.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\Dashboard.config">
+      <Link>config\Dashboard.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\EmbeddedMedia.config">
+      <Link>config\EmbeddedMedia.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineIndex.config">
+      <Link>config\ExamineIndex.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineSettings.config">
+      <Link>config\ExamineSettings.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\feedProxy.config">
+      <Link>config\feedProxy.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\FileSystemProviders.config">
+      <Link>config\FileSystemProviders.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\log4net.config">
+      <Link>config\log4net.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\metablogConfig.config">
+      <Link>config\metablogConfig.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\scripting.config">
+      <Link>config\scripting.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\tinyMceConfig.config">
+      <Link>config\tinyMceConfig.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\trees.config">
+      <Link>config\trees.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\umbracoSettings.config">
+      <Link>config\umbracoSettings.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\uSyncBackOffice.Config">
+      <Link>config\uSyncBackOffice.Config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\uSyncCore.Config">
+      <Link>config\uSyncCore.Config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -193,6 +303,48 @@
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.3.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.3.1\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.6\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.6\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
+  <Target Name="BeforeBuild">
+    <ItemGroup>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\404handlers.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\applications.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\BaseRestExtensions.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\ClientDependency.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\Dashboard.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\EmbeddedMedia.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineIndex.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineSettings.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\feedProxy.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\FileSystemProviders.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\log4net.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\metablogConfig.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\scripting.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\tinyMceConfig.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\trees.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\umbracoSettings.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\uSyncBackOffice.Config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\uSyncCore.Config">
+      </UtilitiesFiles>
+    </ItemGroup>
+    <Copy SourceFiles="@(UtilitiesFiles)" DestinationFolder=".\config" SkipUnchangedFiles="true" />
+  </Target>
+  <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

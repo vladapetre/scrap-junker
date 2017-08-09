@@ -19,6 +19,7 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\log4net.xml
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.csprojResolveAssemblyReference.cache
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Crawler.dll.config
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Crawler.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Crawler.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\Abot.dll
@@ -40,4 +41,5 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\log4net.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Crawler.dll.config
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Umbraco.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Umbraco.Core.pdb

@@ -20,3 +20,5 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling\bin\Debug\ScrapJunker.
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling\obj\Debug\ScrapJunker.Pooling.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling\obj\Debug\ScrapJunker.Pooling.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling\obj\Debug\ScrapJunker.Pooling.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling\bin\Debug\ScrapJunker.Umbraco.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling\bin\Debug\ScrapJunker.Umbraco.Core.pdb

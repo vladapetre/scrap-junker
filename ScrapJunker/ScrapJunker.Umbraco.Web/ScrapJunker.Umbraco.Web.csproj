@@ -1,4 +1,5 @@
 ﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\uSync.3.3.4.740\build\uSync.props" Condition="Exists('..\packages\uSync.3.3.4.740\build\uSync.props')" />
   <Import Project="..\packages\UmbracoCms.7.6.5\build\UmbracoCms.props" Condition="Exists('..\packages\UmbracoCms.7.6.5\build\UmbracoCms.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
@@ -86,6 +87,12 @@
     </Reference>
     <Reference Include="interfaces, Version=1.0.6428.37119, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoCms.Core.7.6.5\lib\net45\interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Jumoo.uSync.BackOffice, Version=3.3.4.740, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uSync.3.3.4.740\lib\net45\Jumoo.uSync.BackOffice.dll</HintPath>
+    </Reference>
+    <Reference Include="Jumoo.uSync.Core, Version=5.6.4.740, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uSync.Core.5.6.4.740\lib\net45\Jumoo.uSync.Core.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoCms.Core.7.6.5\lib\net45\log4net.dll</HintPath>
@@ -197,6 +204,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
@@ -221,8 +230,6 @@
     <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
@@ -266,31 +273,13 @@
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.htm" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
-    <Content Include="config\grid.editors.config.js" />
-    <Content Include="config\Lang\cs-CZ.user.xml" />
-    <Content Include="config\Lang\da-DK.user.xml" />
-    <Content Include="config\Lang\de-DE.user.xml" />
-    <Content Include="config\Lang\en-GB.user.xml" />
-    <Content Include="config\Lang\en-US.user.xml" />
-    <Content Include="config\Lang\es-ES.user.xml" />
-    <Content Include="config\Lang\fr-FR.user.xml" />
-    <Content Include="config\Lang\he-IL.user.xml" />
-    <Content Include="config\Lang\it-IT.user.xml" />
-    <Content Include="config\Lang\ja-JP.user.xml" />
-    <Content Include="config\Lang\ko-KR.user.xml" />
-    <Content Include="config\Lang\nb-NO.user.xml" />
-    <Content Include="config\Lang\nl-NL.user.xml" />
-    <Content Include="config\Lang\pl-PL.user.xml" />
-    <Content Include="config\Lang\pt-BR.user.xml" />
-    <Content Include="config\Lang\ru-RU.user.xml" />
-    <Content Include="config\Lang\sv-SE.user.xml" />
-    <Content Include="config\Lang\zh-CN.user.xml" />
+    <Content Include="App_Plugins\uSync\uSyncDashboard.css" />
+    <Content Include="App_Plugins\uSync\uSyncDashboard.html" />
+    <Content Include="App_Plugins\uSync\uSyncDashboardController.js" />
+    <Content Include="App_Plugins\uSync\uSyncDashboardService.js" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
-    <Content Include="config\imageprocessor\security.config" />
-    <Content Include="config\imageprocessor\processing.config" />
-    <Content Include="config\imageprocessor\cache.config" />
     <Content Include="App_Plugins\ModelsBuilder\package.manifest" />
     <Content Include="Umbraco\Actions\delete.aspx" />
     <Content Include="Umbraco\Actions\editContent.aspx" />
@@ -2862,22 +2851,6 @@
     <Content Include="Views\Partials\Grid\Bootstrap2.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2-Fluid.cshtml" />
     <Content Include="Media\Web.config" />
-    <Content Include="config\umbracoSettings.config" />
-    <Content Include="config\trees.config" />
-    <Content Include="config\tinyMceConfig.config" />
-    <Content Include="config\scripting.config" />
-    <Content Include="config\metablogConfig.config" />
-    <Content Include="config\log4net.config" />
-    <Content Include="config\FileSystemProviders.config" />
-    <Content Include="config\feedProxy.config" />
-    <Content Include="config\ExamineSettings.config" />
-    <Content Include="config\ExamineIndex.config" />
-    <Content Include="config\EmbeddedMedia.config" />
-    <Content Include="config\Dashboard.config" />
-    <Content Include="config\ClientDependency.config" />
-    <Content Include="config\BaseRestExtensions.config" />
-    <Content Include="config\applications.config" />
-    <Content Include="config\404handlers.config" />
     <Content Include="Umbraco\assets\fonts\helveticons\helveticons.eot" />
     <Content Include="Umbraco\assets\fonts\helveticons\helveticons.ttf" />
     <Content Include="Umbraco\assets\fonts\helveticons\helveticons.woff" />
@@ -3034,6 +3007,7 @@
     <Content Include="Umbraco\Webservices\TreeDataService.ashx" />
     <Content Include="Umbraco\Webservices\UltimatePickerAutoCompleteHandler.ashx" />
     <Content Include="Umbraco\Xslt\Web.config" />
+    <Content Include="App_Plugins\uSync\package.manifest" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3042,7 +3016,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\StructuremapMvc.cs" />
@@ -3100,14 +3076,17 @@
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
     <Error Condition="!Exists('..\packages\UmbracoCms.7.6.5\build\UmbracoCms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\UmbracoCms.7.6.5\build\UmbracoCms.props'))" />
     <Error Condition="!Exists('..\packages\UmbracoCms.7.6.5\build\UmbracoCms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\UmbracoCms.7.6.5\build\UmbracoCms.targets'))" />
+    <Error Condition="!Exists('..\packages\uSync.3.3.4.740\build\uSync.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\uSync.3.3.4.740\build\uSync.props'))" />
+    <Error Condition="!Exists('..\packages\uSync.3.3.4.740\build\uSync.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\uSync.3.3.4.740\build\uSync.targets'))" />
   </Target>
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
     <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
     <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
   </Target>
-  <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <Import Project="..\packages\UmbracoCms.7.6.5\build\UmbracoCms.targets" Condition="Exists('..\packages\UmbracoCms.7.6.5\build\UmbracoCms.targets')" />
+  <Import Project="..\packages\uSync.3.3.4.740\build\uSync.targets" Condition="Exists('..\packages\uSync.3.3.4.740\build\uSync.targets')" />
+  <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -1,0 +1,148 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, August 9, 2017 11:43:34 PM
+   Source : E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\
+     Dest : E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\App_Data\NuGetBackup\20170809-234334\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\
+	  New Dir        116	E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\
+	    New File  		  102912	Abot.dll  0%  100%  
+	    New File  		   66570	Abot.xml  0%  100%  
+	    New File  		   1.1 m	AngleSharp.dll  0%   21%   42%   64%   85%  100%  
+	    New File  		   1.5 m	AngleSharp.xml  0%   16%   32%   48%   64%   81%   97%  100%  
+	    New File  		  166400	AutoMapper.dll  0%   78%  100%  
+	    New File  		  540160	AutoMapper.pdb  0%   48%   97%  100%  
+	    New File  		   92505	AutoMapper.xml  0%  100%  
+	    New File  		  118784	businesslogic.dll  0%  100%  
+	    New File  		  122929	businesslogic.xml  0%  100%  
+	    New File  		  148480	ClientDependency.Core.dll  0%   88%  100%  
+	    New File  		  435712	ClientDependency.Core.pdb  0%   30%   60%   90%  100%  
+	    New File  		  528384	cms.dll  0%   49%   99%  100%  
+	    New File  		  333588	cms.xml  0%   39%   78%  100%  
+	    New File  		   52224	controls.dll  0%  100%  
+	    New File  		    9090	controls.xml  0%  100%  
+	    New File  		  122880	CookComputing.XmlRpcV2.dll  0%  100%  
+	    New File  		  824320	CsQuery.dll  0%   31%   63%   95%  100%  
+	    New File  		   1.1 m	CsQuery.xml  0%   22%   45%   67%   90%  100%  
+	    New File  		  116736	Examine.dll  0%  100%  
+	    New File  		  361984	Examine.pdb  0%   36%   72%  100%  
+	    New File  		  132608	HtmlAgilityPack.dll  0%   98%  100%  
+	    New File  		  251392	HtmlAgilityPack.pdb  0%   52%  100%  
+	    New File  		  123861	HtmlAgilityPack.xml  0%  100%  
+	    New File  		  200704	ICSharpCode.SharpZipLib.dll  0%   65%  100%  
+	    New File  		  180736	ImageProcessor.dll  0%   72%  100%  
+	    New File  		   24576	interfaces.dll  0%  100%  
+	    New File  		   11400	interfaces.xml  0%  100%  
+	    New File  		   15872	Log4Net.Async.dll  0%  100%  
+	    New File  		  276480	log4net.dll  0%   47%   94%  100%  
+	    New File  		   1.4 m	log4net.xml  0%   16%   33%   50%   67%   84%  100%  
+	    New File  		  786432	Lucene.Net.dll  0%   33%   66%  100%  
+	    New File  		   1.5 m	Lucene.Net.xml  0%   16%   33%   49%   66%   82%   99%  100%  
+	    New File  		   49152	MarkdownSharp.dll  0%  100%  
+	    New File  		   11264	Microsoft.ApplicationBlocks.Data.dll  0%  100%  
+	    New File  		  171672	Microsoft.AspNet.Identity.Core.dll  0%   76%  100%  
+	    New File  		  124939	Microsoft.AspNet.Identity.Core.xml  0%  100%  
+	    New File  		   54944	Microsoft.AspNet.Identity.Owin.dll  0%  100%  
+	    New File  		   32939	Microsoft.AspNet.Identity.Owin.xml  0%  100%  
+	    New File  		  346848	Microsoft.AspNet.SignalR.Core.dll  0%   37%   75%  100%  
+	    New File  		  202157	Microsoft.AspNet.SignalR.Core.xml  0%   64%  100%  
+	    New File  		  101032	Microsoft.Owin.dll  0%  100%  
+	    New File  		  133288	Microsoft.Owin.Host.SystemWeb.dll  0%   98%  100%  
+	    New File  		   31372	Microsoft.Owin.Host.SystemWeb.xml  0%  100%  
+	    New File  		   36520	Microsoft.Owin.Security.Cookies.dll  0%  100%  
+	    New File  		   33265	Microsoft.Owin.Security.Cookies.xml  0%  100%  
+	    New File  		   53416	Microsoft.Owin.Security.dll  0%  100%  
+	    New File  		   30791	Microsoft.Owin.Security.xml  0%  100%  
+	    New File  		  166973	Microsoft.Owin.xml  0%   78%  100%  
+	    New File  		   45416	Microsoft.Web.Infrastructure.dll  0%  100%  
+	    New File  		  396288	MiniProfiler.dll  0%   33%   66%   99%  100%  
+	    New File  		  341504	MiniProfiler.pdb  0%   38%   76%  100%  
+	    New File  		  230981	MiniProfiler.xml  0%   56%  100%  
+	    New File  		  424448	MySql.Data.dll  0%   30%   61%   92%  100%  
+	    New File  		   1.6 m	NEventStore.dll  0%   15%   31%   46%   62%   77%   93%  100%  
+	    New File  		   2.8 m	NEventStore.pdb  0%   17%   35%   53%   71%   89%  100%  
+	    New File  		   1.6 m	NEventStore.xml  0%   15%   30%   45%   60%   76%   91%  100%  
+	    New File  		  652288	Newtonsoft.Json.dll  0%   40%   80%  100%  
+	    New File  		  674087	Newtonsoft.Json.xml  0%   38%   77%  100%  
+	    New File  		    4608	Owin.dll  0%  100%  
+	    New File  		   15360	Robots.dll  0%  100%  
+	    New File  		    5632	ScrapJunker.CQRS.Core.dll  0%  100%  
+	    New File  		    7680	ScrapJunker.CQRS.Core.pdb  0%  100%  
+	    New File  		   13824	ScrapJunker.CQRS.dll  0%  100%  
+	    New File  		   44544	ScrapJunker.CQRS.pdb  0%  100%  
+	    New File  		    5120	ScrapJunker.Crawler.Core.dll  0%  100%  
+	    New File  		    7680	ScrapJunker.Crawler.Core.pdb  0%  100%  
+	    New File  		    9216	ScrapJunker.Crawler.dll  0%  100%  
+	    New File  		     422	ScrapJunker.Crawler.dll.config  0%  100%  
+	    New File  		   24064	ScrapJunker.Crawler.pdb  0%  100%  
+	    New File  		    5120	ScrapJunker.Infrastructure.Core.dll  0%  100%  
+	    New File  		    7680	ScrapJunker.Infrastructure.Core.pdb  0%  100%  
+	    New File  		    5632	ScrapJunker.Infrastructure.dll  0%  100%  
+	    New File  		   17920	ScrapJunker.Infrastructure.pdb  0%  100%  
+	    New File  		    7680	ScrapJunker.IOC.dll  0%  100%  
+	    New File  		     422	ScrapJunker.IOC.dll.config  0%  100%  
+	    New File  		   15872	ScrapJunker.IOC.pdb  0%  100%  
+	    New File  		    4608	ScrapJunker.Umbraco.Core.dll  0%  100%  
+	    New File  		    7680	ScrapJunker.Umbraco.Core.pdb  0%  100%  
+	    New File  		    7168	ScrapJunker.Umbraco.Infrastructure.dll  0%  100%  
+	    New File  		    2605	ScrapJunker.Umbraco.Infrastructure.dll.config  0%  100%  
+	    New File  		   24064	ScrapJunker.Umbraco.Infrastructure.pdb  0%  100%  
+	    New File  		   10240	Semver.dll  0%  100%  
+	    New File  		  268800	StructureMap.dll  0%   48%   97%  100%  
+	    New File  		  218941	StructureMap.xml  0%   59%  100%  
+	    New File  		  470696	System.Data.SqlServerCe.dll  0%   27%   55%   83%  100%  
+	    New File  		  185544	System.Net.Http.Formatting.dll  0%   70%  100%  
+	    New File  		  192626	System.Net.Http.Formatting.xml  0%   68%  100%  
+	    New File  		  179104	System.Threading.Tasks.Dataflow.dll  0%   73%  100%  
+	    New File  		  690988	System.Threading.Tasks.Dataflow.xml  0%   37%   75%  100%  
+	    New File  		  471240	System.Web.Http.dll  0%   27%   55%   83%  100%  
+	    New File  		   82120	System.Web.Http.WebHost.dll  0%  100%  
+	    New File  		   10367	System.Web.Http.WebHost.xml  0%  100%  
+	    New File  		  539657	System.Web.Http.xml  0%   48%   97%  100%  
+	    New File  		  566472	System.Web.Mvc.dll  0%   46%   92%  100%  
+	    New File  		  952428	System.Web.Mvc.xml  0%   27%   55%   82%  100%  
+	    New File  		  272072	System.Web.Razor.dll  0%   48%   96%  100%  
+	    New File  		  522146	System.Web.Razor.xml  0%   25%   50%   75%  100%  
+	    New File  		   41672	System.Web.WebPages.Deployment.dll  0%  100%  
+	    New File  		    4867	System.Web.WebPages.Deployment.xml  0%  100%  
+	    New File  		  211656	System.Web.WebPages.dll  0%   61%  100%  
+	    New File  		   39624	System.Web.WebPages.Razor.dll  0%  100%  
+	    New File  		   25222	System.Web.WebPages.Razor.xml  0%  100%  
+	    New File  		  234716	System.Web.WebPages.xml  0%   55%  100%  
+	    New File  		  192512	TidyNet.dll  0%   68%  100%  
+	    New File  		   2.6 m	Umbraco.Core.dll  0%   19%   38%   57%   76%   95%  100%  
+	    New File  		   2.0 m	Umbraco.Core.xml  0%   24%   49%   74%   99%  100%  
+	    New File  		   43520	umbraco.DataLayer.dll  0%  100%  
+	    New File  		  115002	umbraco.DataLayer.xml  0%  100%  
+	    New File  		   2.2 m	umbraco.dll  0%   22%   44%   67%   89%  100%  
+	    New File  		  372736	umbraco.editorControls.dll  0%   35%   70%  100%  
+	    New File  		  172282	umbraco.editorControls.xml  0%   76%  100%  
+	    New File  		   38400	umbraco.providers.dll  0%  100%  
+	    New File  		   51453	umbraco.providers.xml  0%  100%  
+	    New File  		   1.4 m	umbraco.xml  0%   16%   33%   50%   67%   84%  100%  
+	    New File  		   65536	UmbracoExamine.dll  0%  100%  
+	    New File  		   43904	UmbracoExamine.xml  0%  100%  
+	  New Dir          0	E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Release\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         3         2         1         0         0         0
+   Files :       116       116         0         0         0         0
+   Bytes :   38.38 m   38.38 m         0         0         0         0
+   Times :   0:00:01   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :            40742990 Bytes/sec.
+   Speed :            2331.332 MegaBytes/min.
+   Ended : Wednesday, August 9, 2017 11:43:35 PM
+

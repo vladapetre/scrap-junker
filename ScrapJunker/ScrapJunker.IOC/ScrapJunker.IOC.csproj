@@ -78,6 +78,14 @@
       <Project>{b357e66b-ac03-4725-8336-7bf51f9caabd}</Project>
       <Name>ScrapJunker.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.Umbraco.Core\ScrapJunker.Umbraco.Core.csproj">
+      <Project>{3bf06458-90ba-4f22-9fef-eecce21d3636}</Project>
+      <Name>ScrapJunker.Umbraco.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.Umbraco.Infrastructure\ScrapJunker.Umbraco.Infrastructure.csproj">
+      <Project>{d68e8479-63c9-4fb8-9357-72d9bbe2fb8f}</Project>
+      <Name>ScrapJunker.Umbraco.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

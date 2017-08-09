@@ -9,7 +9,7 @@ namespace ScrapJunker.Crawler.Api
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            GlobalConfiguration.Configuration.UseStructureMap<ObjectFactory>();
+            GlobalConfiguration.Configuration.UseStructureMap<CrawlerApiObjectFactory>();
         }
     }
 }

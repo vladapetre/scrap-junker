@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ScrapJunker.Umbraco.Core
 {
-    interface IUmbContentService
+    public interface IUmbContentService
     {
+        void SaveContent<T>(T content, string contentName, string contentPath);
     }
 }
