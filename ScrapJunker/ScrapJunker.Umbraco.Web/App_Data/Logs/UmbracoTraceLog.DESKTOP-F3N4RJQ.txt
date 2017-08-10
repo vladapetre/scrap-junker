@@ -128,3 +128,44 @@ System.Web.HttpCompileException (0x80004005): e:\Workspace\scrap-junker\ScrapJun
  2017-08-11 00:04:39,936 [P10480/D32/T131] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
  2017-08-11 00:04:39,937 [P10480/D32/T131] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
  2017-08-11 00:04:39,939 [P10480/D32/T117] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-08-11 00:10:49,628 [P10480/D32/T135] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-11 00:11:32,707 [P10480/D32/T128] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-11 00:13:37,273 [P10480/D32/T131] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:13:38,692 [P10480/D32/T126] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:13:55,360 [P10480/D32/T128] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:15:59,801 [P10480/D32/T126] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2017-08-11 00:15:59,801 [P10480/D32/T128] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-08-11 00:15:59,802 [P10480/D32/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-08-11 00:15:59,803 [P10480/D32/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-08-11 00:16:31,408 [P10480/D32/T128] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: MasterPage
+ 2017-08-11 00:16:39,921 [P10480/D32/T131] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: MasterPage
+ 2017-08-11 00:17:22,825 [P10480/D32/T128] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: MasterPage
+ 2017-08-11 00:17:47,855 [P10480/D32/T138] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: MasterPage
+ 2017-08-11 00:21:12,717 [P10480/D32/T131] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:21:20,455 [P10480/D32/T82] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:23:27,526 [P10480/D32/T126] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:24:05,093 [P10480/D32/T138] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:26:01,712 [P10480/D32/T126] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:26:26,726 [P10480/D32/T126] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: MasterPage
+ 2017-08-11 00:26:28,944 [P10480/D32/T82] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: MasterPage
+ 2017-08-11 00:26:34,332 [P10480/D32/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-08-11 00:26:34,332 [P10480/D32/T117] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-08-11 00:26:34,332 [P10480/D32/T117] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-08-11 00:26:34,337 [P10480/D32/T126] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2017-08-11 00:26:36,008 [P10480/D32/T126] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-08-11 00:26:36,009 [P10480/D32/T128] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2017-08-11 00:26:36,009 [P10480/D32/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-08-11 00:26:36,010 [P10480/D32/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-08-11 00:26:36,017 [P10480/D32/T126] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-08-11 00:26:36,017 [P10480/D32/T82] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2017-08-11 00:26:36,646 [P10480/D32/T138] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-08-11 00:26:36,646 [P10480/D32/T126] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2017-08-11 00:26:36,647 [P10480/D32/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-08-11 00:26:36,648 [P10480/D32/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-08-11 00:27:15,337 [P10480/D32/T82] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:29:41,784 [P10480/D32/T138] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:29:52,104 [P10480/D32/T135] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: CrawlerPage
+ 2017-08-11 00:43:35,909 [P10480/D32/T126] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin@scrapjunker.com, IP Address: 127.0.0.1
+ 2017-08-11 00:46:09,940 [P10480/D32/T131] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin@scrapjunker.com from IP address 127.0.0.1
+ 2017-08-11 00:46:09,942 [P10480/D32/T131] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin@scrapjunker.com logged in from IP address 127.0.0.1
+ 2017-08-11 00:50:27,646 [P10480/D32/T82] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

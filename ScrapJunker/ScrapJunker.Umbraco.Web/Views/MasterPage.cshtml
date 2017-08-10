@@ -25,11 +25,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
-    <meta name="author" content="Łukasz Holeczek">
-    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
+    <meta name="description" content="ScrapJunker">
+    <meta name="author" content="Vlad Apetre">
+    <meta name="keyword" content="scrap, junk, crawl">
     <link rel="shortcut icon" href="~/theme/img/favicon.png">
-    <title>CoreUI - Open Source Bootstrap Admin Template</title>
+    <title>ScrapJunker</title>
 
     <!-- Icons -->
     <link href="~/theme/css/font-awesome.min.css" rel="stylesheet">
@@ -37,6 +37,7 @@
 
     <!-- Main styles for this application -->
     <link href="~/theme/css/style.css" rel="stylesheet">
+    @RenderSection("Styles", false);
 </head>
 
 <!-- BODY options, add following classes to body to change options
@@ -152,13 +153,13 @@
 
             <!-- Breadcrumb -->
             <ol class="breadcrumb">
-                @foreach(var ancestor in CurrentPage.AncestorsOrSelf(2).OrderBy("Level")){
+                @foreach(var ancestor in CurrentPage.AncestorsOrSelf().OrderBy("Level")){
                    var isActive = ancestor.Name == CurrentPage.Name;
                    <li class="breadcrumb-item @(isActive ? "active" : "")">
                     @if(isActive){
-                       <a href="@ancestor.UrlName"><b>@ancestor.Name</b></a>
+                       <a href="@ancestor.Url"><b>@ancestor.Name</b></a>
                     }else{
-                        <a href="@ancestor.UrlName">@ancestor.Name</a>
+                        <a href="@ancestor.Url">@ancestor.Name</a>
                     }
                     </li>
                 }
@@ -475,27 +476,28 @@
     </div>
 
     <footer class="app-footer">
-        <a href="~/theme/http://coreui.io">CoreUI</a> © 2017 creativeLabs.
-        <span class="float-right">Powered by <a href="~/theme/http://coreui.io">CoreUI</a>
+        <a href="@site.Url">ScrapJunker</a> © 2017 scrapjunker.
+        <span class="float-right">Powered by <a href="@site.Url">ScrapJunker</a>
         </span>
     </footer>
 
     <!-- Bootstrap and necessary plugins -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script src="https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.min.js" type="text/javascript"></script>
+    @*<script src="https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.min.js" type="text/javascript"></script>*@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="https://raw.githubusercontent.com/HubSpot/pace/v1.0.0/pace.min.js" type="text/javascript"></script>
-
+    @*<script src="https://raw.githubusercontent.com/HubSpot/pace/v1.0.0/pace.min.js" type="text/javascript"></script>*@
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js" type="text/javascript"></script>
 
     <!-- Plugins and scripts required by all views -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" type="text/javascript"></script>
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" type="text/javascript"></script>*@
 
 
     <!-- GenesisUI main scripts -->
 
     <script src="~/theme/js/app.js"></script>
 
-
+    @RenderSection("Scripts", false)
 
 
 
