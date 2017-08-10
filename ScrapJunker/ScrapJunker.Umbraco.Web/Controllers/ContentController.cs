@@ -18,7 +18,7 @@ namespace ScrapJunker.Umbraco.Web.Controllers
         private readonly ServiceContext _serviceContext;
         private readonly IUmbAlias _umbAlias;
 
-        public ContentController(ServiceContext serviceContext,IUmbAlias umbAlias) : base()
+        public ContentController(ServiceContext serviceContext, IUmbAlias umbAlias) : base()
         {
             _serviceContext = serviceContext;
             _umbAlias = umbAlias;
