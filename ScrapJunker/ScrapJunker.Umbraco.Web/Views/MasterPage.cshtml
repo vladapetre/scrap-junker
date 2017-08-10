@@ -2,7 +2,10 @@
 @using ContentModels = Umbraco.Web.PublishedContentModels;
 @{
 	Layout = null;
+    var site = @CurrentPage.Site();
 }
+
+
 
 <html lang="en"><head>
     <meta charset="utf-8">
@@ -109,80 +112,25 @@
             <nav class="sidebar-nav">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="theme/index.html"><i class="icon-speedometer"></i> Dashboard <span class="badge badge-primary">NEW</span></a>
+                        <a class="nav-link" href="@site.UrlName"><i class="fa fa-home"></i> @site.Name </a>
                     </li>
-
                     <li class="nav-title">
                         UI Elements
                     </li>
-                    <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="/#"><i class="icon-puzzle"></i> Components</a>
-                        <ul class="nav-dropdown-items">
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/components-buttons.html"><i class="icon-puzzle"></i> Buttons</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/components-social-buttons.html"><i class="icon-puzzle"></i> Social Buttons</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/components-cards.html"><i class="icon-puzzle"></i> Cards</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/components-forms.html"><i class="icon-puzzle"></i> Forms</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/components-modals.html"><i class="icon-puzzle"></i> Modals</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/components-switches.html"><i class="icon-puzzle"></i> Switches</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/components-tables.html"><i class="icon-puzzle"></i> Tables</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/components-tabs.html"><i class="icon-puzzle"></i> Tabs</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="/#"><i class="icon-star"></i> Icons</a>
-                        <ul class="nav-dropdown-items">
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/icons-font-awesome.html"><i class="icon-star"></i> Font Awesome</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/icons-simple-line-icons.html"><i class="icon-star"></i> Simple Line Icons</a>
-                            </li>
-                        </ul>
-                    </li>
+                    @foreach(var siteChild in site.Children){
                     <li class="nav-item">
-                        <a class="nav-link" href="theme/widgets.html"><i class="icon-calculator"></i> Widgets <span class="badge badge-primary">NEW</span></a>
+                        <a class="nav-link" href="@siteChild.UrlName"><i class="fa fa-angle-right"></i> @siteChild.Name </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="theme/charts.html"><i class="icon-pie-chart"></i> Charts</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="nav-title">
-                        Extras
-                    </li>
+                    }
                     <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="/#"><i class="icon-star"></i> Pages</a>
+                        <a class="nav-link nav-dropdown-toggle" href="/#"><i class="icon-bug"></i> Components</a>
                         <ul class="nav-dropdown-items">
                             <li class="nav-item">
-                                <a class="nav-link" href="theme/pages-login.html" target="_top"><i class="icon-star"></i> Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/pages-register.html" target="_top"><i class="icon-star"></i> Register</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/pages-404.html" target="_top"><i class="icon-star"></i> Error 404</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="theme/pages-500.html" target="_top"><i class="icon-star"></i> Error 500</a>
+                                <a class="nav-link" href="theme/components-buttons.html"><i class="icon-bug"></i> Buttons</a>
                             </li>
                         </ul>
                     </li>
-
+                
                 </ul>
             </nav>
         </div>
@@ -192,11 +140,17 @@
 
             <!-- Breadcrumb -->
             <ol class="breadcrumb">
-                <li class="breadcrumb-item">Home</li>
-                <li class="breadcrumb-item"><a href="/#">Admin</a>
-                </li>
-                <li class="breadcrumb-item active">Dashboard</li>
-
+                @foreach(var ancestor in CurrentPage.AncestorsOrSelf(2).OrderBy("Level")){
+                   var isActive = ancestor.Name == CurrentPage.Name;
+                   <li class="breadcrumb-item @(isActive ? "active" : "")">
+                    @if(isActive){
+                       <a href="@ancestor.UrlName"><b>@ancestor.Name</b></a>
+                    }else{
+                        <a href="@ancestor.UrlName">@ancestor.Name</a>
+                    }
+                    </li>
+                }
+             
                 <!-- Breadcrumb Menu-->
                 <li class="breadcrumb-menu d-md-down-none">
                     <div class="btn-group" role="group" aria-label="Button group">
