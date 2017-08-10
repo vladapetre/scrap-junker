@@ -39,3 +39,7 @@ E:\Workspace\ScrapJunker\ScrapJunker.Pooling\bin\Debug\System.Net.Http.Formattin
 E:\Workspace\ScrapJunker\ScrapJunker.Pooling\bin\Debug\Newtonsoft.Json.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Pooling\bin\Debug\System.Net.Http.Formatting.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Pooling\bin\Debug\Newtonsoft.Json.xml
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling\bin\Debug\System.Net.Http.Formatting.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling\bin\Debug\Newtonsoft.Json.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling\bin\Debug\System.Net.Http.Formatting.xml
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling\bin\Debug\Newtonsoft.Json.xml

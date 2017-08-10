@@ -71,3 +71,7 @@ E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\Newtonsoft.Json.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.csprojResolveAssemblyReference.cache
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\System.Net.Http.Formatting.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\Newtonsoft.Json.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\System.Net.Http.Formatting.xml
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler\bin\Debug\Newtonsoft.Json.xml

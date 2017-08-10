@@ -114,8 +114,6 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.Um
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.Umbraco.Core.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\AutoMapper.Net4.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\AutoMapper.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ClientDependency.Core.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ClientDependency.Core.Mvc.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\HtmlAgilityPack.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\Owin.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\System.Web.Helpers.dll
@@ -127,8 +125,6 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\System.Web.Web
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\AutoMapper.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\AutoMapper.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\AutoMapper.Net4.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ClientDependency.Core.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ClientDependency.Core.Mvc.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\System.Web.Helpers.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\System.Web.Mvc.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\System.Web.Razor.xml

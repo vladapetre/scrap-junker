@@ -19,14 +19,28 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "ae6703be1d9e5f80")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "531daf59e44cc88c")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
+	// Mixin content Type 1052 with alias "masterPage"
+	/// <summary>MasterPage</summary>
+	public partial interface IMasterPage : IPublishedContent
+	{
+		/// <summary>Content</summary>
+		IHtmlString Content { get; }
+
+		/// <summary>Umbraco Navi Hide</summary>
+		bool UmbracoNaviHide { get; }
+
+		/// <summary>Umbraco Url</summary>
+		string UmbracoUrl { get; }
+	}
+
 	/// <summary>MasterPage</summary>
 	[PublishedContentModel("masterPage")]
-	public partial class MasterPage : PublishedContentModel
+	public partial class MasterPage : PublishedContentModel, IMasterPage
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "masterPage";
@@ -55,7 +69,78 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("content")]
 		public IHtmlString Content
 		{
-			get { return this.GetPropertyValue<IHtmlString>("content"); }
+			get { return GetContent(this); }
+		}
+
+		/// <summary>Static getter for Content</summary>
+		public static IHtmlString GetContent(IMasterPage that) { return that.GetPropertyValue<IHtmlString>("content"); }
+
+		///<summary>
+		/// Umbraco Navi Hide
+		///</summary>
+		[ImplementPropertyType("umbracoNaviHide")]
+		public bool UmbracoNaviHide
+		{
+			get { return GetUmbracoNaviHide(this); }
+		}
+
+		/// <summary>Static getter for Umbraco Navi Hide</summary>
+		public static bool GetUmbracoNaviHide(IMasterPage that) { return that.GetPropertyValue<bool>("umbracoNaviHide"); }
+
+		///<summary>
+		/// Umbraco Url
+		///</summary>
+		[ImplementPropertyType("umbracoUrl")]
+		public string UmbracoUrl
+		{
+			get { return GetUmbracoUrl(this); }
+		}
+
+		/// <summary>Static getter for Umbraco Url</summary>
+		public static string GetUmbracoUrl(IMasterPage that) { return that.GetPropertyValue<string>("umbracoUrl"); }
+	}
+
+	/// <summary>DashboardPage</summary>
+	[PublishedContentModel("dashboardPage")]
+	public partial class DashboardPage : PublishedContentModel, IMasterPage
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "dashboardPage";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public DashboardPage(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<DashboardPage, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Token
+		///</summary>
+		[ImplementPropertyType("token")]
+		public string Token
+		{
+			get { return this.GetPropertyValue<string>("token"); }
+		}
+
+		///<summary>
+		/// Content
+		///</summary>
+		[ImplementPropertyType("content")]
+		public IHtmlString Content
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetContent(this); }
 		}
 
 		///<summary>
@@ -64,7 +149,7 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("umbracoNaviHide")]
 		public bool UmbracoNaviHide
 		{
-			get { return this.GetPropertyValue<bool>("umbracoNaviHide"); }
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoNaviHide(this); }
 		}
 
 		///<summary>
@@ -73,7 +158,193 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("umbracoUrl")]
 		public string UmbracoUrl
 		{
-			get { return this.GetPropertyValue<string>("umbracoUrl"); }
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoUrl(this); }
+		}
+	}
+
+	/// <summary>HomePage</summary>
+	[PublishedContentModel("homePage")]
+	public partial class HomePage : PublishedContentModel, IMasterPage
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "homePage";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public HomePage(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<HomePage, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Content
+		///</summary>
+		[ImplementPropertyType("content")]
+		public IHtmlString Content
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetContent(this); }
+		}
+
+		///<summary>
+		/// Umbraco Navi Hide
+		///</summary>
+		[ImplementPropertyType("umbracoNaviHide")]
+		public bool UmbracoNaviHide
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoNaviHide(this); }
+		}
+
+		///<summary>
+		/// Umbraco Url
+		///</summary>
+		[ImplementPropertyType("umbracoUrl")]
+		public string UmbracoUrl
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoUrl(this); }
+		}
+	}
+
+	/// <summary>CrawlerPage</summary>
+	[PublishedContentModel("crawlerPage")]
+	public partial class CrawlerPage : PublishedContentModel, IMasterPage
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "crawlerPage";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public CrawlerPage(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<CrawlerPage, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Content
+		///</summary>
+		[ImplementPropertyType("content")]
+		public IHtmlString Content
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetContent(this); }
+		}
+
+		///<summary>
+		/// Umbraco Navi Hide
+		///</summary>
+		[ImplementPropertyType("umbracoNaviHide")]
+		public bool UmbracoNaviHide
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoNaviHide(this); }
+		}
+
+		///<summary>
+		/// Umbraco Url
+		///</summary>
+		[ImplementPropertyType("umbracoUrl")]
+		public string UmbracoUrl
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoUrl(this); }
+		}
+	}
+
+	/// <summary>CrawledPage</summary>
+	[PublishedContentModel("crawledPage")]
+	public partial class CrawledPage : PublishedContentModel, IMasterPage
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "crawledPage";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public CrawledPage(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<CrawledPage, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Absolute Uri
+		///</summary>
+		[ImplementPropertyType("absoluteUri")]
+		public string AbsoluteUri
+		{
+			get { return this.GetPropertyValue<string>("absoluteUri"); }
+		}
+
+		///<summary>
+		/// Is Root
+		///</summary>
+		[ImplementPropertyType("isRoot")]
+		public bool IsRoot
+		{
+			get { return this.GetPropertyValue<bool>("isRoot"); }
+		}
+
+		///<summary>
+		/// Keep Until
+		///</summary>
+		[ImplementPropertyType("keepUntil")]
+		public DateTime KeepUntil
+		{
+			get { return this.GetPropertyValue<DateTime>("keepUntil"); }
+		}
+
+		///<summary>
+		/// Content
+		///</summary>
+		[ImplementPropertyType("content")]
+		public IHtmlString Content
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetContent(this); }
+		}
+
+		///<summary>
+		/// Umbraco Navi Hide
+		///</summary>
+		[ImplementPropertyType("umbracoNaviHide")]
+		public bool UmbracoNaviHide
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoNaviHide(this); }
+		}
+
+		///<summary>
+		/// Umbraco Url
+		///</summary>
+		[ImplementPropertyType("umbracoUrl")]
+		public string UmbracoUrl
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoUrl(this); }
 		}
 	}
 

@@ -11,3 +11,4 @@ E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure.Core\bin\Debug\ScrapJunker.I
 E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure.Core\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure.Core\obj\Debug\ScrapJunker.Infrastructure.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure.Core\obj\Debug\ScrapJunker.Infrastructure.Core.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure.Core\obj\Debug\ScrapJunker.Infrastructure.Core.csprojResolveAssemblyReference.cache

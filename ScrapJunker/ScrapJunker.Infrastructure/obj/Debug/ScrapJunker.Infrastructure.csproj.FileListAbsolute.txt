@@ -27,3 +27,6 @@ E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\System.Net.Http.Fo
 E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.csprojResolveAssemblyReference.cache
 E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\System.Net.Http.Formatting.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\System.Net.Http.Formatting.xml
