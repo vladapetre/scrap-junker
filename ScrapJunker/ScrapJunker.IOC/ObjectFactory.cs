@@ -26,8 +26,7 @@ namespace ScrapJunker.IOC
                 scanner.Assembly("ScrapJunker.Crawler");
                 scanner.Assembly("ScrapJunker.CQRS.Core");
                 scanner.Assembly("ScrapJunker.CQRS");
-                scanner.Assembly("ScrapJunker.Umbraco.Core");
-                //scanner.Assembly("ScrapJunker.Umbraco.Infrastructure");
+                
             };
 
             Scan(scanner =>

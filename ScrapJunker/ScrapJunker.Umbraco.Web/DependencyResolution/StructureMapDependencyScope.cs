@@ -24,7 +24,8 @@ namespace ScrapJunker.Umbraco.Web.DependencyResolution {
     using Microsoft.Practices.ServiceLocation;
 
     using StructureMap;
-	
+    using System.Web.Http.Controllers;
+
     /// <summary>
     /// The structure map dependency scope.
     /// </summary>
@@ -51,10 +52,14 @@ namespace ScrapJunker.Umbraco.Web.DependencyResolution {
         public IContainer Container { get; set; }
 
         public IContainer CurrentNestedContainer {
-            get {
-                return (IContainer)HttpContext.Items[NestedContainerKey];
+            get
+            {
+                if (HttpContext != null)
+                    return (IContainer)HttpContext.Items[NestedContainerKey];
+                return null;
             }
-            set {
+            set
+            {
                 HttpContext.Items[NestedContainerKey] = value;
             }
         }
@@ -64,9 +69,10 @@ namespace ScrapJunker.Umbraco.Web.DependencyResolution {
         #region Properties
 
         private HttpContextBase HttpContext {
-            get {
+            get
+            {
                 var ctx = Container.TryGetInstance<HttpContextBase>();
-                return ctx ?? new HttpContextWrapper(System.Web.HttpContext.Current);
+                return ctx ?? (System.Web.HttpContext.Current != null ? new HttpContextWrapper(System.Web.HttpContext.Current) : null);
             }
         }
 
@@ -107,6 +113,11 @@ namespace ScrapJunker.Umbraco.Web.DependencyResolution {
 
         protected override object DoGetInstance(Type serviceType, string key) {
             IContainer container = (CurrentNestedContainer ?? Container);
+
+            if (ControllersHelper.IsUmbracoController(serviceType))
+            {
+                return Activator.CreateInstance(serviceType) as IHttpController;
+            }
 
             if (string.IsNullOrEmpty(key)) {
                 return serviceType.IsAbstract || serviceType.IsInterface

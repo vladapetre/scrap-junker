@@ -270,6 +270,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\grid.editors.config.js">
+      <Link>config\grid.editors.config.js</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.htm" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
@@ -277,6 +281,62 @@
     <Content Include="App_Plugins\uSync\uSyncDashboard.html" />
     <Content Include="App_Plugins\uSync\uSyncDashboardController.js" />
     <Content Include="App_Plugins\uSync\uSyncDashboardService.js" />
+    <Content Include="config\Lang\cs-CZ.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\da-DK.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\de-DE.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\en-GB.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\en-US.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\es-ES.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\fr-FR.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\he-IL.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\it-IT.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\ja-JP.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\ko-KR.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\nb-NO.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\nl-NL.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\pl-PL.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\pt-BR.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\ru-RU.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\sv-SE.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\Lang\zh-CN.user.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\splashes\booting.aspx" />
+    <Content Include="config\splashes\noNodes.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
@@ -3008,6 +3068,83 @@
     <Content Include="Umbraco\Webservices\UltimatePickerAutoCompleteHandler.ashx" />
     <Content Include="Umbraco\Xslt\Web.config" />
     <Content Include="App_Plugins\uSync\package.manifest" />
+    <Content Include="config\imageprocessor\cache.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\imageprocessor\processing.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="config\imageprocessor\security.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\404handlers.config">
+      <Link>config\404handlers.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\applications.config">
+      <Link>config\applications.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\BaseRestExtensions.config">
+      <Link>config\BaseRestExtensions.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\ClientDependency.config">
+      <Link>config\ClientDependency.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\Dashboard.config">
+      <Link>config\Dashboard.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\EmbeddedMedia.config">
+      <Link>config\EmbeddedMedia.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineIndex.config">
+      <Link>config\ExamineIndex.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineSettings.config">
+      <Link>config\ExamineSettings.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\feedProxy.config">
+      <Link>config\feedProxy.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\FileSystemProviders.config">
+      <Link>config\FileSystemProviders.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\log4net.config">
+      <Link>config\log4net.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\metablogConfig.config">
+      <Link>config\metablogConfig.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\scripting.config">
+      <Link>config\scripting.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\tinyMceConfig.config">
+      <Link>config\tinyMceConfig.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\trees.config">
+      <Link>config\trees.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\umbracoSettings.config">
+      <Link>config\umbracoSettings.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ScrapJunker.Umbraco.Infrastructure\config\uSyncBackOffice.Config">
+      <Link>config\uSyncBackOffice.Config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3022,14 +3159,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\StructuremapMvc.cs" />
+    <Compile Include="Controllers\ContentController.cs" />
     <Compile Include="DependencyResolution\ControllerConvention.cs" />
     <Compile Include="DependencyResolution\DefaultRegistry.cs" />
     <Compile Include="DependencyResolution\IoC.cs" />
     <Compile Include="DependencyResolution\StructureMapDependencyScope.cs" />
     <Compile Include="DependencyResolution\StructureMapScopeModule.cs" />
+    <Compile Include="DependencyResolution\UmbracoWebApiHttpControllerActivator.cs" />
+    <Compile Include="EventHandlers\AppStartupEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ScrapJunker.Infrastructure.Core\ScrapJunker.Infrastructure.Core.csproj">
+      <Project>{1D76530E-F61D-4B36-9627-1AB32744D9AA}</Project>
+      <Name>ScrapJunker.Infrastructure.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.Infrastructure\ScrapJunker.Infrastructure.csproj">
+      <Project>{B357E66B-AC03-4725-8336-7BF51F9CAABD}</Project>
+      <Name>ScrapJunker.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ScrapJunker.IOC\ScrapJunker.IOC.csproj">
       <Project>{eea1fdef-4c0e-415f-8800-07f3827037c5}</Project>
       <Name>ScrapJunker.IOC</Name>
@@ -3038,11 +3186,16 @@
       <Project>{3bf06458-90ba-4f22-9fef-eecce21d3636}</Project>
       <Name>ScrapJunker.Umbraco.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.Umbraco.Infrastructure\ScrapJunker.Umbraco.Infrastructure.csproj">
+      <Project>{D68E8479-63C9-4FB8-9357-72D9BBE2FB8F}</Project>
+      <Name>ScrapJunker.Umbraco.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -3078,6 +3231,45 @@
     <Error Condition="!Exists('..\packages\UmbracoCms.7.6.5\build\UmbracoCms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\UmbracoCms.7.6.5\build\UmbracoCms.targets'))" />
     <Error Condition="!Exists('..\packages\uSync.3.3.4.740\build\uSync.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\uSync.3.3.4.740\build\uSync.props'))" />
     <Error Condition="!Exists('..\packages\uSync.3.3.4.740\build\uSync.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\uSync.3.3.4.740\build\uSync.targets'))" />
+  </Target>
+  <Target Name="BeforeBuild">
+    <ItemGroup>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\404handlers.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\applications.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\BaseRestExtensions.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\ClientDependency.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\Dashboard.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\EmbeddedMedia.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineIndex.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\ExamineSettings.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\feedProxy.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\FileSystemProviders.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\log4net.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\metablogConfig.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\scripting.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\tinyMceConfig.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\trees.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\umbracoSettings.config">
+      </UtilitiesFiles>
+      <UtilitiesFiles Include="..\ScrapJunker.Umbraco.Infrastructure\config\uSyncBackOffice.Config">
+      </UtilitiesFiles>
+    </ItemGroup>
+    <Copy SourceFiles="@(UtilitiesFiles)" DestinationFolder=".\config" SkipUnchangedFiles="true" />
   </Target>
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">

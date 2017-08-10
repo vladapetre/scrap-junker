@@ -16,22 +16,43 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace ScrapJunker.Umbraco.Web.DependencyResolution {
+    using global::Umbraco.Core;
+    using global::Umbraco.Core.Services;
     using ScrapJunker.IOC;
+    using ScrapJunker.Umbraco.Infrastructure.Standalone;
     using StructureMap;
     using StructureMap.Configuration.DSL;
     using StructureMap.Graph;
-	
+    using System;
+
     public class DefaultRegistry : ObjectFactory
     {
         #region Constructors and Destructors
 
-        public DefaultRegistry() {
-            Scan(
-                scan => {
-					scan.With(new ControllerConvention());
-                });
+        private static Action<IAssemblyScanner> scan = delegate (IAssemblyScanner scanner)
+        {
+            scanner.Assembly("ScrapJunker.Umbraco.Core");
+            scanner.Assembly("ScrapJunker.Umbraco.Infrastructure");
+            scanner.Assembly("ScrapJunker.Umbraco.Web");
+            scanner.With(new ControllerConvention());
+        };
+
+        public DefaultRegistry() : base((scanner) => scan(scanner))
+        {
+            For<ServiceContext>().Use(c => c.GetInstance<UmbServiceAccess>().Services);
         }
 
         #endregion
     }
+
+    public static class ControllersHelper
+    {
+        public static bool IsUmbracoController(Type controllerType)
+        {
+            return controllerType.Namespace != null
+               && controllerType.Namespace.StartsWith("umbraco", StringComparison.InvariantCultureIgnoreCase)
+               && !controllerType.Namespace.StartsWith("umbraco.extensions", StringComparison.InvariantCultureIgnoreCase);
+        }
+    }
+
 }

@@ -1,35 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Umbraco.Core;
+﻿using Umbraco.Core;
 using Umbraco.Core.Services;
 
 namespace ScrapJunker.Umbraco.Infrastructure.Standalone
 {
-    public sealed class UmbServiceAccess 
+    public interface IUmbServiceAccess
     {
-        private readonly ServiceContext _Services;
-        private readonly DatabaseContext _Database;
+        ServiceContext Services { get; }
+
+        DatabaseContext Database { get; }
+    }
+
+    public sealed class UmbServiceAccess : IUmbServiceAccess
+    {
+        private readonly ServiceContext _services;
+        private readonly DatabaseContext _database;
 
         public UmbServiceAccess()
         {
-            _Services = UmbContextAccess.CreateServiceContext();
-            _Database = UmbContextAccess.CreateDatabaseContext();
+            _services = UmbContextAccess.CreateServiceContext();
+            _database = UmbContextAccess.CreateDatabaseContext();
         }
 
         /// <summary>
         /// Gets the current ServiceContext
         /// </summary>
-        public ServiceContext Services
-        {
-            get { return _Services; }
-        }
+        public ServiceContext Services => _services;
 
-        public DatabaseContext Database
-        {
-            get { return _Database; }
-        }
+        public DatabaseContext Database => _database;
     }
 }

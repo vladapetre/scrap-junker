@@ -14,3 +14,16 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\Scrap
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Umbraco.Core.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Umbraco.Core.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.dll
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.Core.dll
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Umbraco.Core.dll
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\System.Net.Http.Formatting.dll
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\ScrapJunker.Umbraco.Core.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\Newtonsoft.Json.xml
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\bin\Debug\System.Net.Http.Formatting.xml
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.csprojResolveAssemblyReference.cache
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.dll
+E:\Workspace\ScrapJunker\ScrapJunker.Infrastructure\obj\Debug\ScrapJunker.Infrastructure.pdb

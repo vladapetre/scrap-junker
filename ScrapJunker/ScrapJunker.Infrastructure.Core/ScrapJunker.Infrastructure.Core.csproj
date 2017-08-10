@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Interface\IDependencyResolver.cs" />
     <Compile Include="Interface\IEventHandler.cs" />
+    <Compile Include="Interface\IGenericDTO.cs" />
+    <Compile Include="Interface\IHttpClientWrapper.cs" />
     <Compile Include="Interface\ILogger.cs" />
     <Compile Include="Interface\IStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -56,6 +56,18 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ScrapJunker.CQRS.Core\ScrapJunker.CQRS.Core.csproj">
+      <Project>{BD648ED8-B995-420B-9A38-DD3D127D348C}</Project>
+      <Name>ScrapJunker.CQRS.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.CQRS\ScrapJunker.CQRS.csproj">
+      <Project>{37F98CA5-C0E3-484B-AA40-750195E1EDA6}</Project>
+      <Name>ScrapJunker.CQRS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.Crawler.Api\ScrapJunker.Crawler.Api.csproj">
+      <Project>{12b953a2-5032-4950-a78f-d550fd233c36}</Project>
+      <Name>ScrapJunker.Crawler.Api</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ScrapJunker.Crawler.Core\ScrapJunker.Crawler.Core.csproj">
       <Project>{3789dd7c-f8f0-42c7-82c5-343f7db247de}</Project>
       <Name>ScrapJunker.Crawler.Core</Name>

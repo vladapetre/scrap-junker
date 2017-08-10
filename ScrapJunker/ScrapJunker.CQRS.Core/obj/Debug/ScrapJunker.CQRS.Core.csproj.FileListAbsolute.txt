@@ -7,3 +7,7 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\bin\Debug\ScrapJunke
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\bin\Debug\ScrapJunker.CQRS.Core.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.CQRS.Core\bin\Debug\ScrapJunker.CQRS.Core.dll
+E:\Workspace\ScrapJunker\ScrapJunker.CQRS.Core\bin\Debug\ScrapJunker.CQRS.Core.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.dll
+E:\Workspace\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.pdb
