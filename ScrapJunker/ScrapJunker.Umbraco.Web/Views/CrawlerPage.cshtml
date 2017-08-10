@@ -1,7 +1,10 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.CrawlerPage>
-@using ContentModels = Umbraco.Web.PublishedContentModels;
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ContentModels = Umbraco.Web.PublishedContentModels
 @{
 	Layout = "MasterPage.cshtml";
 }
 
-crawler
+<label>Token: </label> @Model.Content.GetPropertyValue("token")
+<div>
+    @Model.Content.GetPropertyValue("content")
+</div>
