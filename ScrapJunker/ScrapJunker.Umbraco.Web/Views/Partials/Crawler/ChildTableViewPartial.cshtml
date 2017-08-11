@@ -1,5 +1,15 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 
+
+@section Styles{
+
+    <style>
+        .clickable-row {
+            cursor: pointer
+        }
+    </style>
+}
+
 <div class="card">
     <div class="card-header">
         <i class="fa fa-align-justify"></i> Crawled Pages
@@ -39,6 +49,8 @@
                 //window.location = $(this).data("href");
                 $("#content").html($(this).data("content"));
             });
+
+          
         });
     </script>
 }

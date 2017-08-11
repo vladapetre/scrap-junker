@@ -5,13 +5,74 @@
 }
 
 @section Styles{
-
-    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css" rel="stylesheet">
-    <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap4.min.css" rel="stylesheet">
     <style>
-        .clickable-row {
-            cursor: pointer
+        body #accordion-list{
+            color: #6a6c6f;
+            background-color: #f1f3f6;
         }
+
+        h6.panel-default{
+            margin:0;
+        }
+
+        .panel-default {
+            border-bottom: 1px solid #cfd8dc;
+            background-color: #eceff1;
+        }
+
+        .panel-default > .panel-heading {
+            color: #333;
+            background-color: #fff;
+            border-color: #e4e5e7;
+            border-bottom: 1px solid;
+            padding: 0;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+            .panel-default > .panel-heading a {
+                display: block;
+                padding: 10px 15px;
+            }
+
+                .panel-default > .panel-heading a:after {
+                    content: "";
+                    position: relative;
+                    top: 1px;
+                    display: inline-block;
+                    font-family: 'Glyphicons Halflings';
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    float: right;
+                    transition: transform .25s linear;
+                    -webkit-transition: -webkit-transform .25s linear;
+                }
+
+                .panel-default > .panel-heading a[aria-expanded="true"] {
+                    background-color: #eee;
+                }
+
+                    .panel-default > .panel-heading a[aria-expanded="true"]:after {
+                        content: "\2212";
+                        -webkit-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                    }
+
+                .panel-default > .panel-heading a[aria-expanded="false"]:after {
+                    content: "\002b";
+                    -webkit-transform: rotate(90deg);
+                    transform: rotate(90deg);
+                }
+
+            .panel-default div.content {
+                padding-top: 3px;
+                padding-bottom: 3px;
+            }
     </style>
 }
 
@@ -22,48 +83,34 @@
 
 
 <div class="row">
-    <div class="col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <i class="fa fa-align-justify"></i> Crawled Pages
-            </div>
-            <div class="card-block">
-                <table id="descendants" class="table table-striped table-condensed">
-                    <thead>
-                        <tr>
-                            <th>Page Title</th>
-                            <th>Page Url</th>
-                            <th>Is Root</th>
-                            <th>Keep Until</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var descendant in @Model.Content.Descendants())
-                        {
-                            <tr class='clickable-row' data-href='@(descendant.Url)'>
-                                <td>@descendant.Name</td>
-                                <td>@descendant.GetPropertyValue("absoluteUri")</td>
-                                <td>@descendant.GetPropertyValue("isRoot")</td>
-                                <td>@descendant.GetPropertyValue("keepUntil")</td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
-
-            </div>
-        </div>
+    <div class="col-md-4">
+        @{
+            Html.RenderPartial("Crawler/ChildListViewPartial", Model);
+        }
     </div>
-    <!--/col-->
+    <div class="col-md-8">
+        <h2 id="content-title"></h2>
+        <hr id="content-hr"/>
+        <div id="content"></div>
+    </div>
 </div>
 
-@section Scripts {
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#descendants').DataTable();
 
-            $(".clickable-row").click(function () {
-                window.location = $(this).data("href");
-            });
+@section Scripts{
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#accordion").accordion({ heightStyle: "content" });
+            $("#content-hr").prop('hidden', true);
+        });
+
+        $(".content").click(function () {
+            //window.location = $(this).data("href");
+            $("#content-title").html($(this).data("title"));
+            $("#content-hr").prop('hidden', $(this).data("title") != null ? false : true)
+            $("#content").html($(this).data("content"));
         });
     </script>
+
 }

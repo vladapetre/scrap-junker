@@ -3547,6 +3547,7 @@
     <Content Include="Views\DashboardPage.cshtml" />
     <Content Include="Views\HomePage.cshtml" />
     <Content Include="Views\NotFoundPage.cshtml" />
+    <Content Include="Views\LoginPage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

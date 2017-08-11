@@ -1,56 +1,48 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 
-@helper ListNodeWithChildren(IPublishedContent node)
+@helper ListNodeWithDescendants(IPublishedContent node, int level)
 {
+    var descendants = node.Descendants();
+    if (descendants.Any())
     {
-        var children = node.Children;
-        if (children.Any())
+        foreach (var descendant in descendants)
         {
-            <div id="@("sm"+node.Id)" class="sublinks collapse">
-                @foreach (var child in children)
-                {
-                    <a id="@child.Id" class="list-group-item" data-toggle="collapse" data-target="#@("sm"+child.Id)" data-parent="#@node.Id">
-                        <span>@child.Name</span>
-                    </a>
-                    @ListNodeWithChildren(child);
-                }
-            </div>
+            <div class="content" data-title="@Html.Encode(descendant.Name)" data-content="@Html.Encode(descendant.GetPropertyValue("content"))">&emsp; @descendant.Name</div>
         }
     }
-
 }
 
 @{
+    
+        <div class="accordion-option">
+            <h3 class="title">Crawled Pages</h3>
+        </div>
+        <div class="clearfix"></div>
+        <div id="accordion-list">
+            @if (Model.Content.Children.Any())
+            {
+            <div class="panel-group" id="accordion">
+                @{
+                    foreach (var child in Model.Content.Children)
+                    {
+                        <h6 class="panel panel-default">
+                            <span class="panel panel-default panel-heading">
+                                <span class="panel-title">
+                                    <a role="button" class="content" data-title="@Html.Encode(child.Name)" data-content="@Html.Encode(child.GetPropertyValue("content"))">
+                                        @child.Name <span class="badge badge-default badge-pill pull-right">@child.Descendants().Count()</span>
+                                    </a>
+                                </span>
+                            </span>
+                        </h6>
+                        <div class="panel panel-default">
+                            <span class="panel-body">
+                                @ListNodeWithDescendants(child, 1)
+                            </span>
+                        </div>
 
-    if (Model.Content.Children.Any())
-    {
-        <div class="panel list-group" id="menu">
-            @{
-                foreach (var child in Model.Content.Children)
-                {
-                    <a id="@child.Id" class="list-group-item" data-toggle="collapse" data-target="#@("sm"+child.Id)" data-parent="#menu">
-                        <span>@child.Name</span>
-                    </a>
-                    @ListNodeWithChildren(child);
+                    }
                 }
+            </div>
             }
         </div>
-    }
 }
-
-<ul class="nav nav-list">
-    <li class="nav-header" data-toggle="collapse" data-target="#test">
-        <span>
-            Home
-            <span class="pull-right">X</span>
-        </span>
-        <ul class="nav nav-list collapse" id="test">
-            <li>
-                <a href="/ticket_list.cfm" title="Show list of tickets">Open Tickets</a>
-            </li>
-            <li>
-                <a href="/account/" title="Edit user accounts">Accounts / Community</a>
-            </li>
-        </ul>
-    </li>
-</ul>
