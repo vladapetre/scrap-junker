@@ -1,0 +1,56 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@helper ListNodeWithChildren(IPublishedContent node)
+{
+    {
+        var children = node.Children;
+        if (children.Any())
+        {
+            <div id="@("sm"+node.Id)" class="sublinks collapse">
+                @foreach (var child in children)
+                {
+                    <a id="@child.Id" class="list-group-item" data-toggle="collapse" data-target="#@("sm"+child.Id)" data-parent="#@node.Id">
+                        <span>@child.Name</span>
+                    </a>
+                    @ListNodeWithChildren(child);
+                }
+            </div>
+        }
+    }
+
+}
+
+@{
+
+    if (Model.Content.Children.Any())
+    {
+        <div class="panel list-group" id="menu">
+            @{
+                foreach (var child in Model.Content.Children)
+                {
+                    <a id="@child.Id" class="list-group-item" data-toggle="collapse" data-target="#@("sm"+child.Id)" data-parent="#menu">
+                        <span>@child.Name</span>
+                    </a>
+                    @ListNodeWithChildren(child);
+                }
+            }
+        </div>
+    }
+}
+
+<ul class="nav nav-list">
+    <li class="nav-header" data-toggle="collapse" data-target="#test">
+        <span>
+            Home
+            <span class="pull-right">X</span>
+        </span>
+        <ul class="nav nav-list collapse" id="test">
+            <li>
+                <a href="/ticket_list.cfm" title="Show list of tickets">Open Tickets</a>
+            </li>
+            <li>
+                <a href="/account/" title="Edit user accounts">Accounts / Community</a>
+            </li>
+        </ul>
+    </li>
+</ul>
