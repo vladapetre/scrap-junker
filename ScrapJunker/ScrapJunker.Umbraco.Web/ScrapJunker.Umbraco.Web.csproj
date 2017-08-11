@@ -3546,6 +3546,7 @@
     <Content Include="Views\CrawlerPage.cshtml" />
     <Content Include="Views\DashboardPage.cshtml" />
     <Content Include="Views\HomePage.cshtml" />
+    <Content Include="Views\NotFoundPage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3560,6 +3561,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\StructuremapMvc.cs" />
+    <Compile Include="ContentFinders\DefaultContentFinder.cs" />
     <Compile Include="Controllers\ContentController.cs" />
     <Compile Include="DependencyResolution\ControllerConvention.cs" />
     <Compile Include="DependencyResolution\DefaultRegistry.cs" />

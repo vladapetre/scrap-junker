@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "531daf59e44cc88c")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "985abb2354f8fa81")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -114,6 +114,139 @@ namespace Umbraco.Web.PublishedContentModels
 
 		/// <summary>Static getter for Umbraco Url</summary>
 		public static string GetUmbracoUrl(IMasterPage that) { return that.GetPropertyValue<string>("umbracoUrl"); }
+	}
+
+	/// <summary>CrawledPage</summary>
+	[PublishedContentModel("crawledPage")]
+	public partial class CrawledPage : PublishedContentModel, IMasterPage
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "crawledPage";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public CrawledPage(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<CrawledPage, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Absolute Uri
+		///</summary>
+		[ImplementPropertyType("absoluteUri")]
+		public string AbsoluteUri
+		{
+			get { return this.GetPropertyValue<string>("absoluteUri"); }
+		}
+
+		///<summary>
+		/// Is Root
+		///</summary>
+		[ImplementPropertyType("isRoot")]
+		public bool IsRoot
+		{
+			get { return this.GetPropertyValue<bool>("isRoot"); }
+		}
+
+		///<summary>
+		/// Keep Until
+		///</summary>
+		[ImplementPropertyType("keepUntil")]
+		public DateTime KeepUntil
+		{
+			get { return this.GetPropertyValue<DateTime>("keepUntil"); }
+		}
+
+		///<summary>
+		/// Content
+		///</summary>
+		[ImplementPropertyType("content")]
+		public IHtmlString Content
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetContent(this); }
+		}
+
+		///<summary>
+		/// Umbraco Navi Hide
+		///</summary>
+		[ImplementPropertyType("umbracoNaviHide")]
+		public bool UmbracoNaviHide
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoNaviHide(this); }
+		}
+
+		///<summary>
+		/// Umbraco Url
+		///</summary>
+		[ImplementPropertyType("umbracoUrl")]
+		public string UmbracoUrl
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoUrl(this); }
+		}
+	}
+
+	/// <summary>CrawlerPage</summary>
+	[PublishedContentModel("crawlerPage")]
+	public partial class CrawlerPage : PublishedContentModel, IMasterPage
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "crawlerPage";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public CrawlerPage(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<CrawlerPage, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Content
+		///</summary>
+		[ImplementPropertyType("content")]
+		public IHtmlString Content
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetContent(this); }
+		}
+
+		///<summary>
+		/// Umbraco Navi Hide
+		///</summary>
+		[ImplementPropertyType("umbracoNaviHide")]
+		public bool UmbracoNaviHide
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoNaviHide(this); }
+		}
+
+		///<summary>
+		/// Umbraco Url
+		///</summary>
+		[ImplementPropertyType("umbracoUrl")]
+		public string UmbracoUrl
+		{
+			get { return Umbraco.Web.PublishedContentModels.MasterPage.GetUmbracoUrl(this); }
+		}
 	}
 
 	/// <summary>DashboardPage</summary>
@@ -231,16 +364,16 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 	}
 
-	/// <summary>CrawlerPage</summary>
-	[PublishedContentModel("crawlerPage")]
-	public partial class CrawlerPage : PublishedContentModel, IMasterPage
+	/// <summary>404NotFoundPage</summary>
+	[PublishedContentModel("notFoundPage")]
+	public partial class NotFoundPage : PublishedContentModel, IMasterPage
 	{
 #pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "crawlerPage";
+		public new const string ModelTypeAlias = "notFoundPage";
 		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
 #pragma warning restore 0109
 
-		public CrawlerPage(IPublishedContent content)
+		public NotFoundPage(IPublishedContent content)
 			: base(content)
 		{ }
 
@@ -251,7 +384,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 #pragma warning restore 0109
 
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<CrawlerPage, TValue>> selector)
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<NotFoundPage, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
@@ -284,16 +417,16 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 	}
 
-	/// <summary>CrawledPage</summary>
-	[PublishedContentModel("crawledPage")]
-	public partial class CrawledPage : PublishedContentModel, IMasterPage
+	/// <summary>LoginPage</summary>
+	[PublishedContentModel("loginPage")]
+	public partial class LoginPage : PublishedContentModel, IMasterPage
 	{
 #pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "crawledPage";
+		public new const string ModelTypeAlias = "loginPage";
 		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
 #pragma warning restore 0109
 
-		public CrawledPage(IPublishedContent content)
+		public LoginPage(IPublishedContent content)
 			: base(content)
 		{ }
 
@@ -304,36 +437,9 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 #pragma warning restore 0109
 
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<CrawledPage, TValue>> selector)
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<LoginPage, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-
-		///<summary>
-		/// Absolute Uri
-		///</summary>
-		[ImplementPropertyType("absoluteUri")]
-		public string AbsoluteUri
-		{
-			get { return this.GetPropertyValue<string>("absoluteUri"); }
-		}
-
-		///<summary>
-		/// Is Root
-		///</summary>
-		[ImplementPropertyType("isRoot")]
-		public bool IsRoot
-		{
-			get { return this.GetPropertyValue<bool>("isRoot"); }
-		}
-
-		///<summary>
-		/// Keep Until
-		///</summary>
-		[ImplementPropertyType("keepUntil")]
-		public DateTime KeepUntil
-		{
-			get { return this.GetPropertyValue<DateTime>("keepUntil"); }
 		}
 
 		///<summary>
