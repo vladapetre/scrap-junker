@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ScrapJunker.Infrastructure.Core.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace ScrapJunker.Umbraco.Core
 {
     public interface IUmbContentService
     {
-        void SaveContent<T>(T content, string contentName, string contentPath);
+        string DocTypeAlias { get; }
+        void SaveOrUpdate<T>(T commandDTO, string docTypeAlias) where T : IGenericDTO;
     }
 }

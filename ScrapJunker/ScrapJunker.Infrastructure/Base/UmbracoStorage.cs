@@ -10,16 +10,21 @@ namespace ScrapJunker.Infrastructure.Base
 {
     public class UmbracoStorage : IStorage
     {
-        private readonly IUmbContentService _umbContentService;
+        private readonly IHttpClientWrapper _httpClientWrapper;
 
-        public UmbracoStorage(IUmbContentService umbContentService)
+        public UmbracoStorage(IHttpClientWrapper httpClientWrapper)
         {
-            _umbContentService = umbContentService;
+            _httpClientWrapper = httpClientWrapper;
         }
 
         public void Store<T>(T item, string filePath, string fileName)
         {
-            _umbContentService.SaveContent(item, filePath, fileName);
+            var content = new GenericDTO();
+            content.Name = fileName;
+            content.Token = "test token";
+            content.Pack(item);
+
+            _httpClientWrapper.Post("http://scrapjunker.umbraco.web:8030/umbraco/api/content/post", content);
         }
     }
 }

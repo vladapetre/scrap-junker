@@ -56,12 +56,7 @@ namespace ScrapJunker.Crawler.Abot.Events
             else
             {
                 var path = Path.Combine(Directory.GetCurrentDirectory(), "Storage", "Abot");
-                //_storage.Store<string>(e.CrawledPage.Content.Text, path, $"{e.CrawledPage.Uri.PathAndQuery}.html".Replace('/', '-'));
-
-                var content = new GenericDTO();
-                content.Pack(e.CrawledPage.Content.Text);
-
-                _httpClientWrapper.Post("http://scrapjunker.umbraco.web:8030/umbraco/api/content/post", content);
+                _storage.Store<string>(e.CrawledPage.Content.Text, path, $"{e.CrawledPage.Uri.PathAndQuery}.html".Replace('/', '-'));
             }
         }
     }

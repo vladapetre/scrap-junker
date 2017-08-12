@@ -17,6 +17,7 @@ namespace ScrapJunker.Crawler.Api.CQRS.Commands
         {
             _crawler = crawler;
             _eventRepository = eventRepository;
+
         }
 
         public void Handle(RunCrawlerCommand command)

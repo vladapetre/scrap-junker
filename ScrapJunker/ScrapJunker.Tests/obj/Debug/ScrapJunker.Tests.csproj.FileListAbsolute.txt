@@ -131,8 +131,6 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\CsQuery.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\obj\Debug\ScrapJunker.Tests.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\obj\Debug\ScrapJunker.Tests.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\obj\Debug\ScrapJunker.Tests.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Umbraco.Core.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Umbraco.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Tests.dll.config
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Tests.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Tests.pdb

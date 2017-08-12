@@ -10,6 +10,10 @@ namespace ScrapJunker.Infrastructure.Base
     public class GenericDTO : IGenericDTO
     {
 
+        public string Name { get; set; }
+
+        public string Token { get; set; }
+
         public Type Type { get; set; }
 
         public object Content { get; set; }

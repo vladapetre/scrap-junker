@@ -18,14 +18,17 @@
 namespace ScrapJunker.Umbraco.Web.DependencyResolution {
     using global::Umbraco.Core;
     using global::Umbraco.Core.Services;
+    using ScrapJunker.CQRS.Core.Interface;
     using ScrapJunker.IOC;
+    using ScrapJunker.Umbraco.Core;
+    using ScrapJunker.Umbraco.Infrastructure.Services.Content;
     using ScrapJunker.Umbraco.Infrastructure.Standalone;
     using StructureMap;
     using StructureMap.Configuration.DSL;
     using StructureMap.Graph;
     using System;
 
-    public class DefaultRegistry : ObjectFactory
+    public class DefaultRegistry : ObjectFactoryRegistry
     {
         #region Constructors and Destructors
 
@@ -35,11 +38,17 @@ namespace ScrapJunker.Umbraco.Web.DependencyResolution {
             scanner.Assembly("ScrapJunker.Umbraco.Infrastructure");
             scanner.Assembly("ScrapJunker.Umbraco.Web");
             scanner.With(new ControllerConvention());
+            scanner.ConnectImplementationsToTypesClosing(typeof(ICommandHandler<>));
         };
 
         public DefaultRegistry() : base((scanner) => scan(scanner))
         {
             For<ServiceContext>().Use(c => c.GetInstance<UmbServiceAccess>().Services);
+            For<IUmbAlias>().Singleton();
+
+            //Umbraco Content Services
+            For<IContainer>().Use(() => new Container(this)).Singleton();
+            For<IUmbContentService>().Use<CrawledPageUmbContentService>().Named(/*container.GetInstance<IUmbAlias>().DocType_CrawledPage*/"crawledPage");
         }
 
         #endregion

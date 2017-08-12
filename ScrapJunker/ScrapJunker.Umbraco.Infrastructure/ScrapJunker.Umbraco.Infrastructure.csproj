@@ -136,6 +136,9 @@
     <Reference Include="SQLCE4Umbraco, Version=1.0.6428.37128, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoCms.Core.7.6.5\lib\net45\SQLCE4Umbraco.dll</HintPath>
     </Reference>
+    <Reference Include="StructureMap, Version=4.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StructureMap.4.5.2\lib\net45\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SqlServerCe, Version=4.0.0.1, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
@@ -211,7 +214,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\UmbContentService.cs" />
+    <Compile Include="Services\Content\BaseUmbContentService.cs" />
+    <Compile Include="Services\Content\CrawledPageUmbContentService.cs" />
+    <Compile Include="Services\Factory\UmbContentServiceFactory.cs" />
     <Compile Include="Standalone\UmbApplicationBase.cs" />
     <Compile Include="Standalone\UmbBootManager.cs" />
     <Compile Include="Standalone\UmbContextAccess.cs" />
@@ -219,6 +224,10 @@
     <Compile Include="UmbAlias.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ScrapJunker.Infrastructure.Core\ScrapJunker.Infrastructure.Core.csproj">
+      <Project>{1D76530E-F61D-4B36-9627-1AB32744D9AA}</Project>
+      <Name>ScrapJunker.Infrastructure.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ScrapJunker.Umbraco.Core\ScrapJunker.Umbraco.Core.csproj">
       <Project>{3bf06458-90ba-4f22-9fef-eecce21d3636}</Project>
       <Name>ScrapJunker.Umbraco.Core</Name>

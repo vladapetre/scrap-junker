@@ -43,7 +43,14 @@
   <ItemGroup>
     <Compile Include="IUmbContentService.cs" />
     <Compile Include="IUmbAlias.cs" />
+    <Compile Include="IUmbContentServiceFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScrapJunker.Infrastructure.Core\ScrapJunker.Infrastructure.Core.csproj">
+      <Project>{1D76530E-F61D-4B36-9627-1AB32744D9AA}</Project>
+      <Name>ScrapJunker.Infrastructure.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

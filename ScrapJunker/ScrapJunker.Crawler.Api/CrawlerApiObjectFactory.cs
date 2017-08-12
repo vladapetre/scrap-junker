@@ -1,5 +1,6 @@
 ﻿using ScrapJunker.CQRS.Core.Interface;
 using ScrapJunker.IOC;
+using StructureMap;
 using StructureMap.Graph;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Web;
 
 namespace ScrapJunker.Crawler.Api
 {
-    public class CrawlerApiObjectFactory : ObjectFactory
+    public class CrawlerApiObjectFactory : ObjectFactoryRegistry
     {
         private static Action<IAssemblyScanner> scan = delegate (IAssemblyScanner scanner)
        {
@@ -18,7 +19,8 @@ namespace ScrapJunker.Crawler.Api
 
         public CrawlerApiObjectFactory() : base((scanner) => scan(scanner))
         {
-
+          
+            For<IContainer>().Use(() => new Container(this)).Singleton();
         }
     }
 }

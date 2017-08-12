@@ -110,8 +110,6 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\CsQuery.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\obj\Debug\ScrapJunker.Crawler.Api.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\obj\Debug\ScrapJunker.Crawler.Api.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\obj\Debug\ScrapJunker.Crawler.Api.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.Umbraco.Core.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.Umbraco.Core.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\AutoMapper.Net4.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\AutoMapper.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Api\bin\HtmlAgilityPack.dll

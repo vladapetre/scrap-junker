@@ -1,6 +1,9 @@
-﻿using ScrapJunker.Infrastructure.Base;
+﻿using ScrapJunker.CQRS.Core.Interface;
+using ScrapJunker.Infrastructure.Base;
 using ScrapJunker.Infrastructure.Core.Interface;
 using ScrapJunker.Umbraco.Core;
+using ScrapJunker.Umbraco.Web.CQRS.Commands;
+using ScrapJunker.Umbraco.Web.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,39 +18,36 @@ namespace ScrapJunker.Umbraco.Web.Controllers
     [PluginController("api")]
     public class ContentController : UmbracoApiController
     {
-        private readonly ServiceContext _serviceContext;
-        private readonly IUmbAlias _umbAlias;
+        private readonly ICommandDispatcher _commandDispatcher;
 
-        public ContentController(ServiceContext serviceContext, IUmbAlias umbAlias) : base()
+        public ContentController(ICommandDispatcher commandDispatcher) : base()
         {
-            _serviceContext = serviceContext;
-            _umbAlias = umbAlias;
+            _commandDispatcher = commandDispatcher;
         }
 
 
         [HttpPost]
-        public IHttpActionResult Post([FromBody] GenericDTO content)
+        public IHttpActionResult Post([FromBody] CreateCrawledPageCommnandDTO contentDTO)
         {
             try
             {
-                var umbracoContent = _serviceContext.ContentService.GetById(content.Id);
-                if (umbracoContent == null)
-                    umbracoContent = _serviceContext.ContentService.CreateContent("Test", -1, _umbAlias.DocType_MasterPage);
-
-                if (umbracoContent.HasProperty(_umbAlias.Property_Content))
+                if (!ModelState.IsValid)
                 {
-                    umbracoContent.SetValue(_umbAlias.Property_Content, content.Content);
+                    return BadRequest(ModelState);
                 }
 
-                _serviceContext.ContentService.SaveAndPublishWithStatus(umbracoContent);
+                var id = Guid.NewGuid();
+                _commandDispatcher.Dispatch(new CreateCrawledPageCommnand(id, 0, contentDTO));
 
-                return Ok(umbracoContent);
+
+
+                return Ok(id);
             }
             catch (InvalidCastException ex)
             {
                 return BadRequest();
             }
-            catch(NullReferenceException ex)
+            catch (NullReferenceException ex)
             {
                 return NotFound();
             }

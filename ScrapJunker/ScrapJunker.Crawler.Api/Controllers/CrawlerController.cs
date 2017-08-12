@@ -30,7 +30,6 @@ namespace ScrapJunker.Crawler.Api.Controllers
             var id = Guid.NewGuid();
             try
             {
-                
                 _commandDispatcher.Dispatch(new RunCrawlerCommand(id, 0 , runCrawlerConfigurationDto));
             }
             catch (Exception ex)

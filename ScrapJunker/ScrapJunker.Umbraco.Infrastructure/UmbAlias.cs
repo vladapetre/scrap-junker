@@ -12,5 +12,13 @@ namespace ScrapJunker.Umbraco.Infrastructure
         public string DocType_MasterPage => "masterPage";
 
         public string Property_Content => "content";
+
+        public string DocType_CrawledPage => "crawledPage";
+
+        public string DocType_DashboardPage => "dashboardPage";
+
+        public string Property_Token => "token";
+
+        public string DocType_CrawlerPage => "crawlerPage";
     }
 }
