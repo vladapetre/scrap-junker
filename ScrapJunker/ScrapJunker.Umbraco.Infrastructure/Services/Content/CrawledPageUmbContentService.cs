@@ -1,4 +1,5 @@
 ﻿using ScrapJunker.Infrastructure.Core.Interface;
+using ScrapJunker.Infrastructure.DTO;
 using ScrapJunker.Umbraco.Core;
 using ScrapJunker.Umbraco.Infrastructure.Standalone;
 using System;
@@ -22,33 +23,40 @@ namespace ScrapJunker.Umbraco.Infrastructure.Services.Content
 
         public void SaveOrUpdate<T>(T commandDTO, string docTypeAlias) where T: IGenericDTO
         {
-            //var content = commandDTO.Unpack<IContent>();
+            var content = commandDTO as CrawledPageDTO ;
 
-            //content = new IContent();
-
-            var umbRootDashboard = GetRootByTokenAndDocTypeAlias(commandDTO.Token,_umbAlias.DocType_DashboardPage);
+            var umbRootDashboard = GetRootByTokenAndDocTypeAlias(content.Token,_umbAlias.DocType_DashboardPage);
 
             if (umbRootDashboard == null)
-                throw new ArgumentNullException($"Could not find user registered by token {commandDTO.Token}");
+                throw new ArgumentNullException($"Could not find user registered by token {content.Token}");
 
             var umbCrawlerNode = umbRootDashboard.Children().SingleOrDefault(child => child.ContentType.Alias == _umbAlias.DocType_CrawlerPage);
             if (umbCrawlerNode == null)
-                throw new NullReferenceException($"Dashboard with token: {commandDTO.Token} not properly configured. Missing {_umbAlias.DocType_CrawlerPage}");
+                throw new NullReferenceException($"Dashboard with token: {content.Token} not properly configured. Missing {_umbAlias.DocType_CrawlerPage}");
 
-            var crawledPageContent = umbCrawlerNode.Children().FirstOrDefault(child => child.Name == commandDTO.Name);
-            if(crawledPageContent == null)
+            var crawledPageHostNodeContent = umbCrawlerNode.Children().FirstOrDefault(child => child.Name == content.Host);
+            if(crawledPageHostNodeContent == null)
             {
-                crawledPageContent = _serviceContext.ContentService.CreateContent(commandDTO.Name, umbCrawlerNode.Id, docTypeAlias);
+                crawledPageHostNodeContent = _serviceContext.ContentService.CreateContent(content.Host, umbCrawlerNode.Id, docTypeAlias);
+                if (crawledPageHostNodeContent.HasProperty(_umbAlias.Property_IsRoot))
+                {
+                    crawledPageHostNodeContent.SetValue(_umbAlias.Property_IsRoot, true);
+                }
+                _serviceContext.ContentService.SaveAndPublishWithStatus(crawledPageHostNodeContent);
             }
 
-            if (crawledPageContent.HasProperty(_umbAlias.Property_Content))
+            var crawledPageNodeContent = crawledPageHostNodeContent.Name == content.Name ? crawledPageHostNodeContent : null;
+            if(crawledPageNodeContent == null)
             {
-                crawledPageContent.SetValue(_umbAlias.Property_Content, commandDTO.Content);
+                crawledPageNodeContent = _serviceContext.ContentService.CreateContent(content.Name, crawledPageHostNodeContent.Id, docTypeAlias);
             }
 
-            //throw new NotImplementedException();
+            if (crawledPageNodeContent.HasProperty(_umbAlias.Property_Content))
+            {
+                crawledPageNodeContent.SetValue(_umbAlias.Property_Content, commandDTO.Content);
+            }
 
-            _serviceContext.ContentService.SaveAndPublishWithStatus(crawledPageContent);
+            _serviceContext.ContentService.SaveAndPublishWithStatus(crawledPageNodeContent);
 
         }
         

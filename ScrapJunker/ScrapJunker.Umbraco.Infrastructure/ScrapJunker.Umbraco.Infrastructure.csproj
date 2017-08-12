@@ -228,6 +228,10 @@
       <Project>{1D76530E-F61D-4B36-9627-1AB32744D9AA}</Project>
       <Name>ScrapJunker.Infrastructure.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ScrapJunker.Infrastructure\ScrapJunker.Infrastructure.csproj">
+      <Project>{B357E66B-AC03-4725-8336-7BF51F9CAABD}</Project>
+      <Name>ScrapJunker.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ScrapJunker.Umbraco.Core\ScrapJunker.Umbraco.Core.csproj">
       <Project>{3bf06458-90ba-4f22-9fef-eecce21d3636}</Project>
       <Name>ScrapJunker.Umbraco.Core</Name>

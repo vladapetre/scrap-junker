@@ -1,4 +1,5 @@
-﻿using ScrapJunker.Umbraco.Core;
+﻿using ScrapJunker.Infrastructure.Core.Interface;
+using ScrapJunker.Umbraco.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;

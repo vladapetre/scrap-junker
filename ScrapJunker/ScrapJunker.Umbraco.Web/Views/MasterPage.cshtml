@@ -9,7 +9,7 @@
 {
     <li class="nav-item @(content.Children.Any() ? "nav-dropdown" : "")">
         <a class="nav-link" href="@content.Url"><i class="fa fa-angle-right"></i> @content.Name </a>
-        @if (content.Children.Any(child => child.IsVisible()))
+        @*@if (content.Children.Any(child => child.IsVisible()))
         {
             <ul class="nav-dropdown-items">
                 @foreach (var child in content.Children.Where(c => c.IsVisible()))
@@ -18,7 +18,7 @@
                 }
 
             </ul>
-        }
+        }*@
     </li>
 }
 

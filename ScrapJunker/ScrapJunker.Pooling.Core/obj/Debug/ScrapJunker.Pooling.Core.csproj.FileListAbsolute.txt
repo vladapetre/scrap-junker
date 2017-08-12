@@ -3,12 +3,12 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\bin\Debug\ScrapJu
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\obj\Debug\ScrapJunker.Pooling.Core.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\obj\Debug\ScrapJunker.Pooling.Core.pdb
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\obj\Debug\ScrapJunker.Pooling.Core.csprojResolveAssemblyReference.cache
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\bin\Debug\ScrapJunker.Pooling.Core.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\bin\Debug\ScrapJunker.Pooling.Core.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\obj\Debug\ScrapJunker.Pooling.Core.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\obj\Debug\ScrapJunker.Pooling.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Pooling.Core\bin\Debug\ScrapJunker.Pooling.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Pooling.Core\bin\Debug\ScrapJunker.Pooling.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Pooling.Core\obj\Debug\ScrapJunker.Pooling.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Pooling.Core\obj\Debug\ScrapJunker.Pooling.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Pooling.Core\obj\Debug\ScrapJunker.Pooling.Core.csprojResolveAssemblyReference.cache
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\bin\Debug\ScrapJunker.Pooling.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\bin\Debug\ScrapJunker.Pooling.Core.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\obj\Debug\ScrapJunker.Pooling.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Pooling.Core\obj\Debug\ScrapJunker.Pooling.Core.pdb

@@ -3574,7 +3574,6 @@
     <Compile Include="DependencyResolution\StructureMapDependencyScope.cs" />
     <Compile Include="DependencyResolution\StructureMapScopeModule.cs" />
     <Compile Include="DependencyResolution\UmbracoWebApiHttpControllerActivator.cs" />
-    <Compile Include="DTO\CreateCrawledPageCommnandDTO.cs" />
     <Compile Include="EventHandlers\AppStartupEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -3614,6 +3613,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CQRS\Events\" />
+    <Folder Include="DTO\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -20,5 +20,7 @@ namespace ScrapJunker.Umbraco.Infrastructure
         public string Property_Token => "token";
 
         public string DocType_CrawlerPage => "crawlerPage";
+
+        public string Property_IsRoot => "isRoot";
     }
 }

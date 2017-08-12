@@ -1,12 +1,12 @@
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\bin\Debug\ScrapJunker.Umbraco.Core.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\bin\Debug\ScrapJunker.Umbraco.Core.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\obj\Debug\ScrapJunker.Umbraco.Core.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\obj\Debug\ScrapJunker.Umbraco.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Core\bin\Debug\ScrapJunker.Umbraco.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Core\bin\Debug\ScrapJunker.Umbraco.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Core\obj\Debug\ScrapJunker.Umbraco.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Core\obj\Debug\ScrapJunker.Umbraco.Core.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\obj\Debug\ScrapJunker.Umbraco.Core.csprojResolveAssemblyReference.cache
 E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Core\obj\Debug\ScrapJunker.Umbraco.Core.csprojResolveAssemblyReference.cache
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\bin\Debug\ScrapJunker.Umbraco.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\bin\Debug\ScrapJunker.Umbraco.Core.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\bin\Debug\ScrapJunker.Infrastructure.Core.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\obj\Debug\ScrapJunker.Umbraco.Core.csprojResolveAssemblyReference.cache
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\obj\Debug\ScrapJunker.Umbraco.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Core\obj\Debug\ScrapJunker.Umbraco.Core.pdb

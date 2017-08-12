@@ -1,9 +1,9 @@
 ﻿using ScrapJunker.CQRS.Core.Interface;
 using ScrapJunker.Infrastructure.Base;
 using ScrapJunker.Infrastructure.Core.Interface;
+using ScrapJunker.Infrastructure.DTO;
 using ScrapJunker.Umbraco.Core;
 using ScrapJunker.Umbraco.Web.CQRS.Commands;
-using ScrapJunker.Umbraco.Web.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +27,7 @@ namespace ScrapJunker.Umbraco.Web.Controllers
 
 
         [HttpPost]
-        public IHttpActionResult Post([FromBody] CreateCrawledPageCommnandDTO contentDTO)
+        public IHttpActionResult Post([FromBody] CrawledPageDTO contentDTO)
         {
             try
             {

@@ -1,4 +1,5 @@
 ﻿using ScrapJunker.Infrastructure.Core.Interface;
+using ScrapJunker.Infrastructure.DTO;
 using ScrapJunker.Umbraco.Core;
 using System;
 using System.Collections.Generic;
@@ -17,12 +18,16 @@ namespace ScrapJunker.Infrastructure.Base
             _httpClientWrapper = httpClientWrapper;
         }
 
-        public void Store<T>(T item, string filePath, string fileName)
+        public void StoreCrawledPage(string htmlContent, Uri absoluteUri, string token)
         {
-            var content = new GenericDTO();
-            content.Name = fileName;
-            content.Token = "test token";
-            content.Pack(item);
+            var content = new CrawledPageDTO
+            {
+                Host = absoluteUri.Host,
+                Name = absoluteUri.PathAndQuery,
+                Token = token
+            };
+
+            content.Pack(htmlContent);
 
             _httpClientWrapper.Post("http://scrapjunker.umbraco.web:8030/umbraco/api/content/post", content);
         }

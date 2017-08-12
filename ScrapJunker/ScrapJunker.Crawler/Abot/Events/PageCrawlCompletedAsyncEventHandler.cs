@@ -56,7 +56,7 @@ namespace ScrapJunker.Crawler.Abot.Events
             else
             {
                 var path = Path.Combine(Directory.GetCurrentDirectory(), "Storage", "Abot");
-                _storage.Store<string>(e.CrawledPage.Content.Text, path, $"{e.CrawledPage.Uri.PathAndQuery}.html".Replace('/', '-'));
+                _storage.StoreCrawledPage(e.CrawledPage.Content.Text, e.CrawledPage.Uri, "test token");
             }
         }
     }

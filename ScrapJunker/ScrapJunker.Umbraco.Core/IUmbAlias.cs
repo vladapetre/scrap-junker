@@ -14,5 +14,6 @@ namespace ScrapJunker.Umbraco.Core
         string DocType_DashboardPage { get; }
         string Property_Token { get; }
         string DocType_CrawlerPage { get; }
+        string Property_IsRoot { get; }
     }
 }

@@ -1,7 +1,9 @@
-﻿namespace ScrapJunker.Infrastructure.Core.Interface
+﻿using System;
+
+namespace ScrapJunker.Infrastructure.Core.Interface
 {
     public interface IStorage
     {
-        void Store<T>(T item, string filePath, string fileName);
+        void StoreCrawledPage(string htmlContent, Uri absoluteUri, string token);
     }
 }

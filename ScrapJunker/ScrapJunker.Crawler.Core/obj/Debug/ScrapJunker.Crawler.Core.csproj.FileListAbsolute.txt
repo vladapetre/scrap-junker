@@ -5,13 +5,6 @@ F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJu
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.csprojResolveAssemblyReference.cache
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.dll
 F:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Crawler.Core.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Crawler.Core.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Infrastructure.Core.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.csprojResolveAssemblyReference.cache
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Crawler.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Crawler.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Infrastructure.Core.dll
@@ -19,3 +12,10 @@ E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Infrastr
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.csprojResolveAssemblyReference.cache
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Crawler.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Crawler.Core.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Infrastructure.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.csprojResolveAssemblyReference.cache
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Crawler.Core\obj\Debug\ScrapJunker.Crawler.Core.pdb
