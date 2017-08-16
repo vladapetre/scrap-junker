@@ -74,9 +74,13 @@
                 padding-bottom: 3px;
             }
 
+            .borderless{
+                display:table;
+            }
         .borderless td, .borderless th {
-            border: none;
+           cursor:pointer;
             padding:2px;
+            width:100%;
         }
 
         td {
@@ -126,22 +130,28 @@
             $("#accordion").accordion({ heightStyle: "content" });
             $("#content-hr").prop('hidden', true);
 
+            //https://datatables.net/examples/basic_init/dom.html
             $('.descendants').DataTable({
                 "language": {
                     "lengthMenu": "_MENU_",
-                    "info": "",
+                    "info": "_PAGE_ / _PAGES_",
+                    "infoEmpty" : "0 / 0",
                     "search": "",
                     "paginate": {
                         "first": "",
                         "last": "",
-                        "next": ">",
-                        "previous": "<"
+                        "next": "<b>></b>",
+                        "previous": "<b><</b>"
                     },
+                    "searchPlaceholder": "Search...",
+                    "infoFiltered": "",
+                    "emptyTable": "No values"
                 },
-                "pageLength": 5,
-                "lengthMenu": [[5,10,15], [5,10,15]],
+
+                "pageLength": 7,
+                "lengthMenu": [[7], [7]],
                 "pagingType": "simple",
-                dom: "<'row'<'col-sm-3'l><'col-sm-5'f><'col-sm-2'p>>" +
+                dom: "<'row'<'col-sm-2'p><'col-sm-8'f><'col-sm-2'i>>" +
                 "<'row'<'col-sm-12'tr>>"
             });
         });

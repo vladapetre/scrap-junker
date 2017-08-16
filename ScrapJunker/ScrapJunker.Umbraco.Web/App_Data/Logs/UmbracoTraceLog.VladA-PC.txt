@@ -4443,3 +4443,958 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
  2017-08-16 14:28:13,127 [P39908/D3/T454] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
  2017-08-16 14:28:17,148 [P39908/D3/T456] INFO  umbraco.content - Save Xml to file...
  2017-08-16 14:28:18,107 [P39908/D3/T456] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-16 14:53:24,489 [P39908/D3/T457] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-08-16 14:53:24,490 [P39908/D3/T457] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-08-16 14:53:24,504 [P39908/D3/T431] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-08-16 14:53:24,505 [P39908/D3/T457] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-08-16 14:53:24,505 [P39908/D3/T457] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-08-16 14:53:24,508 [P39908/D3/T441] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-08-16 14:53:24,508 [P39908/D3/T457] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-08-16 14:53:24,514 [P39908/D3/T457] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-08-16 14:53:24,543 [P39908/D3/T457] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-08-16 14:53:24,543 [P39908/D3/T457] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-08-16 14:53:24,544 [P39908/D3/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-08-16 14:53:24,544 [P39908/D3/T457] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-08-16 14:53:24,544 [P39908/D3/T457] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-08-16 14:53:24,544 [P39908/D3/T457] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-08-16 14:53:24,545 [P39908/D3/T457] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-08-16 14:53:24,546 [P39908/D3/T444] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-08-16 14:53:24,546 [P39908/D3/T454] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-08-16 14:53:30,789 [P39908/D4/T460] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.5 application starting on VLADA-PC
+ 2017-08-16 14:53:30,816 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-08-16 14:53:30,823 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2017-08-16 14:53:30,915 [P39908/D4/T460] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-08-16 14:53:30,917 [P39908/D4/T460] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-08-16 14:53:30,920 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:31,126 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 205ms)
+ 2017-08-16 14:53:31,126 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-08-16 14:53:31,133 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 6ms)
+ 2017-08-16 14:53:31,152 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:31,153 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:31,153 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-08-16 14:53:31,159 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 5ms)
+ 2017-08-16 14:53:31,159 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:31,159 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:31,160 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-08-16 14:53:31,166 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 6ms)
+ 2017-08-16 14:53:31,182 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:31,182 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:31,182 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-08-16 14:53:31,186 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 4ms)
+ 2017-08-16 14:53:31,187 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:31,187 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:31,187 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-08-16 14:53:31,192 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 4ms)
+ 2017-08-16 14:53:32,794 [P39908/D4/T460] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-08-16 14:53:33,037 [P39908/D4/T460] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-08-16 14:53:33,092 [P39908/D4/T460] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-08-16 14:53:33,256 [P39908/D4/T460] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-08-16 14:53:33,263 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-08-16 14:53:33,267 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-08-16 14:53:33,382 [P39908/D4/T460] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (83ms)
+ 2017-08-16 14:53:33,403 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-08-16 14:53:33,416 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-08-16 14:53:33,424 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-08-16 14:53:33,610 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:33,610 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:33,610 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-08-16 14:53:33,617 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 7ms)
+ 2017-08-16 14:53:33,885 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:33,885 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:33,885 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-08-16 14:53:33,891 [P39908/D4/T460] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 5ms)
+ 2017-08-16 14:53:34,045 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 1 changes 0 failures
+ 2017-08-16 14:53:34,046 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-08-16 14:53:34,140 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 7 Items 0 changes 0 failures
+ 2017-08-16 14:53:34,141 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-08-16 14:53:34,840 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 7 Items 1 changes 0 failures
+ 2017-08-16 14:53:34,841 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-08-16 14:53:35,003 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-08-16 14:53:35,003 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-08-16 14:53:35,026 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-08-16 14:53:35,026 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-08-16 14:53:35,028 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-16 14:53:35,029 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-08-16 14:53:35,030 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-16 14:53:35,129 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-08-16 14:53:35,136 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 42 items with 2 changes ###
+ 2017-08-16 14:53:35,136 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Richtext editor Umbraco.Core.Models.IDataTypeDefinition  E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Web\uSync\data\DataType\richtext-editor\RichtextEditor.config
+ 2017-08-16 14:53:35,137 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import 404NotFoundPage Umbraco.Core.Models.IContentType  E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Web\uSync\data\DocumentType\404notfoundpage\def.config
+ 2017-08-16 14:53:35,142 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Web\App_Data\temp\uSync\20170816_145335_Startup.config
+ 2017-08-16 14:53:35,154 [P39908/D4/T460] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (1886ms)
+ 2017-08-16 14:53:35,184 [P39908/D4/T460] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4485ms)
+ 2017-08-16 14:53:35,351 [P39908/D4/T411] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://scrapjunker.umbraco.web:8030/umbraco (UmbracoModule request)
+ 2017-08-16 14:53:35,723 [P39908/D4/T411] INFO  umbraco.content - Load Xml from file...
+ 2017-08-16 14:53:35,808 [P39908/D4/T411] INFO  umbraco.content - Loaded Xml from file.
+ 2017-08-16 14:53:36,001 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:36,002 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:36,002 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-08-16 14:53:36,008 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 6ms)
+ 2017-08-16 14:53:39,699 [P39908/D4/T419] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:39,699 [P39908/D4/T419] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:39,699 [P39908/D4/T419] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-08-16 14:53:39,705 [P39908/D4/T419] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 6ms)
+ 2017-08-16 14:53:49,610 [P39908/D4/T436] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin@scrapjunker.com from IP address 127.0.0.1
+ 2017-08-16 14:53:49,613 [P39908/D4/T436] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin@scrapjunker.com logged in from IP address 127.0.0.1
+ 2017-08-16 14:53:49,815 [P39908/D4/T428] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:49,815 [P39908/D4/T428] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:49,815 [P39908/D4/T428] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-16 14:53:49,821 [P39908/D4/T428] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 5ms)
+ 2017-08-16 14:53:49,895 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:49,896 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-08-16 14:53:49,897 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-08-16 14:53:49,911 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 14ms)
+ 2017-08-16 14:53:49,913 [P39908/D4/T444] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:49,914 [P39908/D4/T444] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:49,914 [P39908/D4/T444] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-08-16 14:53:49,935 [P39908/D4/T444] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 20ms)
+ 2017-08-16 14:53:49,949 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:49,949 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:49,949 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-16 14:53:49,949 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-08-16 14:53:49,953 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:49,954 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:49,954 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-08-16 14:53:49,969 [P39908/D4/T411] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 15ms)
+ 2017-08-16 14:53:50,421 [P39908/D4/T454] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:53:50,422 [P39908/D4/T454] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:53:50,422 [P39908/D4/T454] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-08-16 14:53:50,431 [P39908/D4/T454] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 8ms)
+ 2017-08-16 14:53:54,647 [P39908/D3/T429] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9d706787\13fa2ecf\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9d706787\13fa2ecf\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-08-16 14:53:56,267 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'opelpeeters.opbe-t01.carflowmanager.be' with Id '1102' has been unpublished.
+ 2017-08-16 14:53:56,439 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/opel-peeters-peetersauto/sven-test/' with Id '1112' has been unpublished.
+ 2017-08-16 14:53:56,474 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/opel-peeters-peetersauto/test/' with Id '1111' has been unpublished.
+ 2017-08-16 14:53:56,507 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/opel-peeters-peetersauto/test-vlad-2/' with Id '1110' has been unpublished.
+ 2017-08-16 14:53:56,547 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/opel-peeters-peetersauto/alian/' with Id '1109' has been unpublished.
+ 2017-08-16 14:53:56,576 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/opel-peeters-peetersauto/test-vlad/' with Id '1108' has been unpublished.
+ 2017-08-16 14:53:56,594 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/opel-peeters-peetersauto/jobs-opel-peeters/' with Id '1107' has been unpublished.
+ 2017-08-16 14:53:56,621 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/opel-peeters-peetersauto/visite-virtuelle-google/' with Id '1106' has been unpublished.
+ 2017-08-16 14:53:56,661 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/opel-peeters-peetersauto/opel-peeters-openingsuren/' with Id '1105' has been unpublished.
+ 2017-08-16 14:53:56,692 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/opel-peeters-peetersauto/peetersauto/' with Id '1104' has been unpublished.
+ 2017-08-16 14:53:56,742 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/' with Id '1103' has been unpublished.
+ 2017-08-16 14:54:00,245 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'master.opbe-t01.carflowmanager.be' with Id '1113' has been unpublished.
+ 2017-08-16 14:54:00,291 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/dealer-placeholder-2/ttttttt/' with Id '1123' has been unpublished.
+ 2017-08-16 14:54:00,338 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/dealer-placeholder-2/' with Id '1122' has been unpublished.
+ 2017-08-16 14:54:00,376 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/nieuws/' with Id '1121' has been unpublished.
+ 2017-08-16 14:54:00,415 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/services-opel/' with Id '1120' has been unpublished.
+ 2017-08-16 14:54:00,462 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/carconfigurator/' with Id '1119' has been unpublished.
+ 2017-08-16 14:54:00,516 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/voorraad/' with Id '1118' has been unpublished.
+ 2017-08-16 14:54:00,574 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/bedrijfsvoertuigen/' with Id '1117' has been unpublished.
+ 2017-08-16 14:54:00,604 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/' with Id '1116' has been unpublished.
+ 2017-08-16 14:54:00,623 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/dealer-placeholder/' with Id '1115' has been unpublished.
+ 2017-08-16 14:54:00,647 [P39908/D4/T411] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/' with Id '1114' has been unpublished.
+ 2017-08-16 14:54:03,520 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'peeters.opelbe.carflowmanager.be' with Id '1124' has been unpublished.
+ 2017-08-16 14:54:03,537 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/' with Id '1149' has been unpublished.
+ 2017-08-16 14:54:03,570 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/service/test-opel-flexcare/' with Id '1148' has been unpublished.
+ 2017-08-16 14:54:03,595 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/service/opel-flexcare/' with Id '1147' has been unpublished.
+ 2017-08-16 14:54:03,621 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/service/navigatie/' with Id '1146' has been unpublished.
+ 2017-08-16 14:54:03,641 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/contacteer-ons/contact/' with Id '1145' has been unpublished.
+ 2017-08-16 14:54:03,672 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/contacteer-ons/proefrit/' with Id '1144' has been unpublished.
+ 2017-08-16 14:54:03,693 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/service/onderhoud-controles/' with Id '1143' has been unpublished.
+ 2017-08-16 14:54:03,716 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/service/myopel/' with Id '1142' has been unpublished.
+ 2017-08-16 14:54:03,733 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/contacteer-ons/service/' with Id '1141' has been unpublished.
+ 2017-08-16 14:54:03,750 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/tweedehands/stock-tweedehands/' with Id '1140' has been unpublished.
+ 2017-08-16 14:54:03,772 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/accessories/' with Id '1139' has been unpublished.
+ 2017-08-16 14:54:03,790 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/vorraad/' with Id '1138' has been unpublished.
+ 2017-08-16 14:54:03,809 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/combo-tour/' with Id '1137' has been unpublished.
+ 2017-08-16 14:54:03,829 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/meriva/' with Id '1136' has been unpublished.
+ 2017-08-16 14:54:03,850 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/gtc/' with Id '1135' has been unpublished.
+ 2017-08-16 14:54:03,874 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '1134' has been unpublished.
+ 2017-08-16 14:54:03,934 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/crossland-x/' with Id '1133' has been unpublished.
+ 2017-08-16 14:54:03,958 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/corsa/' with Id '1132' has been unpublished.
+ 2017-08-16 14:54:03,982 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/onze-vestigingen/' with Id '1131' has been unpublished.
+ 2017-08-16 14:54:04,010 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/opel-peeters-by-sven2/' with Id '1130' has been unpublished.
+ 2017-08-16 14:54:04,036 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/adam/' with Id '1129' has been unpublished.
+ 2017-08-16 14:54:04,085 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/over-ons/' with Id '1128' has been unpublished.
+ 2017-08-16 14:54:04,111 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/fr/' with Id '1127' has been unpublished.
+ 2017-08-16 14:54:04,134 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/karl/' with Id '1126' has been unpublished.
+ 2017-08-16 14:54:04,157 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/' with Id '1125' has been unpublished.
+ 2017-08-16 14:54:05,078 [P39908/D4/T458] INFO  umbraco.content - Save Xml to file...
+ 2017-08-16 14:54:05,435 [P39908/D4/T458] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-16 14:54:09,451 [P39908/D4/T434] INFO  umbraco.content - Save Xml to file...
+ 2017-08-16 14:54:09,458 [P39908/D4/T434] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-16 14:54:21,931 [P39908/D4/T457] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'peeters.opelbe.carflowmanager.be' with Id '0' has been published.
+ 2017-08-16 14:54:21,994 [P39908/D4/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:22,017 [P39908/D4/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:22,039 [P39908/D4/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:22,074 [P39908/D4/T457] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/' with Id '0' has been published.
+ 2017-08-16 14:54:22,108 [P39908/D4/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:22,123 [P39908/D4/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:22,127 [P39908/D4/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,306 [P39908/D4/T458] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/' with Id '0' has been published.
+ 2017-08-16 14:54:24,340 [P39908/D4/T458] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,360 [P39908/D4/T458] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,367 [P39908/D4/T458] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,393 [P39908/D4/T419] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/karl/' with Id '0' has been published.
+ 2017-08-16 14:54:24,410 [P39908/D4/T419] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,424 [P39908/D4/T419] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,428 [P39908/D4/T419] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,453 [P39908/D4/T434] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/over-ons/' with Id '0' has been published.
+ 2017-08-16 14:54:24,475 [P39908/D4/T434] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,491 [P39908/D4/T434] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,498 [P39908/D4/T434] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,604 [P39908/D4/T456] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/meriva/' with Id '0' has been published.
+ 2017-08-16 14:54:24,629 [P39908/D4/T456] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,650 [P39908/D4/T456] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,657 [P39908/D4/T456] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,697 [P39908/D4/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/onze-vestigingen/' with Id '0' has been published.
+ 2017-08-16 14:54:24,740 [P39908/D4/T444] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,761 [P39908/D4/T444] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,769 [P39908/D4/T444] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,809 [P39908/D4/T416] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/opel-peeters-by-sven2/' with Id '0' has been published.
+ 2017-08-16 14:54:24,836 [P39908/D4/T416] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,851 [P39908/D4/T416] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,855 [P39908/D4/T416] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,885 [P39908/D4/T439] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '0' has been published.
+ 2017-08-16 14:54:24,910 [P39908/D4/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,932 [P39908/D4/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,937 [P39908/D4/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:24,962 [P39908/D4/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/fr/' with Id '0' has been published.
+ 2017-08-16 14:54:24,989 [P39908/D4/T445] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,009 [P39908/D4/T445] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,015 [P39908/D4/T445] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,047 [P39908/D4/T428] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/crossland-x/' with Id '0' has been published.
+ 2017-08-16 14:54:25,103 [P39908/D4/T428] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,142 [P39908/D4/T428] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,166 [P39908/D4/T428] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,216 [P39908/D4/T441] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/gtc/' with Id '0' has been published.
+ 2017-08-16 14:54:25,243 [P39908/D4/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,262 [P39908/D4/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,269 [P39908/D4/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,294 [P39908/D4/T449] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/combo-tour/' with Id '0' has been published.
+ 2017-08-16 14:54:25,334 [P39908/D4/T449] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,348 [P39908/D4/T449] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,352 [P39908/D4/T449] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,381 [P39908/D4/T419] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/vorraad/' with Id '0' has been published.
+ 2017-08-16 14:54:25,404 [P39908/D4/T419] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,417 [P39908/D4/T419] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,420 [P39908/D4/T419] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,441 [P39908/D4/T435] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/accessories/' with Id '0' has been published.
+ 2017-08-16 14:54:25,460 [P39908/D4/T435] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,474 [P39908/D4/T435] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,477 [P39908/D4/T435] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,501 [P39908/D4/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/adam/' with Id '0' has been published.
+ 2017-08-16 14:54:25,522 [P39908/D4/T437] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,536 [P39908/D4/T437] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,538 [P39908/D4/T437] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,560 [P39908/D4/T439] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/corsa/' with Id '0' has been published.
+ 2017-08-16 14:54:25,580 [P39908/D4/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,593 [P39908/D4/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,597 [P39908/D4/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,622 [P39908/D4/T454] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/tweedehands/stock-tweedehands/' with Id '0' has been published.
+ 2017-08-16 14:54:25,640 [P39908/D4/T454] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,654 [P39908/D4/T454] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:25,657 [P39908/D4/T454] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:54:29,684 [P39908/D4/T419] INFO  umbraco.content - Save Xml to file...
+ 2017-08-16 14:54:29,702 [P39908/D4/T419] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-16 14:54:35,870 [P39908/D4/T456] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-15 14:54:35
+ 2017-08-16 14:54:38,404 [P39908/D4/T25] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-16 14:57:37,993 [P39908/D4/T428] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-08-16 14:57:37,994 [P39908/D4/T428] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-08-16 14:57:38,008 [P39908/D4/T428] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-08-16 14:57:38,009 [P39908/D4/T428] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-08-16 14:57:38,009 [P39908/D4/T439] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-08-16 14:57:38,008 [P39908/D4/T444] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-08-16 14:57:38,039 [P39908/D4/T428] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-08-16 14:57:38,040 [P39908/D4/T428] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-08-16 14:57:38,040 [P39908/D4/T428] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-08-16 14:57:38,040 [P39908/D4/T428] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-08-16 14:57:38,041 [P39908/D4/T428] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-08-16 14:57:38,041 [P39908/D4/T428] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-08-16 14:57:38,042 [P39908/D4/T444] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-08-16 14:57:38,040 [P39908/D4/T436] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-08-16 14:57:38,047 [P39908/D4/T428] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-08-16 14:57:38,041 [P39908/D4/T434] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-08-16 14:57:38,055 [P39908/D4/T428] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-08-16 14:57:43,251 [P39908/D5/T420] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.5 application starting on VLADA-PC
+ 2017-08-16 14:57:43,279 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-08-16 14:57:43,287 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Hash determined (took 8ms)
+ 2017-08-16 14:57:43,349 [P39908/D5/T420] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-08-16 14:57:43,351 [P39908/D5/T420] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-08-16 14:57:43,355 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:43,540 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 185ms)
+ 2017-08-16 14:57:43,541 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-08-16 14:57:43,547 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 6ms)
+ 2017-08-16 14:57:43,565 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:43,566 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-08-16 14:57:43,567 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-08-16 14:57:43,573 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 6ms)
+ 2017-08-16 14:57:43,574 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:43,574 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:57:43,574 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-08-16 14:57:43,583 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 9ms)
+ 2017-08-16 14:57:43,604 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:43,605 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:57:43,605 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-08-16 14:57:43,610 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 5ms)
+ 2017-08-16 14:57:43,611 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:43,611 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:57:43,612 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-08-16 14:57:43,620 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 8ms)
+ 2017-08-16 14:57:45,087 [P39908/D5/T420] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-08-16 14:57:45,344 [P39908/D5/T420] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-08-16 14:57:45,423 [P39908/D5/T420] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-08-16 14:57:45,562 [P39908/D5/T420] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-08-16 14:57:45,569 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-08-16 14:57:45,571 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-08-16 14:57:45,689 [P39908/D5/T420] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (85ms)
+ 2017-08-16 14:57:45,715 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-08-16 14:57:45,727 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-08-16 14:57:45,736 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-08-16 14:57:45,969 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:45,969 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:57:45,969 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-08-16 14:57:45,978 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 8ms)
+ 2017-08-16 14:57:46,312 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:46,312 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:57:46,312 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-08-16 14:57:46,319 [P39908/D5/T420] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 7ms)
+ 2017-08-16 14:57:46,464 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 1 changes 0 failures
+ 2017-08-16 14:57:46,465 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-08-16 14:57:46,544 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 7 Items 0 changes 0 failures
+ 2017-08-16 14:57:46,545 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-08-16 14:57:47,132 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 7 Items 1 changes 0 failures
+ 2017-08-16 14:57:47,133 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-08-16 14:57:47,376 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-08-16 14:57:47,377 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-08-16 14:57:47,411 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-08-16 14:57:47,412 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-08-16 14:57:47,413 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-16 14:57:47,414 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-08-16 14:57:47,416 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-16 14:57:47,545 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-08-16 14:57:47,556 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 42 items with 2 changes ###
+ 2017-08-16 14:57:47,557 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Richtext editor Umbraco.Core.Models.IDataTypeDefinition  E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Web\uSync\data\DataType\richtext-editor\RichtextEditor.config
+ 2017-08-16 14:57:47,558 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import 404NotFoundPage Umbraco.Core.Models.IContentType  E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Web\uSync\data\DocumentType\404notfoundpage\def.config
+ 2017-08-16 14:57:47,563 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Web\App_Data\temp\uSync\20170816_145747_Startup.config
+ 2017-08-16 14:57:47,576 [P39908/D5/T420] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (2004ms)
+ 2017-08-16 14:57:47,598 [P39908/D5/T420] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4441ms)
+ 2017-08-16 14:57:47,871 [P39908/D5/T439] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://scrapjunker.umbraco.web:8030/umbraco (UmbracoModule request)
+ 2017-08-16 14:57:49,443 [P39908/D5/T439] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:49,443 [P39908/D5/T439] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:57:49,443 [P39908/D5/T439] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-08-16 14:57:49,459 [P39908/D5/T439] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 15ms)
+ 2017-08-16 14:57:49,462 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:49,462 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:57:49,463 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-08-16 14:57:49,473 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 10ms)
+ 2017-08-16 14:57:49,768 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:49,769 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:57:49,770 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-08-16 14:57:49,780 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 9ms)
+ 2017-08-16 14:57:49,867 [P39908/D5/T416] INFO  umbraco.content - Load Xml from file...
+ 2017-08-16 14:57:49,871 [P39908/D5/T416] INFO  umbraco.content - Loaded Xml from file.
+ 2017-08-16 14:57:50,112 [P39908/D5/T449] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:50,112 [P39908/D5/T449] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 14:57:50,112 [P39908/D5/T449] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-16 14:57:50,126 [P39908/D5/T449] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 13ms)
+ 2017-08-16 14:57:50,135 [P39908/D5/T449] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 14:57:50,136 [P39908/D5/T449] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-08-16 14:57:50,137 [P39908/D5/T449] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-08-16 14:57:50,152 [P39908/D5/T449] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 15ms)
+ 2017-08-16 14:57:52,229 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'peeters.opelbe.carflowmanager.be' with Id '1150' has been unpublished.
+ 2017-08-16 14:57:52,318 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/tweedehands/stock-tweedehands/' with Id '1167' has been unpublished.
+ 2017-08-16 14:57:52,341 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/corsa/' with Id '1166' has been unpublished.
+ 2017-08-16 14:57:52,363 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/adam/' with Id '1165' has been unpublished.
+ 2017-08-16 14:57:52,390 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/accessories/' with Id '1164' has been unpublished.
+ 2017-08-16 14:57:52,410 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/vorraad/' with Id '1163' has been unpublished.
+ 2017-08-16 14:57:52,438 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/combo-tour/' with Id '1162' has been unpublished.
+ 2017-08-16 14:57:52,461 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/gtc/' with Id '1161' has been unpublished.
+ 2017-08-16 14:57:52,487 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/crossland-x/' with Id '1160' has been unpublished.
+ 2017-08-16 14:57:52,511 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/fr/' with Id '1159' has been unpublished.
+ 2017-08-16 14:57:52,529 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '1158' has been unpublished.
+ 2017-08-16 14:57:52,547 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/opel-peeters-by-sven2/' with Id '1157' has been unpublished.
+ 2017-08-16 14:57:52,562 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/onze-vestigingen/' with Id '1156' has been unpublished.
+ 2017-08-16 14:57:52,581 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/meriva/' with Id '1155' has been unpublished.
+ 2017-08-16 14:57:52,602 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/over-ons/' with Id '1154' has been unpublished.
+ 2017-08-16 14:57:52,617 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/karl/' with Id '1153' has been unpublished.
+ 2017-08-16 14:57:52,633 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/' with Id '1152' has been unpublished.
+ 2017-08-16 14:57:52,653 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/' with Id '1151' has been unpublished.
+ 2017-08-16 14:57:57,771 [P39908/D5/T437] INFO  umbraco.content - Save Xml to file...
+ 2017-08-16 14:57:57,782 [P39908/D5/T437] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-16 14:58:08,076 [P39908/D4/T416] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9d706787\13fa2ecf\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9d706787\13fa2ecf\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-08-16 14:58:13,195 [P39908/D5/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'peeters.opelbe.carflowmanager.be' with Id '0' has been published.
+ 2017-08-16 14:58:13,276 [P39908/D5/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:13,315 [P39908/D5/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:13,333 [P39908/D5/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:13,369 [P39908/D5/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/' with Id '0' has been published.
+ 2017-08-16 14:58:13,392 [P39908/D5/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:13,404 [P39908/D5/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:13,407 [P39908/D5/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,563 [P39908/D5/T441] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/opel-peeters-by-sven2/' with Id '0' has been published.
+ 2017-08-16 14:58:15,587 [P39908/D5/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,605 [P39908/D5/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,610 [P39908/D5/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,646 [P39908/D5/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '0' has been published.
+ 2017-08-16 14:58:15,692 [P39908/D5/T445] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,709 [P39908/D5/T445] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,713 [P39908/D5/T445] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,821 [P39908/D5/T436] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/adam/' with Id '0' has been published.
+ 2017-08-16 14:58:15,846 [P39908/D5/T436] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,869 [P39908/D5/T436] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,874 [P39908/D5/T436] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,905 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/karl/' with Id '0' has been published.
+ 2017-08-16 14:58:15,928 [P39908/D5/T437] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,943 [P39908/D5/T437] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,948 [P39908/D5/T437] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:15,974 [P39908/D5/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/over-ons/' with Id '0' has been published.
+ 2017-08-16 14:58:16,000 [P39908/D5/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,021 [P39908/D5/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,027 [P39908/D5/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,064 [P39908/D5/T429] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/corsa/' with Id '0' has been published.
+ 2017-08-16 14:58:16,089 [P39908/D5/T429] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,109 [P39908/D5/T429] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,113 [P39908/D5/T429] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,195 [P39908/D5/T416] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/gtc/' with Id '0' has been published.
+ 2017-08-16 14:58:16,222 [P39908/D5/T416] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,237 [P39908/D5/T416] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,241 [P39908/D5/T416] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,328 [P39908/D5/T434] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/fr/' with Id '0' has been published.
+ 2017-08-16 14:58:16,357 [P39908/D5/T434] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,375 [P39908/D5/T434] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,379 [P39908/D5/T434] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,503 [P39908/D5/T454] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/' with Id '0' has been published.
+ 2017-08-16 14:58:16,528 [P39908/D5/T454] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,545 [P39908/D5/T454] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,549 [P39908/D5/T454] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,579 [P39908/D5/T457] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/vorraad/' with Id '0' has been published.
+ 2017-08-16 14:58:16,614 [P39908/D5/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,635 [P39908/D5/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,641 [P39908/D5/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,672 [P39908/D5/T439] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/accessories/' with Id '0' has been published.
+ 2017-08-16 14:58:16,709 [P39908/D5/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,729 [P39908/D5/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,740 [P39908/D5/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,793 [P39908/D5/T419] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/meriva/' with Id '0' has been published.
+ 2017-08-16 14:58:16,839 [P39908/D5/T419] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,859 [P39908/D5/T419] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,865 [P39908/D5/T419] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,905 [P39908/D5/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/combo-tour/' with Id '0' has been published.
+ 2017-08-16 14:58:16,930 [P39908/D5/T444] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,948 [P39908/D5/T444] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,954 [P39908/D5/T444] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:16,979 [P39908/D5/T441] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/crossland-x/' with Id '0' has been published.
+ 2017-08-16 14:58:17,001 [P39908/D5/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:17,015 [P39908/D5/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:17,021 [P39908/D5/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:17,047 [P39908/D5/T434] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/tweedehands/stock-tweedehands/' with Id '0' has been published.
+ 2017-08-16 14:58:17,074 [P39908/D5/T434] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:17,090 [P39908/D5/T434] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:17,094 [P39908/D5/T434] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:17,124 [P39908/D5/T458] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/onze-vestigingen/' with Id '0' has been published.
+ 2017-08-16 14:58:17,149 [P39908/D5/T458] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:17,167 [P39908/D5/T458] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:17,173 [P39908/D5/T458] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 14:58:21,047 [P39908/D5/T444] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-16 14:58:21,202 [P39908/D5/T428] INFO  umbraco.content - Save Xml to file...
+ 2017-08-16 14:58:21,222 [P39908/D5/T428] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-16 14:58:32,088 [P39908/D5/T436] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-16 14:58:48,575 [P39908/D5/T416] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-15 14:58:48
+ 2017-08-16 15:00:12,477 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'peeters.opelbe.carflowmanager.be' with Id '1168' has been unpublished.
+ 2017-08-16 15:00:12,541 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/onze-vestigingen/' with Id '1185' has been unpublished.
+ 2017-08-16 15:00:12,565 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/tweedehands/stock-tweedehands/' with Id '1184' has been unpublished.
+ 2017-08-16 15:00:12,583 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/crossland-x/' with Id '1183' has been unpublished.
+ 2017-08-16 15:00:12,597 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/combo-tour/' with Id '1182' has been unpublished.
+ 2017-08-16 15:00:12,609 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/meriva/' with Id '1181' has been unpublished.
+ 2017-08-16 15:00:12,641 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/accessories/' with Id '1180' has been unpublished.
+ 2017-08-16 15:00:12,655 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/vorraad/' with Id '1179' has been unpublished.
+ 2017-08-16 15:00:12,665 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/' with Id '1178' has been unpublished.
+ 2017-08-16 15:00:12,679 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/fr/' with Id '1177' has been unpublished.
+ 2017-08-16 15:00:12,693 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/gtc/' with Id '1176' has been unpublished.
+ 2017-08-16 15:00:12,702 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/corsa/' with Id '1175' has been unpublished.
+ 2017-08-16 15:00:12,716 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/over-ons/' with Id '1174' has been unpublished.
+ 2017-08-16 15:00:12,730 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/karl/' with Id '1173' has been unpublished.
+ 2017-08-16 15:00:12,741 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/adam/' with Id '1172' has been unpublished.
+ 2017-08-16 15:00:12,750 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '1171' has been unpublished.
+ 2017-08-16 15:00:12,762 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/opel-peeters-by-sven2/' with Id '1170' has been unpublished.
+ 2017-08-16 15:00:12,784 [P39908/D5/T437] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/' with Id '1169' has been unpublished.
+ 2017-08-16 15:00:17,351 [P39908/D5/T435] INFO  umbraco.content - Save Xml to file...
+ 2017-08-16 15:00:17,362 [P39908/D5/T435] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-16 15:00:25,204 [P39908/D5/T458] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:25,205 [P39908/D5/T458] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:25,205 [P39908/D5/T458] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-16 15:00:25,205 [P39908/D5/T458] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-08-16 15:00:25,246 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:25,246 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:25,246 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-08-16 15:00:25,256 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 9ms)
+ 2017-08-16 15:00:25,278 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:25,279 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:25,279 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-08-16 15:00:25,295 [P39908/D5/T416] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 16ms)
+ 2017-08-16 15:00:25,748 [P39908/D5/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-08-16 15:00:25,748 [P39908/D5/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-08-16 15:00:25,755 [P39908/D5/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-08-16 15:00:25,755 [P39908/D5/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-08-16 15:00:25,762 [P39908/D5/T419] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-08-16 15:00:25,762 [P39908/D5/T416] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-08-16 15:00:25,788 [P39908/D5/T25] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-08-16 15:00:25,792 [P39908/D5/T25] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-08-16 15:00:25,792 [P39908/D5/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-08-16 15:00:25,792 [P39908/D5/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-08-16 15:00:25,792 [P39908/D5/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-08-16 15:00:25,792 [P39908/D5/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-08-16 15:00:25,792 [P39908/D5/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-08-16 15:00:25,792 [P39908/D5/T454] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-08-16 15:00:25,792 [P39908/D5/T25] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-08-16 15:00:25,792 [P39908/D5/T419] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-08-16 15:00:25,793 [P39908/D5/T434] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-08-16 15:00:30,223 [P39908/D6/T451] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.5 application starting on VLADA-PC
+ 2017-08-16 15:00:30,259 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-08-16 15:00:30,269 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2017-08-16 15:00:30,348 [P39908/D6/T451] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-08-16 15:00:30,350 [P39908/D6/T451] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-08-16 15:00:30,357 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:30,673 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 315ms)
+ 2017-08-16 15:00:30,673 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-08-16 15:00:30,691 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 17ms)
+ 2017-08-16 15:00:30,724 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:30,725 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2017-08-16 15:00:30,725 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-08-16 15:00:30,739 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 13ms)
+ 2017-08-16 15:00:30,740 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:30,740 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:30,741 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-08-16 15:00:30,749 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 8ms)
+ 2017-08-16 15:00:30,770 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:30,771 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:30,771 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-08-16 15:00:30,779 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 7ms)
+ 2017-08-16 15:00:30,780 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:30,781 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:30,781 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-08-16 15:00:30,791 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 9ms)
+ 2017-08-16 15:00:32,338 [P39908/D6/T451] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-08-16 15:00:32,782 [P39908/D6/T451] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-08-16 15:00:32,860 [P39908/D6/T451] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-08-16 15:00:33,119 [P39908/D6/T451] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-08-16 15:00:33,132 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-08-16 15:00:33,145 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-08-16 15:00:33,381 [P39908/D6/T451] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (169ms)
+ 2017-08-16 15:00:33,429 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-08-16 15:00:33,442 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-08-16 15:00:33,453 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-08-16 15:00:33,657 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:33,658 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:33,658 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-08-16 15:00:33,664 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 6ms)
+ 2017-08-16 15:00:33,926 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:33,927 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:33,927 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-08-16 15:00:33,933 [P39908/D6/T451] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 6ms)
+ 2017-08-16 15:00:34,073 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 1 changes 0 failures
+ 2017-08-16 15:00:34,074 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-08-16 15:00:34,160 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 7 Items 0 changes 0 failures
+ 2017-08-16 15:00:34,160 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-08-16 15:00:34,823 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 7 Items 1 changes 0 failures
+ 2017-08-16 15:00:34,824 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-08-16 15:00:35,000 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-08-16 15:00:35,001 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-08-16 15:00:35,025 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-08-16 15:00:35,025 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-08-16 15:00:35,026 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-16 15:00:35,026 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-08-16 15:00:35,027 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-16 15:00:35,143 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-08-16 15:00:35,152 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 42 items with 2 changes ###
+ 2017-08-16 15:00:35,154 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Richtext editor Umbraco.Core.Models.IDataTypeDefinition  E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Web\uSync\data\DataType\richtext-editor\RichtextEditor.config
+ 2017-08-16 15:00:35,155 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import 404NotFoundPage Umbraco.Core.Models.IContentType  E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Web\uSync\data\DocumentType\404notfoundpage\def.config
+ 2017-08-16 15:00:35,161 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Web\App_Data\temp\uSync\20170816_150035_Startup.config
+ 2017-08-16 15:00:35,174 [P39908/D6/T451] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (2028ms)
+ 2017-08-16 15:00:35,206 [P39908/D6/T451] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5125ms)
+ 2017-08-16 15:00:35,415 [P39908/D6/T435] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://scrapjunker.umbraco.web:8030/umbraco (UmbracoModule request)
+ 2017-08-16 15:00:35,816 [P39908/D6/T435] INFO  umbraco.content - Load Xml from file...
+ 2017-08-16 15:00:35,818 [P39908/D6/T435] INFO  umbraco.content - Loaded Xml from file.
+ 2017-08-16 15:00:35,974 [P39908/D6/T435] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:35,974 [P39908/D6/T435] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:35,974 [P39908/D6/T435] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-08-16 15:00:35,979 [P39908/D6/T435] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 5ms)
+ 2017-08-16 15:00:38,288 [P39908/D6/T435] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-16 15:00:41,403 [P39908/D6/T458] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:41,403 [P39908/D6/T458] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:41,403 [P39908/D6/T458] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-08-16 15:00:41,410 [P39908/D6/T458] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 6ms)
+ 2017-08-16 15:00:42,243 [P39908/D6/T437] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:42,243 [P39908/D6/T437] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:42,244 [P39908/D6/T437] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-16 15:00:42,254 [P39908/D6/T437] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 10ms)
+ 2017-08-16 15:00:42,321 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:42,322 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:42,322 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-08-16 15:00:42,331 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 9ms)
+ 2017-08-16 15:00:42,333 [P39908/D6/T445] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:42,333 [P39908/D6/T445] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:42,334 [P39908/D6/T445] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-08-16 15:00:42,339 [P39908/D6/T445] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 5ms)
+ 2017-08-16 15:00:42,354 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:42,355 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:42,355 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-16 15:00:42,355 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-08-16 15:00:42,358 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:42,359 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:42,359 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-08-16 15:00:42,370 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 11ms)
+ 2017-08-16 15:00:42,396 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-16 15:00:42,396 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-16 15:00:42,397 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-08-16 15:00:42,406 [P39908/D6/T68] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 9ms)
+ 2017-08-16 15:00:55,832 [P39908/D5/T25] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9d706787\13fa2ecf\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9d706787\13fa2ecf\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-08-16 15:01:11,632 [P39908/D6/T431] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'peeters.opelbe.carflowmanager.be' with Id '0' has been published.
+ 2017-08-16 15:01:11,769 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:11,851 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:11,908 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:11,957 [P39908/D6/T431] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/' with Id '0' has been published.
+ 2017-08-16 15:01:11,988 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:12,005 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:12,010 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:14,975 [P39908/D6/T439] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/' with Id '0' has been published.
+ 2017-08-16 15:01:15,006 [P39908/D6/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,025 [P39908/D6/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,029 [P39908/D6/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,059 [P39908/D6/T426] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/onze-vestigingen/' with Id '0' has been published.
+ 2017-08-16 15:01:15,091 [P39908/D6/T426] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,111 [P39908/D6/T426] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,116 [P39908/D6/T426] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,144 [P39908/D6/T435] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '0' has been published.
+ 2017-08-16 15:01:15,169 [P39908/D6/T435] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,190 [P39908/D6/T435] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,196 [P39908/D6/T435] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,230 [P39908/D6/T429] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/opel-peeters-by-sven2/' with Id '0' has been published.
+ 2017-08-16 15:01:15,256 [P39908/D6/T429] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,280 [P39908/D6/T429] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,285 [P39908/D6/T429] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,327 [P39908/D6/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/karl/' with Id '0' has been published.
+ 2017-08-16 15:01:15,367 [P39908/D6/T68] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,389 [P39908/D6/T68] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,392 [P39908/D6/T68] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,421 [P39908/D6/T58] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/ons-bedrijf/over-ons/' with Id '0' has been published.
+ 2017-08-16 15:01:15,448 [P39908/D6/T58] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,467 [P39908/D6/T58] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,475 [P39908/D6/T58] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,505 [P39908/D6/T436] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/adam/' with Id '0' has been published.
+ 2017-08-16 15:01:15,536 [P39908/D6/T436] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,555 [P39908/D6/T436] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,560 [P39908/D6/T436] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,589 [P39908/D6/T426] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/corsa/' with Id '0' has been published.
+ 2017-08-16 15:01:15,616 [P39908/D6/T426] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,638 [P39908/D6/T426] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,643 [P39908/D6/T426] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,673 [P39908/D6/T431] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/meriva/' with Id '0' has been published.
+ 2017-08-16 15:01:15,703 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,724 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,729 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,758 [P39908/D6/T457] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/crossland-x/' with Id '0' has been published.
+ 2017-08-16 15:01:15,782 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,798 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,805 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,830 [P39908/D6/T438] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/gtc/' with Id '0' has been published.
+ 2017-08-16 15:01:15,855 [P39908/D6/T438] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,869 [P39908/D6/T438] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,874 [P39908/D6/T438] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,897 [P39908/D6/T458] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/personenautos/combo-tour/' with Id '0' has been published.
+ 2017-08-16 15:01:15,922 [P39908/D6/T458] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,936 [P39908/D6/T458] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,942 [P39908/D6/T458] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,964 [P39908/D6/T439] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/vorraad/' with Id '0' has been published.
+ 2017-08-16 15:01:15,985 [P39908/D6/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:15,998 [P39908/D6/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:16,003 [P39908/D6/T439] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:16,028 [P39908/D6/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/modellen/accessories/' with Id '0' has been published.
+ 2017-08-16 15:01:16,050 [P39908/D6/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:16,070 [P39908/D6/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:16,074 [P39908/D6/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:16,098 [P39908/D6/T449] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/fr/' with Id '0' has been published.
+ 2017-08-16 15:01:16,119 [P39908/D6/T449] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:16,132 [P39908/D6/T449] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:16,138 [P39908/D6/T449] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:16,159 [P39908/D6/T441] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/nl/tweedehands/stock-tweedehands/' with Id '0' has been published.
+ 2017-08-16 15:01:16,178 [P39908/D6/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:16,192 [P39908/D6/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:16,198 [P39908/D6/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 15:01:17,091 [P39908/D6/T450] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-16 15:01:20,228 [P39908/D6/T414] INFO  umbraco.content - Save Xml to file...
+ 2017-08-16 15:01:20,258 [P39908/D6/T414] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-16 15:01:35,872 [P39908/D6/T438] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-15 15:01:35
+ 2017-08-16 15:03:42,195 [P39908/D6/T411] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-16 15:03:56,599 [P39908/D6/T432] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-16 15:13:25,949 [P39908/D6/T445] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: admin@scrapjunker.com, IP Address: 127.0.0.1
+ 2017-08-16 15:37:51,920 [P39908/D6/T441] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-16 16:30:52,072 [P39908/D6/T422] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-16 17:02:58,580 [P39908/D6/T457] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'en.wikipedia.org' with Id '0' has been published.
+ 2017-08-16 17:02:58,687 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:02:58,762 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:02:58,778 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:02:58,845 [P39908/D6/T457] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Test' with Id '0' has been published.
+ 2017-08-16 17:02:58,887 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:02:58,922 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:02:58,944 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,018 [P39908/D6/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Wikipedia:Sandbox' with Id '0' has been published.
+ 2017-08-16 17:03:01,108 [P39908/D6/T27] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,147 [P39908/D6/T27] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,179 [P39908/D6/T27] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,248 [P39908/D6/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Experiment' with Id '0' has been published.
+ 2017-08-16 17:03:01,337 [P39908/D6/T68] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,357 [P39908/D6/T68] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,362 [P39908/D6/T68] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,428 [P39908/D6/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Medical_test' with Id '0' has been published.
+ 2017-08-16 17:03:01,468 [P39908/D6/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,494 [P39908/D6/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,531 [P39908/D6/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,676 [P39908/D6/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Test_method' with Id '0' has been published.
+ 2017-08-16 17:03:01,698 [P39908/D6/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,714 [P39908/D6/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,718 [P39908/D6/T25] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,784 [P39908/D6/T435] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Toxicology_testing' with Id '0' has been published.
+ 2017-08-16 17:03:01,807 [P39908/D6/T435] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,822 [P39908/D6/T435] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,827 [P39908/D6/T435] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,851 [P39908/D6/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Chemical_test' with Id '0' has been published.
+ 2017-08-16 17:03:01,879 [P39908/D6/T27] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,895 [P39908/D6/T27] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,899 [P39908/D6/T27] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:01,976 [P39908/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Test_(Unix)' with Id '0' has been published.
+ 2017-08-16 17:03:01,997 [P39908/D6/T450] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,012 [P39908/D6/T450] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,017 [P39908/D6/T450] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,048 [P39908/D6/T431] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Physical_test' with Id '0' has been published.
+ 2017-08-16 17:03:02,111 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,130 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,140 [P39908/D6/T431] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,164 [P39908/D6/T430] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Wikipedia:Protection_policy' with Id '0' has been published.
+ 2017-08-16 17:03:02,285 [P39908/D6/T430] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,320 [P39908/D6/T430] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,362 [P39908/D6/T430] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,384 [P39908/D6/T452] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Test_(biology)' with Id '0' has been published.
+ 2017-08-16 17:03:02,408 [P39908/D6/T452] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,422 [P39908/D6/T452] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,426 [P39908/D6/T452] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,449 [P39908/D6/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/TEST_(x86_instruction)' with Id '0' has been published.
+ 2017-08-16 17:03:02,482 [P39908/D6/T68] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,497 [P39908/D6/T68] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,501 [P39908/D6/T68] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,524 [P39908/D6/T444] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Desmond_Tester' with Id '0' has been published.
+ 2017-08-16 17:03:02,545 [P39908/D6/T444] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,557 [P39908/D6/T444] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,562 [P39908/D6/T444] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,587 [P39908/D6/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/John_Test' with Id '0' has been published.
+ 2017-08-16 17:03:02,608 [P39908/D6/T27] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,620 [P39908/D6/T27] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,625 [P39908/D6/T27] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,647 [P39908/D6/T441] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Software_testing' with Id '0' has been published.
+ 2017-08-16 17:03:02,713 [P39908/D6/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,726 [P39908/D6/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,734 [P39908/D6/T441] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,763 [P39908/D6/T413] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Test_(assessment)' with Id '0' has been published.
+ 2017-08-16 17:03:02,911 [P39908/D6/T413] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,932 [P39908/D6/T413] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,943 [P39908/D6/T413] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:02,982 [P39908/D6/T445] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Statistical_test' with Id '0' has been published.
+ 2017-08-16 17:03:03,093 [P39908/D6/T445] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:03,111 [P39908/D6/T445] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:03,121 [P39908/D6/T445] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:03:07,161 [P39908/D6/T428] INFO  umbraco.content - Save Xml to file...
+ 2017-08-16 17:03:07,222 [P39908/D6/T428] INFO  umbraco.content - Saved Xml to file.
