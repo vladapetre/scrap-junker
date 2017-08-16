@@ -91,7 +91,6 @@ E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\WebActivatorEx.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\WebApi.StructureMap.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\NEventStore.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\Abot.dll
-E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.Umbraco.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\log4net.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\AngleSharp.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\Robots.dll
@@ -125,7 +124,6 @@ E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\WebApi.StructureMap.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\NEventStore.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\NEventStore.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\Abot.xml
-E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\ScrapJunker.Umbraco.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\log4net.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\AngleSharp.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler.Api\bin\CsQuery.xml

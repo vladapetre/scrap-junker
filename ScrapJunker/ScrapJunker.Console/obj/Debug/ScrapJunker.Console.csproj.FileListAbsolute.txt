@@ -43,7 +43,6 @@ E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Infrastructur
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.IOC.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\StructureMap.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\Abot.dll
-E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Umbraco.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.CQRS.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.CQRS.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\log4net.dll
@@ -61,7 +60,6 @@ E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.IOC.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.IOC.dll.config
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\StructureMap.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\Abot.xml
-E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Umbraco.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.CQRS.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.CQRS.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\log4net.xml
@@ -86,7 +84,6 @@ E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Crawler.Api.d
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\System.Web.Http.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\System.Web.Http.WebHost.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\WebApi.StructureMap.pdb
-E:\Workspace\ScrapJunker\ScrapJunker.Console\obj\Debug\ScrapJunker.Console.csproj.ScrapJunker.Console.exe.config
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Console.exe.config
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Console.exe
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\ScrapJunker.Console.pdb
@@ -140,3 +137,5 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\bin\Debug\CsQuery.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\obj\Debug\ScrapJunker.Console.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\obj\Debug\ScrapJunker.Console.exe
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Console\obj\Debug\ScrapJunker.Console.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\Newtonsoft.Json.dll
+E:\Workspace\ScrapJunker\ScrapJunker.Console\bin\Debug\Newtonsoft.Json.xml

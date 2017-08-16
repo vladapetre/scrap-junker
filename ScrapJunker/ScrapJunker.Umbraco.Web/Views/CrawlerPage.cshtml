@@ -73,6 +73,26 @@
                 padding-top: 3px;
                 padding-bottom: 3px;
             }
+
+        .borderless td, .borderless th {
+            border: none;
+            padding:2px;
+        }
+
+        td {
+            font-size: 12px
+        }
+
+        .dataTables_filter input {
+            height: 25px !important;
+        }
+        .dataTables_length select {
+            height: 25px !important;
+            font-size: 8px;
+        }
+        .page-link{
+            font-size:6px;
+        }
     </style>
 }
 
@@ -100,9 +120,30 @@
 
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript">
+
+
         $(function () {
             $("#accordion").accordion({ heightStyle: "content" });
             $("#content-hr").prop('hidden', true);
+
+            $('.descendants').DataTable({
+                "language": {
+                    "lengthMenu": "_MENU_",
+                    "info": "",
+                    "search": "",
+                    "paginate": {
+                        "first": "",
+                        "last": "",
+                        "next": ">",
+                        "previous": "<"
+                    },
+                },
+                "pageLength": 5,
+                "lengthMenu": [[5,10,15], [5,10,15]],
+                "pagingType": "simple",
+                dom: "<'row'<'col-sm-3'l><'col-sm-5'f><'col-sm-2'p>>" +
+                "<'row'<'col-sm-12'tr>>"
+            });
         });
 
         $(".content").click(function () {

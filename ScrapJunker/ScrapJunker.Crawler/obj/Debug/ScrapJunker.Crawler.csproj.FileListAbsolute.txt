@@ -31,7 +31,6 @@ E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\Robots.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Crawler.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Infrastructure.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Infrastructure.dll
-E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Umbraco.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\System.Net.Http.Formatting.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\Newtonsoft.Json.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Crawler.Core.pdb
@@ -41,7 +40,6 @@ E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\Abot.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\AngleSharp.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\CsQuery.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\log4net.xml
-E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\ScrapJunker.Umbraco.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\System.Net.Http.Formatting.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\bin\Debug\Newtonsoft.Json.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Crawler\obj\Debug\ScrapJunker.Crawler.csprojResolveAssemblyReference.cache

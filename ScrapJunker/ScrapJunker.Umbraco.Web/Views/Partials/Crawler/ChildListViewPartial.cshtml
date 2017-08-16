@@ -2,47 +2,62 @@
 
 @helper ListNodeWithDescendants(IPublishedContent node, int level)
 {
-    var descendants = node.Descendants();
-    if (descendants.Any())
-    {
-        foreach (var descendant in descendants)
-        {
-            <div class="content" data-title="@Html.Encode(descendant.Name)" data-content="@Html.Encode(descendant.GetPropertyValue("content"))">&emsp; @descendant.Name</div>
-        }
-    }
+var descendants = node.Descendants();
+if (descendants.Any())
+{
+        <div style="margin:5px 5px 5px 5px;">
+            <table cellspacing="0" cellpadding="0" class="descendants table table-condensed table-responsive borderless" style="font-size:10px;">
+                <thead style="display:none"><tr><th></th></tr></thead>
+                <tbody>
+                    @foreach (var descendant in descendants)
+                    {
+                        <tr class="content" data-title="@Html.Encode(descendant.Name)" data-content="@Html.Encode(descendant.GetPropertyValue("content"))">
+                            <td>
+                                @descendant.Name
+                            </td>
+                        </tr>
+                        //<div class="content" data-title="@Html.Encode(descendant.Name)" data-content="@Html.Encode(descendant.GetPropertyValue("content"))">&emsp; @descendant.Name</div>
+                    }
+                </tbody>
+            </table>
+        </div>
+}
 }
 
 @{
-    
-        <div class="accordion-option">
-            <h3 class="title">Crawled Pages</h3>
-        </div>
+
+    <div class="accordion-option">
+        <h3 class="title">Crawled Pages</h3>
+    </div>
         <div class="clearfix"></div>
         <div id="accordion-list">
             @if (Model.Content.Children.Any())
             {
-            <div class="panel-group" id="accordion">
-                @{
-                    foreach (var child in Model.Content.Children)
-                    {
-                        <h6 class="panel panel-default">
-                            <span class="panel panel-default panel-heading">
-                                <span class="panel-title">
-                                    <a role="button" class="content" data-title="@Html.Encode(child.Name)" data-content="@Html.Encode(child.GetPropertyValue("content"))">
-                                        @child.Name <span class="badge badge-default badge-pill pull-right">@child.Descendants().Count()</span>
-                                    </a>
+                <div class="panel-group" id="accordion">
+                    @{
+                        foreach (var child in Model.Content.Children)
+                        {
+                            <h6 class="panel panel-default">
+                                <span class="panel panel-default panel-heading">
+                                    <span class="panel-title">
+                                        <a role="button" class="content" data-title="@Html.Encode(child.Name)" data-content="@Html.Encode(child.GetPropertyValue("content"))">
+                                            @child.Name <span class="badge badge-default badge-pill pull-right">@child.Descendants().Count()</span>
+                                        </a>
+                                    </span>
                                 </span>
-                            </span>
-                        </h6>
-                        <div class="panel panel-default">
-                            <span class="panel-body">
-                                @ListNodeWithDescendants(child, 1)
-                            </span>
-                        </div>
+                            </h6>
+                            <div class="panel panel-default">
+                                <div class="panel-body">
 
+
+
+                                    @ListNodeWithDescendants(child, 1)
+                                </div>
+                            </div>
+
+                        }
                     }
-                }
-            </div>
-            }
+                </div>
+                        }
         </div>
 }

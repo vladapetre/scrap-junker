@@ -93,7 +93,6 @@ E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\StructureMap.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\System.Web.Http.WebHost.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\WebApi.StructureMap.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\Abot.dll
-E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Umbraco.Core.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\Newtonsoft.Json.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\System.Net.Http.Formatting.dll
@@ -124,7 +123,6 @@ E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\StructureMap.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\System.Web.Http.WebHost.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\WebApi.StructureMap.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\Abot.xml
-E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\ScrapJunker.Umbraco.Core.pdb
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\Newtonsoft.Json.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\System.Net.Http.Formatting.xml
 E:\Workspace\ScrapJunker\ScrapJunker.Tests\bin\Debug\log4net.xml
