@@ -25,5 +25,10 @@ namespace ScrapJunker.Umbraco.Web.CQRS.Commands
             var contentService = _umbContentServiceFactory.Create(_umbAlias.DocType_CrawledPage);
             contentService.SaveOrUpdate(command.ContentDTO, _umbAlias.DocType_CrawledPage);
         }
+
+        public void Validate(CreateCrawledPageCommnand command)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

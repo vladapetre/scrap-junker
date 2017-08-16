@@ -1,6 +1,6 @@
 ﻿using ScrapJunker.CQRS.Base;
 using ScrapJunker.CQRS.Core.Interface;
-using ScrapJunker.Crawler.Api.DTO;
+using ScrapJunker.Infrastructure.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;

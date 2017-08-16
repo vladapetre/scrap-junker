@@ -3550,6 +3550,7 @@
     <Content Include="Views\LoginPage.cshtml" />
     <Content Include="Views\Partials\Crawler\ChildListViewPartial.cshtml" />
     <Content Include="Views\Partials\Crawler\ChildTableViewPartial.cshtml" />
+    <Content Include="Views\Partials\Crawler\CrawlRequestFormPartial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3565,7 +3566,10 @@
   <ItemGroup>
     <Compile Include="App_Start\StructuremapMvc.cs" />
     <Compile Include="ContentFinders\DefaultContentFinder.cs" />
+    <Compile Include="Controllers\ActionController.cs" />
     <Compile Include="Controllers\ContentController.cs" />
+    <Compile Include="CQRS\Commands\ActionCrawlCommand.cs" />
+    <Compile Include="CQRS\Commands\ActionCrawlCommandHandler.cs" />
     <Compile Include="CQRS\Commands\CreateCrawledPageCommnand.cs" />
     <Compile Include="CQRS\Commands\CreateCrawledPageCommnandHandler.cs" />
     <Compile Include="DependencyResolution\ControllerConvention.cs" />

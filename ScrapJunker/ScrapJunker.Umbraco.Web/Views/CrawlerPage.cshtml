@@ -6,13 +6,13 @@
 
 @section Styles{
     <style>
-        body #accordion-list{
+        body #accordion-list {
             color: #6a6c6f;
             background-color: #f1f3f6;
         }
 
-        h6.panel-default{
-            margin:0;
+        h6.panel-default {
+            margin: 0;
         }
 
         .panel-default {
@@ -20,68 +20,69 @@
             background-color: #eceff1;
         }
 
-        .panel-default > .panel-heading {
-            color: #333;
-            background-color: #fff;
-            border-color: #e4e5e7;
-            border-bottom: 1px solid;
-            padding: 0;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-            .panel-default > .panel-heading a {
-                display: block;
-                padding: 10px 15px;
+            .panel-default > .panel-heading {
+                color: #333;
+                background-color: #fff;
+                border-color: #e4e5e7;
+                border-bottom: 1px solid;
+                padding: 0;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
             }
 
-                .panel-default > .panel-heading a:after {
-                    content: "";
-                    position: relative;
-                    top: 1px;
-                    display: inline-block;
-                    font-family: 'Glyphicons Halflings';
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 1;
-                    -webkit-font-smoothing: antialiased;
-                    -moz-osx-font-smoothing: grayscale;
-                    float: right;
-                    transition: transform .25s linear;
-                    -webkit-transition: -webkit-transform .25s linear;
+                .panel-default > .panel-heading a {
+                    display: block;
+                    padding: 10px 15px;
                 }
 
-                .panel-default > .panel-heading a[aria-expanded="true"] {
-                    background-color: #eee;
-                }
-
-                    .panel-default > .panel-heading a[aria-expanded="true"]:after {
-                        content: "\2212";
-                        -webkit-transform: rotate(180deg);
-                        transform: rotate(180deg);
+                    .panel-default > .panel-heading a:after {
+                        content: "";
+                        position: relative;
+                        top: 1px;
+                        display: inline-block;
+                        font-family: 'Glyphicons Halflings';
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        float: right;
+                        transition: transform .25s linear;
+                        -webkit-transition: -webkit-transform .25s linear;
                     }
 
-                .panel-default > .panel-heading a[aria-expanded="false"]:after {
-                    content: "\002b";
-                    -webkit-transform: rotate(90deg);
-                    transform: rotate(90deg);
-                }
+                    .panel-default > .panel-heading a[aria-expanded="true"] {
+                        background-color: #eee;
+                    }
+
+                        .panel-default > .panel-heading a[aria-expanded="true"]:after {
+                            content: "\2212";
+                            -webkit-transform: rotate(180deg);
+                            transform: rotate(180deg);
+                        }
+
+                    .panel-default > .panel-heading a[aria-expanded="false"]:after {
+                        content: "\002b";
+                        -webkit-transform: rotate(90deg);
+                        transform: rotate(90deg);
+                    }
 
             .panel-default div.content {
                 padding-top: 3px;
                 padding-bottom: 3px;
             }
 
-            .borderless{
-                display:table;
-            }
-        .borderless td, .borderless th {
-           cursor:pointer;
-            padding:2px;
-            width:100%;
+        .borderless {
+            display: table;
         }
+
+            .borderless td, .borderless th {
+                cursor: pointer;
+                padding: 2px;
+                width: 100%;
+            }
 
         td {
             font-size: 12px
@@ -90,22 +91,32 @@
         .dataTables_filter input {
             height: 25px !important;
         }
+
         .dataTables_length select {
             height: 25px !important;
             font-size: 8px;
         }
-        .page-link{
-            font-size:6px;
+
+        .page-link {
+            font-size: 6px;
+        }
+
+        .pointer {
+            cursor: pointer;
         }
     </style>
 }
 
-<label>Token: </label> @Model.Content.GetPropertyValue("token")
-<div>
-    @Model.Content.GetPropertyValue("content")
+
+<div class="row">
+    <div class="col-md-4">
+        <form class="input-group mb-2 mr-sm-2 mb-sm-0 pointer" method="POST" action="/api/action/crawler">
+            <button type="submit" class="input-group-addon bg-primary "><i class="fa fa-bug"> Crawl</i></button>
+            <input type="text" name="url" class="form-control" id="inlineFormInputGroup" placeholder="Url">
+        </form>
+    </div>
 </div>
-
-
+<hr />
 <div class="row">
     <div class="col-md-4">
         @{
@@ -114,7 +125,7 @@
     </div>
     <div class="col-md-8">
         <h2 id="content-title"></h2>
-        <hr id="content-hr"/>
+        <hr id="content-hr" />
         <div id="content"></div>
     </div>
 </div>
@@ -125,18 +136,40 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript">
 
+        $(document).ready(function () {
+            $(form)
+                //.formValidation()
+                .on('submit', function (e) {
+                    // Prevent form submission
+                    e.preventDefault();
+
+                    var $form = $(e.target),
+                        fv = $form.data('formValidation');
+
+                    // Use Ajax to submit form data
+                    $.ajax({
+                        url: $form.attr('action'),
+                        type: 'POST',
+                        data: $form.serialize(),
+                        success: function (result) {
+                            // ... Process the result ...
+                        }
+                    });
+                });
+        });
 
         $(function () {
             $("#accordion").accordion({ heightStyle: "content" });
             $("#content-hr").prop('hidden', true);
 
+            
             //https://datatables.net/examples/basic_init/dom.html
             //http://legacy.datatables.net/usage/i18n
             $('.descendants').DataTable({
                 "language": {
                     "lengthMenu": "_MENU_",
                     "info": "_PAGE_ / _PAGES_",
-                    "infoEmpty" : "0 / 0",
+                    "infoEmpty": "0 / 0",
                     "search": "",
                     "paginate": {
                         "first": "",

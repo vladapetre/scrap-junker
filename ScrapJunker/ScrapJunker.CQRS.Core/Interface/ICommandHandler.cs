@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ScrapJunker.CQRS.Core.Interface
 {
-    public interface ICommandHandler<in TCommand>
+    public interface ICommandHandler<in TCommand> : ICommandValidator<TCommand>
     {
         void Handle(TCommand command);
     }

@@ -19,9 +19,9 @@ namespace ScrapJunker.Umbraco.Infrastructure.Services.Content
         {
         }
 
-        public string DocTypeAlias => _umbAlias.DocType_CrawledPage;
+        public override string DocTypeAlias => _umbAlias.DocType_CrawledPage;
 
-        public void SaveOrUpdate<T>(T commandDTO, string docTypeAlias) where T: IGenericDTO
+        public override void SaveOrUpdate<T>(T commandDTO, string docTypeAlias)
         {
             var content = commandDTO as CrawledPageDTO ;
 

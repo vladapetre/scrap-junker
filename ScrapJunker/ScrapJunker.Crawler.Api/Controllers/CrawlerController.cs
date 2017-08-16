@@ -1,8 +1,8 @@
 ﻿using ScrapJunker.CQRS.Core.Interface;
 using ScrapJunker.Crawler.Api.CQRS.Commands;
 using ScrapJunker.Crawler.Api.Domain;
-using ScrapJunker.Crawler.Api.DTO;
 using ScrapJunker.Crawler.Core.Interface;
+using ScrapJunker.Infrastructure.DTO;
 using System;
 using System.Web.Http;
 

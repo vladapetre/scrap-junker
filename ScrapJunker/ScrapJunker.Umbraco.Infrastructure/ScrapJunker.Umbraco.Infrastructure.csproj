@@ -216,6 +216,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Content\BaseUmbContentService.cs" />
     <Compile Include="Services\Content\CrawledPageUmbContentService.cs" />
+    <Compile Include="Services\Content\CrawlerPageUmbContentService.cs" />
+    <Compile Include="Services\Content\DashboardPageUmbContentService.cs" />
     <Compile Include="Services\Factory\UmbContentServiceFactory.cs" />
     <Compile Include="Standalone\UmbApplicationBase.cs" />
     <Compile Include="Standalone\UmbBootManager.cs" />

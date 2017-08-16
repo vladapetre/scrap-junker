@@ -2,26 +2,25 @@
 
 @helper ListNodeWithDescendants(IPublishedContent node, int level)
 {
-var descendants = node.Descendants();
-if (descendants.Any())
-{
-        <div style="margin:5px 5px 5px 5px;">
-            <table cellspacing="0" cellpadding="0" class="descendants table table-condensed table-responsive borderless" style="font-size:10px;">
-                <thead style="display:none"><tr><th></th></tr></thead>
-                <tbody>
-                    @foreach (var descendant in descendants)
-                    {
-                        <tr class="content" data-title="@Html.Encode(descendant.Name)" data-content="@Html.Encode(descendant.GetPropertyValue("content"))">
-                            <td>
-                                @descendant.Name
-                            </td>
-                        </tr>
-                        //<div class="content" data-title="@Html.Encode(descendant.Name)" data-content="@Html.Encode(descendant.GetPropertyValue("content"))">&emsp; @descendant.Name</div>
-                    }
-                </tbody>
-            </table>
-        </div>
-}
+    var descendants = node.Descendants();
+    if (descendants.Any())
+    {
+            <div style="margin:5px 5px 5px 5px;">
+                <table cellspacing="0" cellpadding="0" class="descendants table table-condensed table-responsive borderless" style="font-size:10px;">
+                    <thead style="display:none"><tr><th></th></tr></thead>
+                    <tbody>
+                        @foreach (var descendant in descendants)
+                        {
+                            <tr class="content" data-title="@Html.Encode(descendant.Name)" data-content="@Html.Encode(descendant.GetPropertyValue("content"))">
+                                <td>
+                                    @descendant.Name
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+    }
 }
 
 @{
@@ -29,7 +28,7 @@ if (descendants.Any())
     <div class="accordion-option">
         <h3 class="title">Crawled Pages</h3>
     </div>
-        <div class="clearfix"></div>
+    <div class="clearfix"></div>
         <div id="accordion-list">
             @if (Model.Content.Children.Any())
             {
@@ -48,9 +47,6 @@ if (descendants.Any())
                             </h6>
                             <div class="panel panel-default">
                                 <div class="panel-body">
-
-
-
                                     @ListNodeWithDescendants(child, 1)
                                 </div>
                             </div>
@@ -58,6 +54,6 @@ if (descendants.Any())
                         }
                     }
                 </div>
-                        }
+             }
         </div>
 }

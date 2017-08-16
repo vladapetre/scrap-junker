@@ -11,5 +11,7 @@ namespace ScrapJunker.Umbraco.Core
     {
         string DocTypeAlias { get; }
         void SaveOrUpdate<T>(T commandDTO, string docTypeAlias) where T : IGenericDTO;
+        T GetById<T>(int id);
+        IEnumerable<T> GetByParentId<T>(int parentId);
     }
 }
