@@ -5398,3 +5398,13 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
  2017-08-16 17:03:03,121 [P39908/D6/T445] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
  2017-08-16 17:03:07,161 [P39908/D6/T428] INFO  umbraco.content - Save Xml to file...
  2017-08-16 17:03:07,222 [P39908/D6/T428] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-16 17:07:05,692 [P39908/D6/T457] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '0' has been published.
+ 2017-08-16 17:07:05,757 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:07:05,779 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:07:05,784 [P39908/D6/T457] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:07:07,504 [P39908/D6/T421] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Main_Page' with Id '0' has been published.
+ 2017-08-16 17:07:07,526 [P39908/D6/T421] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:07:07,537 [P39908/D6/T421] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:07:07,543 [P39908/D6/T421] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-16 17:07:11,570 [P39908/D6/T452] INFO  umbraco.content - Save Xml to file...
+ 2017-08-16 17:07:11,624 [P39908/D6/T452] INFO  umbraco.content - Saved Xml to file.
