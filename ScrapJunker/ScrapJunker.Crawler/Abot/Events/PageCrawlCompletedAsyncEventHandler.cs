@@ -61,10 +61,17 @@ namespace ScrapJunker.Crawler.Abot.Events
                 var doc = new HtmlDocument();
                 doc.LoadHtml(e.CrawledPage.Content.Text);
 
-                var nodes = doc.DocumentNode.SelectNodes("//script|//style|//link");
+                var nodes = doc.DocumentNode.SelectNodes("//script|//style|//link|//img");
 
                 foreach (var node in nodes)
                     node.ParentNode.RemoveChild(node);
+
+                foreach (HtmlNode link in doc.DocumentNode.SelectNodes("//a[@href]"))
+                {
+                    HtmlAttribute att = link.Attributes["href"];
+                        att.Value = "#";
+                }
+
                 _storage.StoreCrawledPage(doc.DocumentNode.OuterHtml, e.CrawledPage.Uri, "test token");
             }
         }
