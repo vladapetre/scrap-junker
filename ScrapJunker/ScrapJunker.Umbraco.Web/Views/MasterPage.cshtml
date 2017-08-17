@@ -180,54 +180,28 @@
     <div id="backToTop" title="Go to top"></div>
 
     <!-- Bootstrap and necessary plugins -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript" ></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+
     <script src="https://rawgit.com/HubSpot/tether/master/dist/js/tether.min.js" type="text/javascript"></script>
     <script src="https://rawgit.com/HubSpot/pace/v1.0.0/pace.min.js" type="text/javascript"></script>
+
     <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js" type="text/javascript"></script>
     <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+
     <script src="https://cdn.jsdelivr.net/jquery.loadingoverlay/latest/loadingoverlay.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/jquery.loadingoverlay/latest/loadingoverlay_progress.min.js" type="text/javascript"></script>
+
     <!-- Plugins and scripts required by all views -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" type="text/javascript"></script>
 
 
     <!-- GenesisUI main scripts -->
-    <script src="~/Scripts/toastr.min.js"></script>
-    <script src="~/theme/js/app.js"></script>
-    <script>
-        function verticalAlignMiddle() {
-            var bodyHeight = $(window).height();
-            var formHeight = $('.vamiddle').height();
-            var marginTop = (bodyHeight / 4) - (formHeight / 4);
-            if (marginTop > 0) {
-                $('.vamiddle').css('margin-top', marginTop);
-            }
-        }
-
-        window.onscroll = function () { scrollFunction() };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                $('#backToTop').fadeIn();
-            } else {
-                $('#backToTop').fadeOut();
-            }
-        }
-
-        $('#backToTop').click(function () {
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
-
-
-        $(document).ready(function () {
-            verticalAlignMiddle();
-        });
-        $(window).bind('resize', verticalAlignMiddle);
-    </script>
+    <script src="~/Scripts/toastr.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/site/ajax.js" type="text/javascript"></script>
+    <script src="~/theme/js/app.js" type="text/javascript"></script>
+    <script src="~/Scripts/site/master.js" type="text/javascript"></script>
 
     @RenderSection("Scripts", false)
 
