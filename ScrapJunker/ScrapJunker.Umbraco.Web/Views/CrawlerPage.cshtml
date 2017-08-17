@@ -152,6 +152,10 @@
                         url: $form.attr('action'),
                         type: 'POST',
                         data: $form.serialize(),
+                        beforeSend: function () {
+                            debugger;
+                            $form.LoadingOverlay("show");
+                        },
                         success: function (result) {
                             toastr.success("Success!");
                         },
@@ -170,6 +174,9 @@
                             } else {
                                 toastr.error(result.responseJSON.Message);
                             }
+                        },
+                        complete: function () {
+                            $form.LoadingOverlay("hide");
                         }
                     });
                 });

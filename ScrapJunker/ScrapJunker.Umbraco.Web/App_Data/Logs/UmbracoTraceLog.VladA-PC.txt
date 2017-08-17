@@ -10788,3 +10788,278 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
  2017-08-17 09:43:52,683 [P27384/D12/T98] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 6ms)
  2017-08-17 09:43:59,483 [P27384/D12/T98] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
  2017-08-17 09:44:16,977 [P27384/D12/T45] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-16 09:44:16
+ 2017-08-17 09:46:39,460 [P27384/D12/T69] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin@scrapjunker.com from IP address 127.0.0.1
+ 2017-08-17 09:46:39,462 [P27384/D12/T69] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin@scrapjunker.com logged in from IP address 127.0.0.1
+ 2017-08-17 09:46:39,678 [P27384/D12/T62] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-17 09:46:39,679 [P27384/D12/T62] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-17 09:46:39,679 [P27384/D12/T62] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-17 09:46:39,688 [P27384/D12/T62] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 9ms)
+ 2017-08-17 09:46:39,852 [P27384/D12/T15] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-17 09:46:39,852 [P27384/D12/T15] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-17 09:46:39,852 [P27384/D12/T15] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-08-17 09:46:39,875 [P27384/D12/T15] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 21ms)
+ 2017-08-17 09:46:39,883 [P27384/D12/T30] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-17 09:46:39,883 [P27384/D12/T30] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-17 09:46:39,884 [P27384/D12/T30] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-17 09:46:39,884 [P27384/D12/T30] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-08-17 09:46:39,890 [P27384/D12/T100] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-17 09:46:39,890 [P27384/D12/T100] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-17 09:46:39,890 [P27384/D12/T100] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-08-17 09:46:39,903 [P27384/D12/T100] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 12ms)
+ 2017-08-17 09:46:39,903 [P27384/D12/T30] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-17 09:46:39,903 [P27384/D12/T30] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-17 09:46:39,903 [P27384/D12/T30] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-08-17 09:46:39,937 [P27384/D12/T30] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 34ms)
+ 2017-08-17 09:46:40,010 [P27384/D12/T100] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-17 09:46:40,011 [P27384/D12/T100] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-17 09:46:40,011 [P27384/D12/T100] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-08-17 09:46:40,020 [P27384/D12/T100] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 9ms)
+ 2017-08-17 09:46:40,328 [P27384/D12/T29] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-17 09:46:40,328 [P27384/D12/T29] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-17 09:46:40,328 [P27384/D12/T29] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-08-17 09:46:40,340 [P27384/D12/T29] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 11ms)
+ 2017-08-17 09:46:43,962 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'en.wikipedia.org' with Id '1204' has been unpublished.
+ 2017-08-17 09:46:44,101 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Main_Page' with Id '1223' has been unpublished.
+ 2017-08-17 09:46:44,137 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '1222' has been unpublished.
+ 2017-08-17 09:46:44,174 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Statistical_test' with Id '1221' has been unpublished.
+ 2017-08-17 09:46:44,262 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Test_(assessment)' with Id '1220' has been unpublished.
+ 2017-08-17 09:46:44,292 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Software_testing' with Id '1219' has been unpublished.
+ 2017-08-17 09:46:44,331 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/John_Test' with Id '1218' has been unpublished.
+ 2017-08-17 09:46:44,357 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Desmond_Tester' with Id '1217' has been unpublished.
+ 2017-08-17 09:46:44,379 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/TEST_(x86_instruction)' with Id '1216' has been unpublished.
+ 2017-08-17 09:46:44,406 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Test_(biology)' with Id '1215' has been unpublished.
+ 2017-08-17 09:46:44,433 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Wikipedia:Protection_policy' with Id '1214' has been unpublished.
+ 2017-08-17 09:46:44,462 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Physical_test' with Id '1213' has been unpublished.
+ 2017-08-17 09:46:44,478 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Test_(Unix)' with Id '1212' has been unpublished.
+ 2017-08-17 09:46:44,497 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Chemical_test' with Id '1211' has been unpublished.
+ 2017-08-17 09:46:44,515 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Toxicology_testing' with Id '1210' has been unpublished.
+ 2017-08-17 09:46:44,527 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Test_method' with Id '1209' has been unpublished.
+ 2017-08-17 09:46:44,545 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Medical_test' with Id '1208' has been unpublished.
+ 2017-08-17 09:46:44,573 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Experiment' with Id '1207' has been unpublished.
+ 2017-08-17 09:46:44,593 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Wikipedia:Sandbox' with Id '1206' has been unpublished.
+ 2017-08-17 09:46:44,609 [P27384/D12/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/wiki/Test' with Id '1205' has been unpublished.
+ 2017-08-17 09:46:48,917 [P27384/D12/T69] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'google.com' with Id '1224' has been unpublished.
+ 2017-08-17 09:46:48,945 [P27384/D12/T69] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '1225' has been unpublished.
+ 2017-08-17 09:46:51,610 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'www.google.ro' with Id '1226' has been unpublished.
+ 2017-08-17 09:46:51,624 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/intl/ro/policies/privacy/' with Id '1239' has been unpublished.
+ 2017-08-17 09:46:51,635 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/setprefdomain?prefdom=US&sig=__W3oAtnHLDXq_eWiZSFVavLf_VII%3D' with Id '1238' has been unpublished.
+ 2017-08-17 09:46:51,648 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/intl/ro/about.html' with Id '1237' has been unpublished.
+ 2017-08-17 09:46:51,663 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/intl/ro/services/' with Id '1236' has been unpublished.
+ 2017-08-17 09:46:51,684 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/url?q=http://www.google.ro/setprefs%3Fsig%3D0_8vPn8y6w56VjnpngtE-NPIh6jyQ%253D%26hl%3Dde%26source%3Dhomepage&sa=U&ved=0ahUKEwihwem9zd3VAhXFVhQKHc1RAB4Q2ZgBCAY&usg=AFQjCNGxnlOE7-zA7wcHyMoYPcFny52ZYg' with Id '1235' has been unpublished.
+ 2017-08-17 09:46:51,700 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/intl/ro/ads/' with Id '1234' has been unpublished.
+ 2017-08-17 09:46:51,715 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/url?q=http://www.google.ro/setprefs%3Fsig%3D0_8vPn8y6w56VjnpngtE-NPIh6jyQ%253D%26hl%3Dhu%26source%3Dhomepage&sa=U&ved=0ahUKEwihwem9zd3VAhXFVhQKHc1RAB4Q2ZgBCAU&usg=AFQjCNHIO76WWaPNmuUtNkPGHraYrE6xlQ' with Id '1233' has been unpublished.
+ 2017-08-17 09:46:51,728 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/language_tools?hl=ro&authuser=0' with Id '1232' has been unpublished.
+ 2017-08-17 09:46:51,742 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/advanced_search?hl=ro&authuser=0' with Id '1231' has been unpublished.
+ 2017-08-17 09:46:51,757 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/preferences?hl=ro' with Id '1230' has been unpublished.
+ 2017-08-17 09:46:51,774 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/intl/ro/options/' with Id '1229' has been unpublished.
+ 2017-08-17 09:46:51,795 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/history/optout?hl=ro' with Id '1228' has been unpublished.
+ 2017-08-17 09:46:51,807 [P27384/D12/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/imghp?hl=ro&tab=wi' with Id '1227' has been unpublished.
+ 2017-08-17 09:46:56,237 [P27384/D12/T48] INFO  umbraco.content - Save Xml to file...
+ 2017-08-17 09:46:56,260 [P27384/D12/T48] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-17 09:47:04,720 [P27384/D12/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'stackoverflow.com' with Id '0' has been published.
+ 2017-08-17 09:47:04,784 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:04,805 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:04,836 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:04,872 [P27384/D12/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/questions/29142422/rendering-partial-view-on-button-click-in-asp-net-mvc' with Id '0' has been published.
+ 2017-08-17 09:47:04,902 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:04,913 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:04,918 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:06,648 [P27384/D12/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '0' has been published.
+ 2017-08-17 09:47:06,679 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:06,692 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:06,700 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:06,725 [P27384/D12/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/questions' with Id '0' has been published.
+ 2017-08-17 09:47:06,803 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:06,815 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:06,821 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,232 [P27384/D12/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/jobs?med=site-ui&ref=jobs-tab' with Id '0' has been published.
+ 2017-08-17 09:47:07,255 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,267 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,273 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,543 [P27384/D12/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/documentation' with Id '0' has been published.
+ 2017-08-17 09:47:07,570 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,585 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,591 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,615 [P27384/D12/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/tags' with Id '0' has been published.
+ 2017-08-17 09:47:07,636 [P27384/D12/T103] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,647 [P27384/D12/T103] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,652 [P27384/D12/T103] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,777 [P27384/D12/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/help' with Id '0' has been published.
+ 2017-08-17 09:47:07,798 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,809 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:07,815 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,022 [P27384/D12/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/users/signup?ssrc=site_switcher&returnurl=%2fusers%2fstory%2fcurrent&amp;utm_source=stackoverflow.com&amp;utm_medium=dev-story&amp;utm_campaign=signup-redirect' with Id '0' has been published.
+ 2017-08-17 09:47:08,043 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,057 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,062 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,098 [P27384/D12/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/users' with Id '0' has been published.
+ 2017-08-17 09:47:08,121 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,132 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,143 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,266 [P27384/D12/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/users/login?ssrc=site_switcher&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f29142422%2frendering-partial-view-on-button-click-in-asp-net-mvc' with Id '0' has been published.
+ 2017-08-17 09:47:08,308 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,324 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,330 [P27384/D12/T48] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,421 [P27384/D12/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/tour' with Id '0' has been published.
+ 2017-08-17 09:47:08,440 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,453 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,458 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,782 [P27384/D12/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/company/about' with Id '0' has been published.
+ 2017-08-17 09:47:08,802 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,813 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,818 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,839 [P27384/D12/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f29142422%2frendering-partial-view-on-button-click-in-asp-net-mvc' with Id '0' has been published.
+ 2017-08-17 09:47:08,867 [P27384/D12/T103] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,883 [P27384/D12/T103] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:08,889 [P27384/D12/T103] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:09,031 [P27384/D12/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/users/signup?ssrc=head&returnurl=%2fusers%2fstory%2fcurrent&utm_source=stackoverflow.com&utm_medium=dev-story&utm_campaign=signup-redirect' with Id '0' has been published.
+ 2017-08-17 09:47:09,052 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:09,068 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:09,075 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:09,136 [P27384/D12/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/users/signup?ssrc=hero&returnurl=%2fusers%2fstory%2fcurrent&amp;utm_source=stackoverflow.com&amp;utm_medium=dev-story&amp;utm_campaign=signup-redirect' with Id '0' has been published.
+ 2017-08-17 09:47:09,157 [P27384/D12/T70] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:09,170 [P27384/D12/T70] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:09,174 [P27384/D12/T70] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:47:13,200 [P27384/D12/T103] INFO  umbraco.content - Save Xml to file...
+ 2017-08-17 09:47:13,261 [P27384/D12/T103] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-17 09:56:22,274 [P27384/D12/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'gasparesganga.com' with Id '0' has been published.
+ 2017-08-17 09:56:22,339 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:22,360 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:22,364 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:22,423 [P27384/D12/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/labs/jquery-loading-overlay/' with Id '0' has been published.
+ 2017-08-17 09:56:22,460 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:22,472 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:22,477 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,157 [P27384/D12/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '0' has been published.
+ 2017-08-17 09:56:24,194 [P27384/D12/T78] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,212 [P27384/D12/T78] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,216 [P27384/D12/T78] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,248 [P27384/D12/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/labs/' with Id '0' has been published.
+ 2017-08-17 09:56:24,275 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,301 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,306 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,337 [P27384/D12/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/' with Id '0' has been published.
+ 2017-08-17 09:56:24,381 [P27384/D12/T94] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,409 [P27384/D12/T94] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,414 [P27384/D12/T94] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,447 [P27384/D12/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/coffee/' with Id '0' has been published.
+ 2017-08-17 09:56:24,475 [P27384/D12/T50] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,494 [P27384/D12/T50] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,501 [P27384/D12/T50] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,524 [P27384/D12/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.5.3/' with Id '0' has been published.
+ 2017-08-17 09:56:24,554 [P27384/D12/T78] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,570 [P27384/D12/T78] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,575 [P27384/D12/T78] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,600 [P27384/D12/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.5.2/' with Id '0' has been published.
+ 2017-08-17 09:56:24,618 [P27384/D12/T47] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,635 [P27384/D12/T47] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,642 [P27384/D12/T47] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,669 [P27384/D12/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.5.1/' with Id '0' has been published.
+ 2017-08-17 09:56:24,701 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,717 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,723 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,757 [P27384/D12/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.4.1/' with Id '0' has been published.
+ 2017-08-17 09:56:24,791 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,818 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,823 [P27384/D12/T75] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,858 [P27384/D12/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.4.0/' with Id '0' has been published.
+ 2017-08-17 09:56:24,887 [P27384/D12/T78] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,905 [P27384/D12/T78] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,912 [P27384/D12/T78] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,936 [P27384/D12/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-version-1.3/' with Id '0' has been published.
+ 2017-08-17 09:56:24,959 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,975 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:24,980 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:25,004 [P27384/D12/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-version-1.1/' with Id '0' has been published.
+ 2017-08-17 09:56:25,019 [P27384/D12/T47] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:25,033 [P27384/D12/T47] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:25,037 [P27384/D12/T47] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:25,058 [P27384/D12/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-version-1.2/' with Id '0' has been published.
+ 2017-08-17 09:56:25,074 [P27384/D12/T94] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:25,089 [P27384/D12/T94] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:25,093 [P27384/D12/T94] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:25,114 [P27384/D12/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-release/' with Id '0' has been published.
+ 2017-08-17 09:56:25,132 [P27384/D12/T50] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:25,147 [P27384/D12/T50] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:25,150 [P27384/D12/T50] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:56:29,179 [P27384/D12/T47] INFO  umbraco.content - Save Xml to file...
+ 2017-08-17 09:56:29,223 [P27384/D12/T47] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-17 09:58:18,238 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'gasparesganga.com' with Id '1256' has been unpublished.
+ 2017-08-17 09:58:18,288 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-release/' with Id '1270' has been unpublished.
+ 2017-08-17 09:58:18,301 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-version-1.2/' with Id '1269' has been unpublished.
+ 2017-08-17 09:58:18,321 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-version-1.1/' with Id '1268' has been unpublished.
+ 2017-08-17 09:58:18,339 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-version-1.3/' with Id '1267' has been unpublished.
+ 2017-08-17 09:58:18,363 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.4.0/' with Id '1266' has been unpublished.
+ 2017-08-17 09:58:18,398 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.4.1/' with Id '1265' has been unpublished.
+ 2017-08-17 09:58:18,411 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.5.1/' with Id '1264' has been unpublished.
+ 2017-08-17 09:58:18,421 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.5.2/' with Id '1263' has been unpublished.
+ 2017-08-17 09:58:18,431 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.5.3/' with Id '1262' has been unpublished.
+ 2017-08-17 09:58:18,444 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/coffee/' with Id '1261' has been unpublished.
+ 2017-08-17 09:58:18,460 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/' with Id '1260' has been unpublished.
+ 2017-08-17 09:58:18,469 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/labs/' with Id '1259' has been unpublished.
+ 2017-08-17 09:58:18,484 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '1258' has been unpublished.
+ 2017-08-17 09:58:18,491 [P27384/D12/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/labs/jquery-loading-overlay/' with Id '1257' has been unpublished.
+ 2017-08-17 09:58:22,937 [P27384/D12/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-08-17 09:58:22,984 [P27384/D12/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-17 09:58:25,545 [P27384/D12/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'gasparesganga.com' with Id '0' has been published.
+ 2017-08-17 09:58:25,593 [P27384/D12/T97] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:25,611 [P27384/D12/T97] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:25,616 [P27384/D12/T97] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:25,682 [P27384/D12/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/labs/jquery-loading-overlay/' with Id '0' has been published.
+ 2017-08-17 09:58:25,712 [P27384/D12/T97] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:25,725 [P27384/D12/T97] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:25,732 [P27384/D12/T97] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,447 [P27384/D12/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/labs/' with Id '0' has been published.
+ 2017-08-17 09:58:27,468 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,483 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,487 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,519 [P27384/D12/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/' with Id '0' has been published.
+ 2017-08-17 09:58:27,550 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,575 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,587 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,616 [P27384/D12/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/' with Id '0' has been published.
+ 2017-08-17 09:58:27,651 [P27384/D12/T73] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,664 [P27384/D12/T73] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,668 [P27384/D12/T73] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,694 [P27384/D12/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/coffee/' with Id '0' has been published.
+ 2017-08-17 09:58:27,716 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,734 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,738 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,759 [P27384/D12/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.5.3/' with Id '0' has been published.
+ 2017-08-17 09:58:27,774 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,787 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,790 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,809 [P27384/D12/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.5.2/' with Id '0' has been published.
+ 2017-08-17 09:58:27,824 [P27384/D12/T12] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,838 [P27384/D12/T12] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,843 [P27384/D12/T12] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,863 [P27384/D12/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.5.1/' with Id '0' has been published.
+ 2017-08-17 09:58:27,881 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,895 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,898 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,918 [P27384/D12/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.4.0/' with Id '0' has been published.
+ 2017-08-17 09:58:27,940 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,958 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,967 [P27384/D12/T13] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:27,996 [P27384/D12/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-version-1.2/' with Id '0' has been published.
+ 2017-08-17 09:58:28,014 [P27384/D12/T12] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,029 [P27384/D12/T12] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,033 [P27384/D12/T12] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,054 [P27384/D12/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-version-1.3/' with Id '0' has been published.
+ 2017-08-17 09:58:28,072 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,085 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,089 [P27384/D12/T95] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,108 [P27384/D12/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-release/' with Id '0' has been published.
+ 2017-08-17 09:58:28,123 [P27384/D12/T73] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,136 [P27384/D12/T73] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,139 [P27384/D12/T73] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,161 [P27384/D12/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-1.4.1/' with Id '0' has been published.
+ 2017-08-17 09:58:28,179 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,191 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,195 [P27384/D12/T93] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,214 [P27384/D12/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '/posts/jquery-loading-overlay-version-1.1/' with Id '0' has been published.
+ 2017-08-17 09:58:28,229 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,241 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:28,244 [P27384/D12/T85] WARN  Umbraco.Core.Services.LocalizedTextService - The culture specified ro-RO was not found in any configured sources for this service
+ 2017-08-17 09:58:32,266 [P27384/D12/T12] INFO  umbraco.content - Save Xml to file...
+ 2017-08-17 09:58:32,325 [P27384/D12/T12] INFO  umbraco.content - Saved Xml to file.
