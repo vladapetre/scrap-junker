@@ -29,10 +29,26 @@ namespace ScrapJunker.CQRS.Base
             if (handler == null)
             {
                 throw new NotImplementedException(typeof(TCommand).ToString());
-                // throw new CommandHandlerNotFoundException(typeof(TCommand));
             }
 
             handler.Handle(command);
+        }
+
+        public ICommandResult DispatchWithValidation<TCommand>(TCommand command) where TCommand : ICommand
+        {
+            var validator = _resolver.Resolve<ICommandValidator<TCommand>>();
+
+            if (validator == null)
+            {
+                throw new NotImplementedException(typeof(TCommand).ToString());
+            }
+
+            var result = validator.Validate(command);
+            if (result.Success)
+            {
+                Dispatch(command);
+            }
+            return result;
         }
     }
 }

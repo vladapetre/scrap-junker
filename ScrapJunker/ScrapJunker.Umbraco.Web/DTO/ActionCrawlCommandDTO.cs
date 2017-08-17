@@ -6,7 +6,7 @@ using System.Web;
 
 namespace ScrapJunker.Umbraco.Web.DTO
 {
-    public class RunCrawlerConfigurationDto
+    public class ActionCrawlCommandDTO
     {
         [Required]
         public string Url { get; set; }

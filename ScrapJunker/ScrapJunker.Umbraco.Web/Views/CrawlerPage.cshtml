@@ -112,7 +112,7 @@
     <div class="col-md-4">
         <form class="input-group mb-2 mr-sm-2 mb-sm-0 pointer" method="POST" action="/umbraco/api/action/crawl">
             <button type="submit" class="input-group-addon bg-primary "><i class="fa fa-bug"> Crawl</i></button>
-            <input type="text" name="url" class="form-control" id="inlineFormInputGroup" placeholder="Url">
+            <input type="text" name="url" class="form-control" id="inlineFormInputGroup" placeholder="http://www.example.com">
             <input type="hidden" name="id" value="@(((IPublishedContent)CurrentPage).Id)" />
         </form>
     </div>
@@ -153,11 +153,23 @@
                         type: 'POST',
                         data: $form.serialize(),
                         success: function (result) {
-                            toastr.success();
+                            toastr.success("Success!");
                         },
                         error: function (result) {
-                            debugger;
-                            toastr.error(result.responseJSON.ExceptionMessage);
+                            if (result.responseJSON.ModelState != undefined) {
+                                var errors = [];
+                                for (var key in result.responseJSON.ModelState) {
+                                    for (var i = 0; i < result.responseJSON.ModelState[key].length; i++) {
+                                        errors.push(result.responseJSON.ModelState[key][i]);
+                                    }
+                                }
+                                toastr.error(errors);
+                            }
+                            else if (result.responseJSON.ExceptionMessage != undefined) {
+                                toastr.error(result.responseJSON.ExceptionMessage);
+                            } else {
+                                toastr.error(result.responseJSON.Message);
+                            }
                         }
                     });
                 });

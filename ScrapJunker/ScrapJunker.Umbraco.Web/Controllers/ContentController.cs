@@ -37,17 +37,16 @@ namespace ScrapJunker.Umbraco.Web.Controllers
                 }
 
                 var id = Guid.NewGuid();
+
                 _commandDispatcher.Dispatch(new CreateCrawledPageCommnand(id, 0, contentDTO));
-
-
 
                 return Ok(id);
             }
-            catch (InvalidCastException ex)
+            catch (InvalidCastException)
             {
                 return BadRequest();
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
                 return NotFound();
             }
@@ -59,7 +58,7 @@ namespace ScrapJunker.Umbraco.Web.Controllers
 
 
         [HttpGet]
-        public string Ping()
+        public static string Ping()
         {
             return "Pong";
         }

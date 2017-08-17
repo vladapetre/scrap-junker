@@ -3588,7 +3588,7 @@
     <Compile Include="DependencyResolution\StructureMapDependencyScope.cs" />
     <Compile Include="DependencyResolution\StructureMapScopeModule.cs" />
     <Compile Include="DependencyResolution\UmbracoWebApiHttpControllerActivator.cs" />
-    <Compile Include="DTO\RunCrawlerConfigurationDto.cs" />
+    <Compile Include="DTO\ActionCrawlCommandDTO.cs" />
     <Compile Include="EventHandlers\AppStartupEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

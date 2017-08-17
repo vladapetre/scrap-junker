@@ -23,16 +23,21 @@ namespace ScrapJunker.Umbraco.Web.Controllers
         }
 
         [HttpPost]
-        public IHttpActionResult Crawl([FromBody] RunCrawlerConfigurationDto runCrawlerConfigurationDto)
+        public IHttpActionResult Crawl([FromBody] ActionCrawlCommandDTO actionCrawlCommandDTO)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
+
             var id = Guid.NewGuid();
             try
             {
-                _commandDispatcher.Dispatch(new ActionCrawlCommand(id, 0, runCrawlerConfigurationDto));
+                var result = _commandDispatcher.DispatchWithValidation(new ActionCrawlCommand(id, 0, actionCrawlCommandDTO));
+                if (!result.Success)
+                {
+                    return BadRequest(string.Join("\r\n", result.Errors));
+                }
             }
             catch (Exception ex)
             {
