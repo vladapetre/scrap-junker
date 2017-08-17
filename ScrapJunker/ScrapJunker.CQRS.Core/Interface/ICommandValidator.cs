@@ -8,6 +8,6 @@ namespace ScrapJunker.CQRS.Core.Interface
 {
     public interface ICommandValidator<in TCommand>
     {
-        void Validate(TCommand command);
+        ICommandResult Validate(TCommand command);
     }
 }

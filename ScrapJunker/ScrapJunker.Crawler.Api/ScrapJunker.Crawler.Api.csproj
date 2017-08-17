@@ -137,6 +137,7 @@
     <Compile Include="CQRS\Events\Test\TestCreatedEvent.cs" />
     <Compile Include="CrawlerApiObjectFactory.cs" />
     <Compile Include="Domain\TestAggregate.cs" />
+    <Compile Include="DTO\RunCrawlerConfigurationDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -1,6 +1,6 @@
 ﻿using ScrapJunker.CQRS.Core.Interface;
-using ScrapJunker.Infrastructure.DTO;
 using ScrapJunker.Umbraco.Web.CQRS.Commands;
+using ScrapJunker.Umbraco.Web.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;

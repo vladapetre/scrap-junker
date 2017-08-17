@@ -1,5 +1,5 @@
 ﻿using ScrapJunker.CQRS.Base;
-using ScrapJunker.Infrastructure.DTO;
+using ScrapJunker.Umbraco.Web.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -28,8 +28,10 @@ namespace ScrapJunker.Crawler.Api.CQRS.Commands
 
             _crawler.Run(command.RunCrawlerConfigurationDto.Url);
 
-            var aggregate = new TestAggregate(command.Guid, command.RunCrawlerConfigurationDto.Url);
-            aggregate.Version = -1;
+            var aggregate = new TestAggregate(command.Guid, command.RunCrawlerConfigurationDto.Url)
+            {
+                Version = -1
+            };
             _eventRepository.Save<TestAggregate>(aggregate, aggregate.Version);
         }
     }

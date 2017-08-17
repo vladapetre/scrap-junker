@@ -55,7 +55,6 @@
     <Compile Include="Base\Logger.cs" />
     <Compile Include="Base\UmbracoStorage.cs" />
     <Compile Include="DTO\CrawledPageDTO.cs" />
-    <Compile Include="DTO\RunCrawlerConfigurationDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

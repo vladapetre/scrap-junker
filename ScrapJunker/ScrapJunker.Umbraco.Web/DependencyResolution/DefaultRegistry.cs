@@ -39,9 +39,10 @@ namespace ScrapJunker.Umbraco.Web.DependencyResolution {
             scanner.Assembly("ScrapJunker.Umbraco.Web");
             scanner.With(new ControllerConvention());
             scanner.ConnectImplementationsToTypesClosing(typeof(ICommandHandler<>));
+            scanner.ConnectImplementationsToTypesClosing(typeof(ICommandValidator<>));
         };
 
-        public DefaultRegistry() : base((scanner) => scan(scanner))
+        public DefaultRegistry() : base(scan)
         {
             For<ServiceContext>().Use(c => c.GetInstance<UmbServiceAccess>().Services);
             For<IUmbAlias>().Singleton();
@@ -49,6 +50,8 @@ namespace ScrapJunker.Umbraco.Web.DependencyResolution {
             //Umbraco Content Services
             For<IContainer>().Use(() => new Container(this)).Singleton();
             For<IUmbContentService>().Use<CrawledPageUmbContentService>().Named(/*container.GetInstance<IUmbAlias>().DocType_CrawledPage*/"crawledPage");
+            For<IUmbContentService>().Use<CrawlerPageUmbContentService>().Named(/*container.GetInstance<IUmbAlias>().DocType_CrawledPage*/"crawlerPage");
+            For<IUmbContentService>().Use<DashboardPageUmbContentService>().Named(/*container.GetInstance<IUmbAlias>().DocType_CrawledPage*/"dashboardPage");
         }
 
         #endregion

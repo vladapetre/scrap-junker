@@ -44,6 +44,7 @@
     <Compile Include="Interface\ICommand.cs" />
     <Compile Include="Interface\ICommandDispatcher.cs" />
     <Compile Include="Interface\ICommandHandler.cs" />
+    <Compile Include="Interface\ICommandResult.cs" />
     <Compile Include="Interface\ICommandValidator.cs" />
     <Compile Include="Interface\IEvent.cs" />
     <Compile Include="Interface\IEventDispatcher.cs" />

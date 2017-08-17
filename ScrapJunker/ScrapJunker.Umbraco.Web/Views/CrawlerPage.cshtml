@@ -110,9 +110,10 @@
 
 <div class="row">
     <div class="col-md-4">
-        <form class="input-group mb-2 mr-sm-2 mb-sm-0 pointer" method="POST" action="/api/action/crawler">
+        <form class="input-group mb-2 mr-sm-2 mb-sm-0 pointer" method="POST" action="/umbraco/api/action/crawl">
             <button type="submit" class="input-group-addon bg-primary "><i class="fa fa-bug"> Crawl</i></button>
             <input type="text" name="url" class="form-control" id="inlineFormInputGroup" placeholder="Url">
+            <input type="hidden" name="id" value="@(((IPublishedContent)CurrentPage).Id)" />
         </form>
     </div>
 </div>
@@ -137,7 +138,7 @@
     <script type="text/javascript">
 
         $(document).ready(function () {
-            $(form)
+            $("form")
                 //.formValidation()
                 .on('submit', function (e) {
                     // Prevent form submission
@@ -152,7 +153,11 @@
                         type: 'POST',
                         data: $form.serialize(),
                         success: function (result) {
-                            // ... Process the result ...
+                            toastr.success();
+                        },
+                        error: function (result) {
+                            debugger;
+                            toastr.error(result.responseJSON.ExceptionMessage);
                         }
                     });
                 });

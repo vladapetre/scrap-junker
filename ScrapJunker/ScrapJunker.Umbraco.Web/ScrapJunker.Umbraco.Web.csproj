@@ -337,10 +337,19 @@
     </Content>
     <Content Include="config\splashes\booting.aspx" />
     <Content Include="config\splashes\noNodes.aspx" />
+    <Content Include="content\toastr.css" />
+    <Content Include="content\toastr.min.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <Content Include="App_Plugins\ModelsBuilder\package.manifest" />
+    <Content Include="content\toastr.scss" />
+    <Content Include="content\toastr.less" />
+    <None Include="Scripts\jquery-1.6.3-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.6.3.js" />
+    <Content Include="Scripts\jquery-1.6.3.min.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
     <Content Include="theme\css\font-awesome.css" />
     <Content Include="theme\css\font-awesome.min.css" />
     <Content Include="theme\css\simple-line-icons.css" />
@@ -3570,6 +3579,7 @@
     <Compile Include="Controllers\ContentController.cs" />
     <Compile Include="CQRS\Commands\ActionCrawlCommand.cs" />
     <Compile Include="CQRS\Commands\ActionCrawlCommandHandler.cs" />
+    <Compile Include="CQRS\Commands\ActionCrawlCommandValidator.cs" />
     <Compile Include="CQRS\Commands\CreateCrawledPageCommnand.cs" />
     <Compile Include="CQRS\Commands\CreateCrawledPageCommnandHandler.cs" />
     <Compile Include="DependencyResolution\ControllerConvention.cs" />
@@ -3578,6 +3588,7 @@
     <Compile Include="DependencyResolution\StructureMapDependencyScope.cs" />
     <Compile Include="DependencyResolution\StructureMapScopeModule.cs" />
     <Compile Include="DependencyResolution\UmbracoWebApiHttpControllerActivator.cs" />
+    <Compile Include="DTO\RunCrawlerConfigurationDto.cs" />
     <Compile Include="EventHandlers\AppStartupEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -3617,7 +3628,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CQRS\Events\" />
-    <Folder Include="DTO\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

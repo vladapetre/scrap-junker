@@ -48,6 +48,7 @@
     <Compile Include="Base\AuthorizationPipelineHook.cs" />
     <Compile Include="Base\Command.cs" />
     <Compile Include="Base\CommandDispatcher.cs" />
+    <Compile Include="Base\CommandResult.cs" />
     <Compile Include="Base\Event.cs" />
     <Compile Include="Base\NEventRepository.cs" />
     <Compile Include="Base\NEventStore.cs" />
