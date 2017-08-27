@@ -1,5 +1,6 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @using ContentModels = Umbraco.Web.PublishedContentModels
+@using React.Web.Mvc
 @{
     Layout = "MasterPage.cshtml";
 }
@@ -29,12 +30,13 @@
         <h2 id="content-title"></h2>
         <hr id="content-hr" />
         <div id="content"></div>
+        @Html.React("contentpicker", new { })
     </div>
 </div>
 
-
+@Html.ReactInitJavaScript()
 @section Scripts{
-
+    <script src="~/jsx/content-picker.jsx" type="text/jsx"></script>
 
     <script type="text/javascript">
         $(function () {
