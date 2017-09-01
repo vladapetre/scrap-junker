@@ -10,6 +10,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using Umbraco.Core.Services;
+using Umbraco.Web;
 using Umbraco.Web.Mvc;
 using Umbraco.Web.WebApi;
 
@@ -56,6 +57,23 @@ namespace ScrapJunker.Umbraco.Web.Controllers
             }
         }
 
+        [HttpGet]
+        public IHttpActionResult Get(int publishedContentId)
+        {
+            //TODO REPLACE WITH QUERY
+            var helper = new UmbracoHelper(UmbracoContext);
+
+            var result = helper.TypedContent(publishedContentId);
+
+            if (result == null)
+                return NotFound();
+
+            return Ok(new {
+                Name  = result.Name,
+                Url = result.Url,
+                Content = result.GetPropertyValue<string>("content")
+            });
+        }
 
         [HttpGet]
         public static string Ping()

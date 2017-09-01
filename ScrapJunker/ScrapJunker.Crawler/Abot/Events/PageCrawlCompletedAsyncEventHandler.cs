@@ -61,7 +61,7 @@ namespace ScrapJunker.Crawler.Abot.Events
                 var doc = new HtmlDocument();
                 doc.LoadHtml(e.CrawledPage.Content.Text);
 
-                var nodes = doc.DocumentNode.SelectNodes("//script|//style|//link|//img");
+                var nodes = doc.DocumentNode.SelectNodes("//script"); //
 
                 foreach (var node in nodes)
                     node.ParentNode.RemoveChild(node);
