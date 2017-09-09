@@ -125,6 +125,12 @@ E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\UmbracoExa
 E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\obj\Debug\ScrapJunker.Umbraco.Infrastructure.csprojResolveAssemblyReference.cache
 E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\obj\Debug\ScrapJunker.Umbraco.Infrastructure.dll
 E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\obj\Debug\ScrapJunker.Umbraco.Infrastructure.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.Core.dll
+E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.dll
+E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\StructureMap.dll
+E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\StructureMap.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\AutoMapper.Net4.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\config\grid.editors.config.js
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\config\404handlers.config
@@ -258,9 +264,3 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Deb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\obj\Debug\ScrapJunker.Umbraco.Infrastructure.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\obj\Debug\ScrapJunker.Umbraco.Infrastructure.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\obj\Debug\ScrapJunker.Umbraco.Infrastructure.pdb
-E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.Core.dll
-E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.dll
-E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\StructureMap.dll
-E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.Core.pdb
-E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\ScrapJunker.Infrastructure.pdb
-E:\Workspace\ScrapJunker\ScrapJunker.Umbraco.Infrastructure\bin\Debug\StructureMap.xml

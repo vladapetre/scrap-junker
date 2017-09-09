@@ -203,6 +203,7 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\ScrapJunker.Umbr
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\StructureMap.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\NEventStore.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\Abot.dll
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\HtmlAgilityPack.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\System.Net.Http.Formatting.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\Umbraco.Core.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\interfaces.dll
@@ -210,7 +211,6 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\umbraco.editorCo
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\log4net.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\AngleSharp.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\Robots.dll
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\HtmlAgilityPack.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\CsQuery.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\Newtonsoft.Json.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\ImageProcessor.dll
@@ -267,14 +267,14 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\StructureMap.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\NEventStore.pdb
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\NEventStore.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\Abot.xml
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\HtmlAgilityPack.pdb
+E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\HtmlAgilityPack.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\System.Net.Http.Formatting.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\Umbraco.Core.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\interfaces.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\umbraco.editorControls.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\log4net.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\AngleSharp.xml
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\HtmlAgilityPack.pdb
-E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\HtmlAgilityPack.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\CsQuery.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\Newtonsoft.Json.xml
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.IOC\bin\Debug\Microsoft.Owin.xml

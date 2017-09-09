@@ -11,9 +11,9 @@ window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        $('#backToTop').fadeIn();
+        $('.floater').fadeIn();
     } else {
-        $('#backToTop').fadeOut();
+        $('.floater').fadeOut();
     }
 }
 

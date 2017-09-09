@@ -132,8 +132,11 @@
 
             <!-- Breadcrumb -->
             <ol class="breadcrumb">
-                @foreach (var ancestor in CurrentPage.AncestorsOrSelf().OrderBy("Level"))
+                @foreach (var ancestor in ((IPublishedContent)CurrentPage).AncestorsOrSelf().OrderBy("Level"))
                 {
+                    var isRoot = ancestor.HasProperty("isRoot") && ancestor.GetPropertyValue<bool>("isRoot");
+                    if (isRoot) { continue; }
+
                     var isActive = ancestor.Name == CurrentPage.Name;
                     <li class="breadcrumb-item @(isActive ? "active" : "")">
                         @if (isActive)
@@ -177,7 +180,7 @@
         </span>
     </footer>
 
-    <div id="backToTop" title="Go to top"></div>
+    <div id="backToTop" class="floater" title="Go to top"></div>
 
     <!-- Bootstrap and necessary plugins -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript" ></script>
@@ -198,6 +201,7 @@
 
 
     <!-- GenesisUI main scripts -->
+    <script src="~/Scripts/jquery.sticky.js" type="text/javascript"></script>
     <script src="~/Scripts/toastr.min.js" type="text/javascript"></script>
     <script src="~/Scripts/site/ajax.js" type="text/javascript"></script>
     <script src="~/theme/js/app.js" type="text/javascript"></script>
