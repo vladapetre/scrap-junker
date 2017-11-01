@@ -12,3 +12,4 @@ E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\bin\Debug\ScrapJunke
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.csprojResolveAssemblyReference.cache
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.dll
 E:\Workspace\scrap-junker\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.pdb
+E:\Workspace\ScrapJunker\ScrapJunker.CQRS.Core\obj\Debug\ScrapJunker.CQRS.Core.csprojResolveAssemblyReference.cache

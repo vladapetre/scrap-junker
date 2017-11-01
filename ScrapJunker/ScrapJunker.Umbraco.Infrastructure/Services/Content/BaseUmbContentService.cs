@@ -15,7 +15,7 @@ namespace ScrapJunker.Umbraco.Infrastructure.Services.Content
         protected readonly ServiceContext _serviceContext;
         protected readonly IUmbAlias _umbAlias;
 
-        public BaseUmbContentService(ServiceContext serviceContext, IUmbAlias umbAlias)
+        protected BaseUmbContentService(ServiceContext serviceContext, IUmbAlias umbAlias)
         {
             _serviceContext = serviceContext;
             _umbAlias = umbAlias;
